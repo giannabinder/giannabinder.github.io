@@ -1,0 +1,1541 @@
+ffmpeg version 4.3.2-2021-02-27-essentials_build-www.gyan.dev Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Dragon/AppData/Local/Temp/KritaFFmpegProgress.EvLttH'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Atom HTML Folder/images/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Atom HTML Folder/images/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Dragon/AppData/Local/Temp/KritaFFmpegProgress.EvLttH.
+[file @ 0000025f178bda80] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Atom HTML Folder/images/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Atom HTML Folder/images/frame%04d.png.
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0000.png' for reading
+[file @ 0000025f17901cc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909e80] Statistics: 250046 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0001.png' for reading
+[file @ 0000025f17908e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909000] Statistics: 250046 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0002.png' for reading
+[file @ 0000025f17908f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909240] Statistics: 250046 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0003.png' for reading
+[file @ 0000025f17908f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909400] Statistics: 250338 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0004.png' for reading
+[file @ 0000025f17908f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f179095c0] Statistics: 250338 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0005.png' for reading
+[file @ 0000025f17908f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909780] Statistics: 250338 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0006.png' for reading
+[file @ 0000025f17908f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909940] Statistics: 250558 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0007.png' for reading
+[file @ 0000025f17908f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909b00] Statistics: 250558 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0008.png' for reading
+[file @ 0000025f17909b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909bc0] Statistics: 250558 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0009.png' for reading
+[file @ 0000025f17909b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909bc0] Statistics: 250435 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0010.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250435 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0011.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250435 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0012.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250772 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0013.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250772 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0014.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250772 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0015.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250385 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0016.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250385 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0017.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250385 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0018.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250807 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0019.png' for reading
+[file @ 0000025f17909bc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f17909c80] Statistics: 250807 bytes read, 0 seeks
+[image2 @ 0000025f178fe600] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Atom HTML Folder/images/frame%04d.png':
+  Duration: 00:00:14.64, start: 0.000000, bitrate: N/A
+    Stream #0:0, 20, 1/25: Video: png, 1 reference frame, rgba(pc), 1500x713 [SAR 5905:5905 DAR 1500:713], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Atom HTML Folder/images/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: C:/Atom HTML Folder/images/palette.png.
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 0000025f179098c0] Setting 'video_size' to value '1500x713'
+[graph 0 input from stream 0:0 @ 0000025f179098c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 0000025f179098c0] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 0000025f179098c0] Setting 'pixel_aspect' to value '5905/5905'
+[graph 0 input from stream 0:0 @ 0000025f179098c0] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 0000025f179098c0] w:1500 h:713 pixfmt:rgba tb:1/24 fr:24/1 sar:5905/5905
+[format @ 0000025f17909380] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 0000025f17909540] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 0000025f17909540] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 0000025f15e27640] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 0000025f18264ec0] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 0000025f18264ec0] w:iw h:ih flags:'bicubic' interl:0
+[format @ 0000025f17909380] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 0000025f1802a980] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 0000025f18264ec0] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 0000025f1832e300] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 0000025f17909540] w:1500 h:713 fmt:rgba sar:5905/5905 -> w:1500 h:713 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 0000025f18357a80] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 0000025f18264ec0] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to 'C:/Atom HTML Folder/images/palette.png':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/24: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 24 fps, 24 tbn, 24 tbc
+    Metadata:
+      encoder         : Lavc58.91.100 png
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 11 times
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0020.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 250807 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0021.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 250781 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0022.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b7c0] Statistics: 250781 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0023.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 250781 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0024.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 250904 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0025.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b7c0] Statistics: 250904 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0026.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 250904 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0027.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 250799 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0028.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 250799 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0029.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 250799 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0030.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 250896 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0031.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b7c0] Statistics: 250896 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0032.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 250896 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0033.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796afc0] Statistics: 251303 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0034.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 251303 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0035.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796afc0] Statistics: 251303 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0036.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 251313 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0037.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 251313 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0038.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 251313 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0039.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 251105 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0040.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 251105 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0041.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 251105 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0042.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 251596 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0043.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 251596 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0044.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 252842 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0045.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796afc0] Statistics: 252842 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0046.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b500] Statistics: 254301 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0047.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b7c0] Statistics: 254301 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0048.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b7c0] Statistics: 253154 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0049.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796afc0] Statistics: 254161 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0050.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 254161 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0051.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 255462 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0052.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 255462 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0053.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 256954 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0054.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 256954 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0055.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 256698 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0056.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b680] Statistics: 256698 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0057.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b500] Statistics: 256194 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0058.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 255828 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0059.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 257280 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0060.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 257815 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0061.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 258544 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0062.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 258293 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0063.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b500] Statistics: 258293 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0064.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 258901 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0065.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 258901 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0066.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 260093 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0067.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 260093 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0068.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 259245 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0069.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796afc0] Statistics: 259245 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0070.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 260235 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0071.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 260235 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0072.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 260235 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0073.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 259083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0074.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 259083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0075.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b500] Statistics: 259083 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0076.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 259994 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0077.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 259994 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0078.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 259994 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0079.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 259524 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0080.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796afc0] Statistics: 259524 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0081.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 259524 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0082.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 258398 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0083.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 258398 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0084.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 258398 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0085.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 258595 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0086.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 258595 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0087.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 258595 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0088.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 258540 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0089.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 258540 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0090.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 258540 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0091.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 258540 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0092.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 258587 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0093.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 258587 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0094.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 258587 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0095.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 257036 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0096.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 257036 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0097.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 257036 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0098.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 255670 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0099.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 255551 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0100.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 255551 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0101.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 255256 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0102.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 254968 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0103.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 254968 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0104.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 254725 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0105.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 254218 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0106.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b500] Statistics: 254218 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0107.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b140] Statistics: 253739 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0108.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b900] Statistics: 253394 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0109.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 253394 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0110.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 253409 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0111.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 253409 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0112.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 253409 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0113.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 253208 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0114.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 253208 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0115.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 253208 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0116.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 252886 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0117.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 252895 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0118.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 252895 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0119.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 252895 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0120.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 253028 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0121.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 253022 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0122.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 253022 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0123.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 253022 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0124.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 253398 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0125.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 253120 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0126.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 253120 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0127.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 253120 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0128.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252982 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0129.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 252743 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0130.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252743 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0131.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252743 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0132.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 252525 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0133.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252409 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0134.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 252409 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0135.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252409 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0136.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 253348 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0137.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252857 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0138.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 252857 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0139.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252857 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0140.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252694 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0141.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252665 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0142.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 252665 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0143.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 254207 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0144.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 254275 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0145.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 255368 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0146.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 255458 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0147.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 255375 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0148.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 255252 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0149.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 256158 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0150.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ae80] Statistics: 256840 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0151.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 258090 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0152.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 257467 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0153.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 257606 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0154.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 256795 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0155.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 258732 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0156.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 258367 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0157.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 255937 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0158.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 255659 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0159.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 257508 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0160.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 259187 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0161.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 259265 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0162.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 259028 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0163.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 260234 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0164.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796ba40] Statistics: 258022 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0165.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 256092 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0166.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b280] Statistics: 257118 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0167.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 258361 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0168.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1796b3c0] Statistics: 257941 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0169.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac568c0] Statistics: 259038 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0170.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac557c0] Statistics: 260842 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0171.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56640] Statistics: 261723 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0172.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac557c0] Statistics: 261661 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0173.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac553c0] Statistics: 261252 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0174.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56b80] Statistics: 262192 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0175.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56cc0] Statistics: 261459 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0176.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac564c0] Statistics: 261629 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0177.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac55900] Statistics: 260944 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0178.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac55900] Statistics: 261178 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0179.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56380] Statistics: 260815 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0180.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56e00] Statistics: 261085 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0181.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56b80] Statistics: 260247 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0182.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac55680] Statistics: 262901 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0183.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56cc0] Statistics: 261625 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0184.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56100] Statistics: 261134 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0185.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56780] Statistics: 260135 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0186.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56100] Statistics: 260045 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0187.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac553c0] Statistics: 257192 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0188.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56380] Statistics: 257192 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0189.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56380] Statistics: 257819 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0190.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56cc0] Statistics: 257028 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0191.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56cc0] Statistics: 257028 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0192.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56cc0] Statistics: 256372 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0193.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ac56cc0] Statistics: 255349 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0194.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c580] Statistics: 255349 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0195.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d540] Statistics: 255077 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0196.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d940] Statistics: 253309 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0197.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c580] Statistics: 253309 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0198.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d940] Statistics: 251578 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0199.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c840] Statistics: 250241 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0200.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3dfc0] Statistics: 250241 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0201.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 248767 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0202.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3e100] Statistics: 249141 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0203.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d000] Statistics: 249141 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0204.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3dbc0] Statistics: 248150 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0205.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 247516 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0206.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3dfc0] Statistics: 247516 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0207.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 248311 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0208.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 249430 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0209.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d940] Statistics: 249430 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0210.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3e100] Statistics: 249023 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0211.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 248634 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0212.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 248634 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0213.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c440] Statistics: 248430 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0214.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3da80] Statistics: 250070 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0215.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 250070 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0216.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 252198 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0217.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3dfc0] Statistics: 253923 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0218.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 253923 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0219.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 253923 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0220.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 252023 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0221.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d540] Statistics: 250089 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0222.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 250089 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0223.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c580] Statistics: 250089 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0224.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3da80] Statistics: 250054 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0225.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c6c0] Statistics: 249199 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0226.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c580] Statistics: 249199 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0227.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 249199 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0228.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 250195 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0229.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 249544 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0230.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3e100] Statistics: 249544 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0231.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 249544 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0232.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c580] Statistics: 249700 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0233.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3da80] Statistics: 249322 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0234.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3e100] Statistics: 249322 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0235.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3e100] Statistics: 249322 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0236.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 248625 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0237.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3e100] Statistics: 248844 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0238.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 248844 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0239.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 248844 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0240.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 248620 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0241.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3e100] Statistics: 247648 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0242.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 247648 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0243.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247648 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0244.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c6c0] Statistics: 247795 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0245.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c6c0] Statistics: 247847 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0246.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c840] Statistics: 247847 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0247.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c840] Statistics: 247847 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0248.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3c840] Statistics: 247699 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0249.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 247835 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0250.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 247835 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0251.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 247835 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0252.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d540] Statistics: 248181 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0253.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 248108 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0254.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 248108 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0255.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3cd80] Statistics: 248108 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0256.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247660 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0257.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 247396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0258.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 247396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0259.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 247396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0260.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 247382 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0261.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d140] Statistics: 247320 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0262.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247320 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0263.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247320 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0264.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247681 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0265.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247821 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0266.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247821 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0267.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247821 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0268.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247519 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0269.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247437 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0270.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247437 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0271.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247437 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0272.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d400] Statistics: 247670 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0273.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247382 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0274.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247382 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0275.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247382 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0276.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247705 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0277.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247538 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0278.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247538 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0279.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247538 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0280.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1ad3d800] Statistics: 247693 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0281.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcc40] Statistics: 247693 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0282.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd180] Statistics: 247693 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0283.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd040] Statistics: 247187 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0284.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd800] Statistics: 247187 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0285.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd580] Statistics: 247187 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0286.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc5c0] Statistics: 247714 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0287.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcb00] Statistics: 247714 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0288.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc9c0] Statistics: 247714 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0289.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc480] Statistics: 247653 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0290.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd180] Statistics: 247653 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0291.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddec0] Statistics: 247653 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0292.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 248176 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0293.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd180] Statistics: 248176 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0294.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd6c0] Statistics: 248176 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0295.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc080] Statistics: 248051 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0296.png' for reading
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 248051 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0297.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddc00] Statistics: 248051 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0298.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcf00] Statistics: 248102 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0299.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcc40] Statistics: 248102 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0300.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcf00] Statistics: 248102 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0301.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd6c0] Statistics: 248553 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0302.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc480] Statistics: 248553 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0303.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcf00] Statistics: 248553 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0304.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddc00] Statistics: 249118 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0305.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcf00] Statistics: 249118 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0306.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcc40] Statistics: 249118 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0307.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcd80] Statistics: 249726 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0308.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd980] Statistics: 249726 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0309.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcc40] Statistics: 249726 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0310.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd980] Statistics: 250450 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0311.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc1c0] Statistics: 250450 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0312.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc700] Statistics: 250450 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0313.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd440] Statistics: 250527 bytes read, 0 seeks
+frame=    0 fps=0.0 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0314.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 250527 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0315.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc700] Statistics: 250527 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0316.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc700] Statistics: 250855 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0317.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc700] Statistics: 250855 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0318.png' for reading
+[file @ 0000025f1796e780] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc080] Statistics: 250855 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0319.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc5c0] Statistics: 251046 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0320.png' for reading
+[file @ 0000025f1796df80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc080] Statistics: 251046 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0321.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd180] Statistics: 251046 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0322.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcb00] Statistics: 250965 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0323.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd040] Statistics: 250965 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0324.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddd40] Statistics: 250965 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0325.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc300] Statistics: 250834 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0326.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc5c0] Statistics: 250834 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0327.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddd40] Statistics: 250834 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0328.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc9c0] Statistics: 251177 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0329.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 251177 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0330.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd800] Statistics: 251177 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0331.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc480] Statistics: 251207 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0332.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd2c0] Statistics: 251207 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0333.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc300] Statistics: 251207 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0334.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddac0] Statistics: 250827 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0335.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd980] Statistics: 250827 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0336.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc5c0] Statistics: 250827 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0337.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcc40] Statistics: 251000 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0338.png' for reading
+[file @ 0000025f1796e080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc080] Statistics: 251000 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0339.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc480] Statistics: 251000 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0340.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd580] Statistics: 250476 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0341.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 250476 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0342.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd800] Statistics: 250476 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0343.png' for reading
+[file @ 0000025f1796e5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc080] Statistics: 250189 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0344.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd040] Statistics: 250189 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0345.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc1c0] Statistics: 250189 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0346.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcd80] Statistics: 250343 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0347.png' for reading
+[file @ 0000025f1796e400] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd440] Statistics: 250343 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0348.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcb00] Statistics: 250343 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0349.png' for reading
+[file @ 0000025f1796e4c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd980] Statistics: 250343 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0350.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 250343 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0351.png' for reading
+[file @ 0000025f1796ea00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd2c0] Statistics: 250343 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0352.png' for reading
+[file @ 0000025f1796e240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 248132 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0353.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc840] Statistics: 248132 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0354.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd040] Statistics: 248132 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0355.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd040] Statistics: 248078 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0356.png' for reading
+[file @ 0000025f1796ebc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc5c0] Statistics: 248078 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0357.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd440] Statistics: 248078 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0358.png' for reading
+[file @ 0000025f1796e940] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc1c0] Statistics: 247084 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0359.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddac0] Statistics: 247084 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0360.png' for reading
+[file @ 0000025f1796ecc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd580] Statistics: 247084 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0361.png' for reading
+[file @ 0000025f1796dec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd2c0] Statistics: 246396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0362.png' for reading
+[file @ 0000025f1796e680] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1adddac0] Statistics: 246396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0363.png' for reading
+[file @ 0000025f1796e140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd580] Statistics: 246396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0364.png' for reading
+[file @ 0000025f1796e300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addc300] Statistics: 246396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 0000025f178fe600] Opening 'C:/Atom HTML Folder/images/frame0365.png' for reading
+[file @ 0000025f1796eb00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addd580] Statistics: 246396 bytes read, 0 seeks
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[Parsed_palettegen_0 @ 0000025f15e27640] 255(+1) colors generated out of 53961 colors; ratio=0.004726
+[Parsed_palettegen_0 @ 0000025f15e27640] Dupped color: FF6D6B61
+[Parsed_palettegen_0 @ 0000025f15e27640] Dupped color: FFF9F4E9
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+frame=    1 fps=0.3 q=0.0 size=N/A time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 0000025f1794e480] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 0000025f17900d00] Opening 'C:/Atom HTML Folder/images/palette.png' for writing
+[file @ 0000025f1796e840] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000025f1addcf00] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.3 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0138x    
+[AVIOContext @ 0000025f178fe4c0] Statistics: 0 seeks, 7 writeouts
+video:1kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (C:/Atom HTML Folder/images/frame%04d.png):
+  Input stream #0:0 (video): 366 packets read (92393139 bytes); 366 frames decoded; 
+  Total: 366 packets (92393139 bytes) demuxed
+Output file #0 (C:/Atom HTML Folder/images/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (1001 bytes); 
+  Total: 1 packets (1001 bytes) muxed
+366 frames successfully decoded, 0 decoding errors

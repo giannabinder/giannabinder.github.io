@@ -1,0 +1,1581 @@
+ffmpeg version 4.3.2-2021-02-27-essentials_build-www.gyan.dev Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Dragon/AppData/Local/Temp/KritaFFmpegProgress.ZqIZIV'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'C:/Atom HTML Folder/images/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'C:/Atom HTML Folder/images/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument 'scale=w=1502:h=714[0:v];[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Atom HTML Folder/images/Boating2.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Dragon/AppData/Local/Temp/KritaFFmpegProgress.ZqIZIV.
+[file @ 00000266c632e380] Setting default whitelist 'file,crypto,data'
+Applying option lavfi (create a complex filtergraph) with argument scale=w=1502:h=714[0:v];[0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Atom HTML Folder/images/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Atom HTML Folder/images/frame%04d.png.
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0000.png' for reading
+[file @ 00000266c6372f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637b080] Statistics: 250046 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0001.png' for reading
+[file @ 00000266c637a0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637a240] Statistics: 250046 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0002.png' for reading
+[file @ 00000266c637a180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637a480] Statistics: 250046 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0003.png' for reading
+[file @ 00000266c637a180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637a640] Statistics: 250338 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0004.png' for reading
+[file @ 00000266c637a180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637a800] Statistics: 250338 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0005.png' for reading
+[file @ 00000266c637a180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637a9c0] Statistics: 250338 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0006.png' for reading
+[file @ 00000266c637a180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ab80] Statistics: 250558 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0007.png' for reading
+[file @ 00000266c637ab80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ac40] Statistics: 250558 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0008.png' for reading
+[file @ 00000266c637ab80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ac40] Statistics: 250558 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0009.png' for reading
+[file @ 00000266c637ac00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ad00] Statistics: 250435 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0010.png' for reading
+[file @ 00000266c637acc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637adc0] Statistics: 250435 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0011.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250435 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0012.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250772 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0013.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250772 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0014.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250772 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0015.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250385 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0016.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250385 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0017.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250385 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0018.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250807 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0019.png' for reading
+[file @ 00000266c637ad80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c637ae40] Statistics: 250807 bytes read, 0 seeks
+[image2 @ 00000266c636e800] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Atom HTML Folder/images/frame%04d.png':
+  Duration: 00:00:14.64, start: 0.000000, bitrate: N/A
+    Stream #0:0, 20, 1/25: Video: png, 1 reference frame, rgba(pc), 1500x713 [SAR 5905:5905 DAR 1500:713], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url C:/Atom HTML Folder/images/palette.png.
+Successfully parsed a group of options.
+Opening an input file: C:/Atom HTML Folder/images/palette.png.
+[NULL @ 00000266c6371fc0] Opening 'C:/Atom HTML Folder/images/palette.png' for reading
+[file @ 00000266c637b040] Setting default whitelist 'file,crypto,data'
+[png_pipe @ 00000266c6371fc0] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 00000266c6371fc0] Before avformat_find_stream_info() pos: 0 bytes read:1001 seeks:0 nb_streams:1
+[png_pipe @ 00000266c6371fc0] After avformat_find_stream_info() pos: 1001 bytes read:1001 seeks:0 frames:1
+Input #1, png_pipe, from 'C:/Atom HTML Folder/images/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+[Parsed_scale_0 @ 00000266c6375f40] Setting 'w' to value '1502'
+[Parsed_scale_0 @ 00000266c6375f40] Setting 'h' to value '714'
+[Parsed_scale_0 @ 00000266c6375f40] w:1502 h:714 flags:'bilinear' interl:0
+Parsing a group of options: output url C:/Atom HTML Folder/images/Boating2.gif.
+Successfully parsed a group of options.
+Opening an output file: C:/Atom HTML Folder/images/Boating2.gif.
+[file @ 00000266c6379700] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> scale
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 129 times
+[image2 @ 00000266c636e800] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[Parsed_scale_0 @ 00000266c637a580] Setting 'w' to value '1502'
+[Parsed_scale_0 @ 00000266c637a580] Setting 'h' to value '714'
+[Parsed_scale_0 @ 00000266c637a580] w:1502 h:714 flags:'bilinear' interl:0
+[graph 0 input from stream 0:0 @ 00000266c637ac00] Setting 'video_size' to value '1500x713'
+[graph 0 input from stream 0:0 @ 00000266c637ac00] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 00000266c637ac00] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 00000266c637ac00] Setting 'pixel_aspect' to value '5905/5905'
+[graph 0 input from stream 0:0 @ 00000266c637ac00] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 00000266c637ac00] w:1500 h:713 pixfmt:rgba tb:1/24 fr:24/1 sar:5905/5905
+[graph 0 input from stream 1:0 @ 00000266c6e0e980] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 00000266c6e0e980] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 00000266c6e0e980] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 00000266c6e0e980] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 00000266c6e0e980] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 00000266c6e0e980] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1
+[format @ 00000266c6e0ed40] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 00000266c711dcc0] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_1 @ 00000266c637ab00] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_1'
+[AVFilterGraph @ 00000266c6ec8740] query_formats: 6 queried, 4 merged, 1 already done, 0 delayed
+[swscaler @ 00000266c71f5e40] Forcing full internal H chroma due to input having non subsampled chroma
+[Parsed_scale_0 @ 00000266c637a580] w:1500 h:713 fmt:rgba sar:5905/5905 -> w:1502 h:714 fmt:bgra sar:535500/535463 flags:0x2
+[swscaler @ 00000266c9356800] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 00000266c711dcc0] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_1 @ 00000266c637ab00] [framesync @ 00000266c7172088] Selected 1/600 time base
+[Parsed_paletteuse_1 @ 00000266c637ab00] [framesync @ 00000266c7172088] Sync level 2
+Output #0, gif, to 'C:/Atom HTML Folder/images/Boating2.gif':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 1502x714 [SAR 535500:535463 DAR 1500:713], 0/1, q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc58.91.100 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+    Last message repeated 1 times
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0020.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c720ee40] Statistics: 250807 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 70x91 image at pos (1080;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0021.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 250781 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0022.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250781 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0023.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 250781 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 86x92 image at pos (1075;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0024.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 250904 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0025.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 250904 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=    9 fps=0.0 q=-0.0 size=     104kB time=00:00:00.34 bitrate=2516.7kbits/s speed=0.634x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0026.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 250904 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 90x91 image at pos (1075;403) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0027.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 250799 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0028.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250799 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0029.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 250799 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 89x90 image at pos (1076;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0030.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 250896 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0031.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 250896 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0032.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250896 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 87x95 image at pos (1072;397) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0033.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 251303 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0034.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 251303 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=   18 fps= 17 q=-0.0 size=     110kB time=00:00:00.72 bitrate=1254.5kbits/s speed=0.673x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0035.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 251303 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 93x97 image at pos (1072;396) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0036.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 251313 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0037.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 251313 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0038.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 251313 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 97x106 image at pos (1068;387) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0039.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 251105 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0040.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 251105 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0041.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 251105 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 83x106 image at pos (1068;387) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0042.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 251596 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0043.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 251596 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=   27 fps= 17 q=-0.0 size=     117kB time=00:00:01.09 bitrate= 876.3kbits/s speed=0.683x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0044.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 252842 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 80x103 image at pos (1070;389) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0045.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 252842 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0046.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 254301 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0047.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 254301 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 89x92 image at pos (1070;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0048.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 253154 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0049.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 254161 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0050.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 254161 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 89x111 image at pos (1071;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0051.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 255462 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=   35 fps= 17 q=-0.0 size=     123kB time=00:00:01.43 bitrate= 705.5kbits/s speed=0.678x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0052.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 255462 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0053.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 256954 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 83x113 image at pos (1077;400) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0054.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 256954 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0055.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 256698 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0056.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 256698 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 86x127 image at pos (1073;400) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0057.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 256194 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0058.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 255828 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0059.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 257280 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 242x135 image at pos (1027;400) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0060.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 257815 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=   44 fps= 17 q=-0.0 size=     134kB time=00:00:01.80 bitrate= 609.0kbits/s speed=0.682x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0061.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 258544 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 247x127 image at pos (1027;408) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0062.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 258293 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0063.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 258293 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 254x131 image at pos (1021;410) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0064.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 258901 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0065.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 258901 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 274x130 image at pos (1007;411) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0066.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 260093 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 287x142 image at pos (994;414) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0067.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 260093 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0068.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 259245 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 278x161 image at pos (993;413) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0069.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 259245 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=   53 fps= 17 q=-0.0 size=     169kB time=00:00:02.18 bitrate= 635.9kbits/s speed=0.686x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0070.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 260235 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 294x171 image at pos (991;407) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0071.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 260235 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0072.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 260235 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 321x204 image at pos (983;374) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0073.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 259083 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0074.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 259083 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 347x165 image at pos (976;374) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0075.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 259083 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 366x166 image at pos (976;374) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0076.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 259994 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 403x150 image at pos (993;392) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0077.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 259994 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 392x155 image at pos (1004;437) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0078.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 259994 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 377x151 image at pos (1013;441) [area:1502x714]
+frame=   62 fps= 17 q=-0.0 size=     218kB time=00:00:02.55 bitrate= 701.0kbits/s speed=0.683x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0079.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 259524 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 387x152 image at pos (1014;436) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0080.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 259524 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0081.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 259524 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 471x172 image at pos (936;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0082.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 258398 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0083.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 258398 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 562x185 image at pos (851;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0084.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 258398 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0085.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 258595 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 664x233 image at pos (749;417) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0086.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 258595 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0087.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 258595 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 613x188 image at pos (742;462) [area:1502x714]
+frame=   71 fps= 17 q=-0.0 size=     256kB time=00:00:02.93 bitrate= 715.8kbits/s speed=0.685x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0088.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 258540 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0089.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 258540 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0090.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 258540 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 593x228 image at pos (737;423) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0091.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 258540 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0092.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 258587 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0093.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 258587 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 569x229 image at pos (735;422) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0094.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 258587 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0095.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 257036 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0096.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 257036 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 556x229 image at pos (732;421) [area:1502x714]
+frame=   80 fps= 17 q=-0.0 size=     256kB time=00:00:03.30 bitrate= 635.5kbits/s speed=0.687x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0097.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 257036 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0098.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 255670 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0099.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 255551 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 565x229 image at pos (724;421) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0100.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 255551 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0101.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 255256 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0102.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 254968 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 572x228 image at pos (718;422) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0103.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 254968 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0104.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 254725 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0105.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 254218 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 578x249 image at pos (712;401) [area:1502x714]
+frame=   89 fps= 17 q=-0.0 size=     256kB time=00:00:03.68 bitrate= 569.9kbits/s speed=0.69x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0106.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 254218 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0107.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 253739 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0108.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 253394 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0109.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 253394 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 578x251 image at pos (712;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0110.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 253409 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0111.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 253409 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0112.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 253409 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 576x164 image at pos (714;488) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0113.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 253208 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0114.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 253208 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=   98 fps= 17 q=-0.0 size=     256kB time=00:00:04.05 bitrate= 517.8kbits/s speed=0.69x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0115.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 253208 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 538x232 image at pos (752;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0116.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 252886 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 545x163 image at pos (752;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0117.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 252895 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0118.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 252895 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 545x231 image at pos (752;409) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0119.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 252895 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 546x146 image at pos (750;500) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0120.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 253028 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0121.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 253022 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 537x237 image at pos (750;410) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0122.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 253022 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 508x133 image at pos (751;514) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0123.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 253022 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  107 fps= 17 q=-0.0 size=     256kB time=00:00:04.43 bitrate= 473.4kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0124.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 253398 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 321x193 image at pos (943;415) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0125.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 253120 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 112x89 image at pos (944;514) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0126.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 253120 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0127.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 253120 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 207x194 image at pos (958;409) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0128.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 252982 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0129.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 252743 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0130.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 252743 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 79x80 image at pos (970;521) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0131.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 252743 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0132.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 252525 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  116 fps= 17 q=-0.0 size=     256kB time=00:00:04.80 bitrate= 436.9kbits/s speed=0.692x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0133.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 252409 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 296x190 image at pos (968;409) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0134.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 252409 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 13x36 image at pos (968;562) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0135.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 252409 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0136.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 253348 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0137.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 252857 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 334x174 image at pos (938;416) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0138.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 252857 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 139x60 image at pos (937;515) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0139.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 252857 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0140.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 252694 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0141.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 252665 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 335x151 image at pos (937;417) [area:1502x714]
+frame=  125 fps= 17 q=-0.0 size=     256kB time=00:00:05.18 bitrate= 404.9kbits/s speed=0.694x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0142.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 252665 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 328x60 image at pos (938;509) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0143.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 254207 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0144.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 254275 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0145.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 255368 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 313x153 image at pos (953;417) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0146.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 255458 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 294x60 image at pos (971;510) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0147.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 255375 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0148.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 255252 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0149.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 256158 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 281x159 image at pos (985;416) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0150.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 256840 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 275x63 image at pos (987;512) [area:1502x714]
+frame=  134 fps= 17 q=-0.0 size=     256kB time=00:00:05.55 bitrate= 377.9kbits/s speed=0.695x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0151.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 258090 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0152.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 257467 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0153.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 257606 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 262x192 image at pos (996;409) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0154.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 256795 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 266x85 image at pos (996;516) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0155.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 258732 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0156.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 258367 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0157.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 255937 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 181x192 image at pos (996;409) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0158.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 255659 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 95x78 image at pos (997;519) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0159.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 257508 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  143 fps= 17 q=-0.0 size=     256kB time=00:00:05.93 bitrate= 353.7kbits/s speed=0.697x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0160.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 259187 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 328x191 image at pos (934;403) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0161.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 259265 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 322x81 image at pos (935;513) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0162.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 259028 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 365x191 image at pos (902;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0163.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 260234 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 390x194 image at pos (902;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0164.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 258022 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 418x191 image at pos (895;405) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0165.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 256092 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 443x190 image at pos (894;405) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0166.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 257118 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 470x191 image at pos (894;406) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0167.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 258361 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 437x192 image at pos (945;408) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0168.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 257941 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 474x186 image at pos (908;414) [area:1502x714]
+frame=  152 fps= 17 q=-0.0 size=     256kB time=00:00:06.30 bitrate= 332.9kbits/s speed=0.697x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0169.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 259038 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 471x175 image at pos (910;417) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0170.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 260842 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 541x206 image at pos (842;419) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0171.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 261723 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 539x156 image at pos (844;469) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0172.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 261661 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 538x224 image at pos (842;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0173.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 261252 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 536x224 image at pos (844;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0174.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 262192 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 511x216 image at pos (855;402) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0175.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 261459 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 480x177 image at pos (884;437) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0176.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 261629 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 447x160 image at pos (917;437) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0177.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 260944 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 418x173 image at pos (947;410) [area:1502x714]
+frame=  161 fps= 17 q=-0.0 size=     512kB time=00:00:06.68 bitrate= 627.9kbits/s speed=0.696x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0178.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 261178 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 415x137 image at pos (956;442) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0179.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 260815 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 488x172 image at pos (915;410) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0180.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 261085 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 517x218 image at pos (895;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0181.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 260247 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 570x224 image at pos (842;401) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0182.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 262901 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 564x201 image at pos (842;425) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0183.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 261625 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 536x209 image at pos (848;417) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0184.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 261134 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 523x201 image at pos (852;414) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0185.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 260135 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 496x188 image at pos (875;414) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0186.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 260045 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 496x186 image at pos (875;416) [area:1502x714]
+frame=  170 fps= 17 q=-0.0 size=     512kB time=00:00:07.05 bitrate= 594.9kbits/s speed=0.694x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0187.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 257192 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 494x185 image at pos (877;416) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0188.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 257192 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 501x151 image at pos (880;416) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0189.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 257819 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 517x136 image at pos (897;417) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0190.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 257028 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 538x147 image at pos (900;418) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0191.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 257028 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 559x159 image at pos (907;418) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0192.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 256372 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 530x119 image at pos (944;442) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0193.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 255349 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 532x164 image at pos (947;415) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0194.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4100] Statistics: 255349 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 537x164 image at pos (942;415) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0195.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 255077 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 627x162 image at pos (870;424) [area:1502x714]
+frame=  179 fps= 17 q=-0.0 size=     512kB time=00:00:07.43 bitrate= 564.5kbits/s speed=0.694x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0196.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 253309 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 633x184 image at pos (869;403) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0197.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 253309 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 654x191 image at pos (848;396) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0198.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 251578 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 652x207 image at pos (848;396) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0199.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 250241 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 642x286 image at pos (858;418) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0200.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4640] Statistics: 250241 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 625x314 image at pos (875;390) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0201.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3a80] Statistics: 248767 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 542x295 image at pos (938;390) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0202.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 249141 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 564x168 image at pos (911;433) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0203.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 249141 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 569x158 image at pos (904;440) [area:1502x714]
+frame=  187 fps= 17 q=-0.0 size=     768kB time=00:00:07.76 bitrate= 810.8kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0204.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248150 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 579x132 image at pos (894;470) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0205.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247516 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0206.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 247516 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 579x157 image at pos (894;445) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0207.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 248311 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 576x130 image at pos (905;471) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0208.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 249430 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0209.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 249430 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 578x158 image at pos (903;442) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0210.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 249023 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 586x122 image at pos (888;478) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0211.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 248634 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0212.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 248634 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 487x157 image at pos (888;442) [area:1502x714]
+frame=  196 fps= 17 q=-0.0 size=     768kB time=00:00:08.14 bitrate= 772.9kbits/s speed=0.692x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0213.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3bc0] Statistics: 248430 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 482x126 image at pos (882;475) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0214.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250070 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0215.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 250070 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 473x155 image at pos (882;446) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0216.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 252198 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 425x111 image at pos (928;490) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0217.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 253923 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0218.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 253923 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 363x123 image at pos (988;456) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0219.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 253923 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 363x81 image at pos (988;486) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0220.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 252023 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0221.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 250089 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 368x104 image at pos (989;455) [area:1502x714]
+frame=  205 fps= 17 q=-0.0 size=     768kB time=00:00:08.51 bitrate= 739.3kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0222.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250089 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 367x84 image at pos (990;472) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0223.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 250089 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0224.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250054 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 365x104 image at pos (984;448) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0225.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249199 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 243x83 image at pos (976;470) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0226.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 249199 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0227.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249199 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 277x112 image at pos (973;444) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0228.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250195 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 237x97 image at pos (973;465) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0229.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249544 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0230.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 249544 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 289x127 image at pos (960;444) [area:1502x714]
+frame=  214 fps= 17 q=-0.0 size=     768kB time=00:00:08.89 bitrate= 707.7kbits/s speed=0.692x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0231.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249544 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 257x108 image at pos (948;474) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0232.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 249700 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0233.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249322 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 334x143 image at pos (935;450) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0234.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249322 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 364x100 image at pos (906;499) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0235.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 249322 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0236.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248625 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0237.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 248844 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 383x136 image at pos (899;463) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0238.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248844 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 383x117 image at pos (899;482) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0239.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 248844 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  223 fps= 17 q=-0.0 size=     768kB time=00:00:09.26 bitrate= 679.4kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0240.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 248620 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0241.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 247648 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 366x135 image at pos (923;463) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0242.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247648 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 361x60 image at pos (928;489) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0243.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 247648 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0244.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4240] Statistics: 247795 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0245.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247847 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 359x87 image at pos (928;459) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0246.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 247847 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 358x49 image at pos (929;497) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0247.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247847 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0248.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 247699 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  232 fps= 17 q=-0.0 size=     768kB time=00:00:09.64 bitrate= 652.6kbits/s speed=0.692x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0249.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 247835 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 347x90 image at pos (938;456) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0250.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247835 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 345x55 image at pos (938;491) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0251.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247835 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0252.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248181 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0253.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248108 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 337x91 image at pos (943;456) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0254.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248108 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 278x52 image at pos (986;495) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0255.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248108 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0256.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247660 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  240 fps= 17 q=-0.0 size=     768kB time=00:00:09.97 bitrate= 631.0kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0257.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 247396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 291x85 image at pos (977;461) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0258.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 291x39 image at pos (973;507) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0259.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 247396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0260.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 247382 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0261.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247320 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 295x78 image at pos (973;467) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0262.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247320 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 291x36 image at pos (973;500) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0263.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247320 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0264.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247681 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0265.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247821 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 292x69 image at pos (976;467) [area:1502x714]
+frame=  249 fps= 17 q=-0.0 size=     768kB time=00:00:10.34 bitrate= 608.5kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0266.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247821 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 282x29 image at pos (975;504) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0267.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247821 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0268.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 247519 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0269.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247437 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 293x69 image at pos (975;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0270.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247437 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 288x33 image at pos (975;500) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0271.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247437 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0272.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 247670 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0273.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 247382 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 292x69 image at pos (975;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0274.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247382 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 290x28 image at pos (971;506) [area:1502x714]
+frame=  258 fps= 17 q=-0.0 size=     768kB time=00:00:10.72 bitrate= 586.9kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0275.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247382 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0276.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247705 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0277.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247538 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 301x69 image at pos (971;465) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0278.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247538 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 290x34 image at pos (977;500) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0279.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247538 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0280.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247693 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0281.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247693 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 262x73 image at pos (1010;460) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0282.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247693 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 267x29 image at pos (1004;502) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0283.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 247187 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  267 fps= 17 q=-0.0 size=     768kB time=00:00:11.09 bitrate= 567.3kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0284.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247187 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0285.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247187 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 267x73 image at pos (1004;460) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0286.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247714 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 212x26 image at pos (1008;507) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0287.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 247714 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0288.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 247714 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0289.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 247653 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 255x68 image at pos (1014;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0290.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 247653 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 238x26 image at pos (1015;503) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0291.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 247653 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0292.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248176 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  276 fps= 17 q=-0.0 size=     768kB time=00:00:11.47 bitrate= 548.5kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0293.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248176 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 247x69 image at pos (1012;469) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0294.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248176 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 37x12 image at pos (1012;516) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0295.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248051 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0296.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 248051 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0297.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 248051 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 242x71 image at pos (1017;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0298.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 248102 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0299.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 248102 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0300.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248102 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 239x72 image at pos (1019;467) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0301.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 248553 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  285 fps= 17 q=-0.0 size=     768kB time=00:00:11.84 bitrate= 531.4kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0302.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248553 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0303.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 248553 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 240x71 image at pos (1018;467) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0304.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249118 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0305.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 249118 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0306.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 249118 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 54x18 image at pos (1016;520) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0307.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 249726 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0308.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 249726 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0309.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 249726 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 240x74 image at pos (1015;466) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0310.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250450 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  294 fps= 17 q=-0.0 size=     768kB time=00:00:12.22 bitrate= 514.8kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0311.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250450 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0312.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250450 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 195x32 image at pos (1027;507) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0313.png' for reading
+[file @ 00000266c714bb80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250527 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0314.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250527 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0315.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250527 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 240x81 image at pos (1012;466) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0316.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250855 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0317.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250855 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0318.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3d00] Statistics: 250855 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 236x69 image at pos (1016;470) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0319.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 251046 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  303 fps= 17 q=-0.0 size=     768kB time=00:00:12.59 bitrate= 499.7kbits/s speed=0.691x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0320.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 251046 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0321.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 251046 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 251x87 image at pos (1008;470) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0322.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250965 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0323.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 250965 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0324.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250965 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 239x75 image at pos (1020;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0325.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4780] Statistics: 250834 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0326.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250834 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0327.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250834 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 274x101 image at pos (990;466) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0328.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 251177 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  312 fps= 17 q=-0.0 size=     768kB time=00:00:12.97 bitrate= 485.1kbits/s speed=0.692x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0329.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 251177 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0330.png' for reading
+[file @ 00000266c714bc80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 251177 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 231x75 image at pos (1025;463) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0331.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 251207 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0332.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 251207 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0333.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 251207 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 297x104 image at pos (975;463) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0334.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250827 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0335.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 250827 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0336.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250827 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 252x74 image at pos (1020;464) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0337.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 251000 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  321 fps= 17 q=-0.0 size=    1024kB time=00:00:13.34 bitrate= 628.8kbits/s speed=0.692x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0338.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 251000 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0339.png' for reading
+[file @ 00000266c714c0c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 251000 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 320x95 image at pos (965;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0340.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250476 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0341.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250476 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0342.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250476 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 241x73 image at pos (1015;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0343.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250189 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0344.png' for reading
+[file @ 00000266c714c380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250189 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0345.png' for reading
+[file @ 00000266c714c1c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250189 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 336x113 image at pos (960;467) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0346.png' for reading
+[file @ 00000266c714bac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250343 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  330 fps= 17 q=-0.0 size=    1024kB time=00:00:13.72 bitrate= 611.4kbits/s speed=0.693x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0347.png' for reading
+[file @ 00000266c714b9c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 250343 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0348.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250343 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 237x71 image at pos (1013;467) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0349.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250343 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0350.png' for reading
+[file @ 00000266c714c440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250343 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0351.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 250343 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 371x112 image at pos (933;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0352.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 248132 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0353.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248132 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0354.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3e40] Statistics: 248132 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 241x74 image at pos (1017;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0355.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b3fc0] Statistics: 248078 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  339 fps= 17 q=-0.0 size=    1024kB time=00:00:14.09 bitrate= 595.4kbits/s speed=0.693x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0356.png' for reading
+[file @ 00000266c714c280] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248078 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0357.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 248078 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 374x118 image at pos (933;469) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0358.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4500] Statistics: 247084 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0359.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247084 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0360.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 247084 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 247x72 image at pos (1021;468) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0361.png' for reading
+[file @ 00000266c714b900] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 246396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0362.png' for reading
+[file @ 00000266c714bf00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 246396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0363.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 246396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 355x121 image at pos (952;466) [area:1502x714]
+[image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0364.png' for reading
+[file @ 00000266c714c000] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 246396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  348 fps= 17 q=-0.0 size=    1024kB time=00:00:14.47 bitrate= 579.7kbits/s speed=0.694x    [image2 @ 00000266c636e800] Opening 'C:/Atom HTML Folder/images/frame0365.png' for reading
+[file @ 00000266c714c700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000266c95b4380] Statistics: 246396 bytes read, 0 seeks
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[gif @ 00000266c6378ac0] 249x72 image at pos (1020;467) [area:1502x714]
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+    Last message repeated 1 times
+[gif @ 00000266c6378ac0] 378x130 image at pos (948;465) [area:1502x714]
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+    Last message repeated 1 times
+[gif @ 00000266c6378ac0] 241x75 image at pos (1025;463) [area:1502x714]
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+frame=  357 fps= 17 q=-0.0 size=    1024kB time=00:00:14.84 bitrate= 565.3kbits/s speed=0.694x    [gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+[gif @ 00000266c6378ac0] 378x124 image at pos (948;471) [area:1502x714]
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+    Last message repeated 1 times
+[gif @ 00000266c6378ac0] 315x114 image at pos (976;471) [area:1502x714]
+[gif @ 00000266c6378ac0] 1x1 image at pos (1501;713) [area:1502x714]
+    Last message repeated 3 times
+frame=  366 fps= 17 q=-0.0 size=    1024kB time=00:00:15.22 bitrate= 551.2kbits/s speed=0.694x    [Parsed_paletteuse_1 @ 00000266c637ab00] [framesync @ 00000266c7172088] Sync level 0
+[out_0_0 @ 00000266c6e0ec40] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=  366 fps= 17 q=-0.0 Lsize=    1083kB time=00:00:15.22 bitrate= 583.1kbits/s speed=0.692x    
+[AVIOContext @ 00000266c636e540] Statistics: 0 seeks, 42 writeouts
+video:1083kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.001803%
+Input file #0 (C:/Atom HTML Folder/images/frame%04d.png):
+  Input stream #0:0 (video): 366 packets read (92393139 bytes); 366 frames decoded; 
+  Total: 366 packets (92393139 bytes) demuxed
+Input file #1 (C:/Atom HTML Folder/images/palette.png):
+  Input stream #1:0 (video): 1 packets read (1001 bytes); 1 frames decoded; 
+  Total: 1 packets (1001 bytes) demuxed
+Output file #0 (C:/Atom HTML Folder/images/Boating2.gif):
+  Output stream #0:0 (video): 366 frames encoded; 366 packets muxed (1109335 bytes); 
+  Total: 366 packets (1109335 bytes) muxed
+367 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 00000266c6379bc0] Statistics: 0 seeks, 5 writeouts
+[AVIOContext @ 00000266c6372600] Statistics: 1001 bytes read, 0 seeks

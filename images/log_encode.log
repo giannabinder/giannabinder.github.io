@@ -1,0 +1,612 @@
+ffmpeg version 4.3.2-2021-02-27-essentials_build-www.gyan.dev Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 10.2.0 (Rev6, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-libass --enable-libfreetype --enable-libfribidi --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libmfx --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      56. 51.100 / 56. 51.100
+  libavcodec     58. 91.100 / 58. 91.100
+  libavformat    58. 45.100 / 58. 45.100
+  libavdevice    58. 10.100 / 58. 10.100
+  libavfilter     7. 85.100 /  7. 85.100
+  libswscale      5.  7.100 /  5.  7.100
+  libswresample   3.  7.100 /  3.  7.100
+  libpostproc    55.  7.100 / 55.  7.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Dragon/AppData/Local/Temp/KritaFFmpegProgress.tzGXck'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '4'.
+Reading option '-i' ... matched as input url with argument 'C:/Atom HTML Folder/images/frame%04d.png'.
+Reading option '-vcodec' ... matched as option 'vcodec' (force video codec ('copy' to copy stream)) with argument 'libvpx-vp9'.
+Reading option '-b:v' ... matched as option 'b' (video bitrate (please use -b:v)) with argument '2M'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'C:/Atom HTML Folder/images/WalkingCycle.webm' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Dragon/AppData/Local/Temp/KritaFFmpegProgress.tzGXck.
+[file @ 000002aea4ccda80] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url C:/Atom HTML Folder/images/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: C:/Atom HTML Folder/images/frame%04d.png.
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0004.png' for reading
+[file @ 000002aea4d11c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d19e40] Statistics: 37151 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0005.png' for reading
+[file @ 000002aea4d23300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d23440] Statistics: 37151 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0006.png' for reading
+[file @ 000002aea4d23380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d3bd40] Statistics: 38683 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0007.png' for reading
+[file @ 000002aea4d23380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d456c0] Statistics: 38683 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0008.png' for reading
+[file @ 000002aea4d23380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d4f040] Statistics: 37769 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0009.png' for reading
+[file @ 000002aea4d23380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d58600] Statistics: 37769 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0010.png' for reading
+[file @ 000002aea4d23380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d23700] Statistics: 52195 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0011.png' for reading
+[file @ 000002aea4d23380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d6e800] Statistics: 52195 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0012.png' for reading
+[file @ 000002aea4d6e800] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d23380] Statistics: 52992 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0013.png' for reading
+[file @ 000002aea4d23380] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea4d16080] Statistics: 52992 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0014.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 61325 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0015.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 61325 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0016.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68237 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0017.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68649 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0018.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68649 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0019.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68966 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0020.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68966 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0021.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77772 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0022.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77772 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0023.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74523 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0024.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74523 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0025.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 87572 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0026.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 87572 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0027.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74727 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0028.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 71457 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0029.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 71457 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0030.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68988 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0031.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68988 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0032.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77441 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0033.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77441 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0034.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74228 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0035.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74228 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0036.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 85614 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0037.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 85614 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0038.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 73968 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0039.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68796 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0040.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68796 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0041.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 69124 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0042.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 69124 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0043.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77743 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0044.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77743 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0045.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74595 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0046.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74595 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0047.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 87433 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0048.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 87433 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0049.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74482 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0050.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 71498 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0051.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 71498 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0052.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68950 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0053.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68950 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0054.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77519 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0055.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 77519 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0056.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74374 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0057.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74374 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0058.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 85620 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0059.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 85620 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0060.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74295 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0061.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68771 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0062.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 68771 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0063.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 69064 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0064.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 69064 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0065.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 78201 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0066.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 78201 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0067.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74269 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0068.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74269 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0069.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 87787 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0070.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 87787 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0071.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 87787 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0072.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 74718 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0073.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 71505 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0074.png' for reading
+[file @ 000002aea554d040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aea554d100] Statistics: 71505 bytes read, 0 seeks
+[image2 @ 000002aea4d0e600] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'C:/Atom HTML Folder/images/frame%04d.png':
+  Duration: 00:00:04.04, start: 0.000000, bitrate: N/A
+    Stream #0:0, 71, 1/25: Video: png, 1 reference frame, rgba(pc), 2000x1000 [SAR 5905:5905 DAR 2:1], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url C:/Atom HTML Folder/images/WalkingCycle.webm.
+Applying option vcodec (force video codec ('copy' to copy stream)) with argument libvpx-vp9.
+Applying option b:v (video bitrate (please use -b:v)) with argument 2M.
+Successfully parsed a group of options.
+Opening an output file: C:/Atom HTML Folder/images/WalkingCycle.webm.
+[file @ 000002aea4d8b880] Setting default whitelist 'file,crypto,data'
+Successfully opened the file.
+detected 8 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 8 times
+[graph 0 input from stream 0:0 @ 000002aea4d58580] Setting 'video_size' to value '2000x1000'
+[graph 0 input from stream 0:0 @ 000002aea4d58580] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000002aea4d58580] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000002aea4d58580] Setting 'pixel_aspect' to value '5905/5905'
+[graph 0 input from stream 0:0 @ 000002aea4d58580] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000002aea4d58580] w:2000 h:1000 pixfmt:rgba tb:1/24 fr:24/1 sar:5905/5905
+[format @ 000002aea4d45640] Setting 'pix_fmts' to value 'yuv420p|yuva420p|yuv422p|yuv440p|yuv444p|yuv420p10le|yuv422p10le|yuv440p10le|yuv444p10le|yuv420p12le|yuv422p12le|yuv440p12le|yuv444p12le|gbrp|gbrp10le|gbrp12le'
+[auto_scaler_0 @ 000002aea4d15f40] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000002aea4d15f40] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000002aea4d45640] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 000002aea4d17880] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 000002aea4d15f40] picking yuva420p out of 16 ref:rgba alpha:1
+[auto_scaler_0 @ 000002aea4d15f40] w:2000 h:1000 fmt:rgba sar:5905/5905 -> w:2000 h:1000 fmt:yuva420p sar:1/1 flags:0x4
+[libvpx-vp9 @ 000002aea4d3a380] v1.9.0-158-gebefb90b7
+[libvpx-vp9 @ 000002aea4d3a380] --prefix=/local64 --target=x86_64-win64-gcc --disable-shared --disable-unit-tests --disable-docs --disable-install-bins --enable-vp9-postproc --enable-vp9-highbitdepth
+[libvpx-vp9 @ 000002aea4d3a380] vpx_codec_enc_cfg
+[libvpx-vp9 @ 000002aea4d3a380] generic settings
+  g_usage:                      0
+  g_threads:                    8
+  g_profile:                    0
+  g_w:                          320
+  g_h:                          240
+  g_bit_depth:                  8
+  g_input_bit_depth:            8
+  g_timebase:                   {1/30}
+  g_error_resilient:            0
+  g_pass:                       0
+  g_lag_in_frames:              25
+[libvpx-vp9 @ 000002aea4d3a380] rate control settings
+  rc_dropframe_thresh:          0
+  rc_resize_allowed:            0
+  rc_resize_up_thresh:          60
+  rc_resize_down_thresh:        30
+  rc_end_usage:                 0
+  rc_twopass_stats_in:          0000000000000000(0)
+  rc_target_bitrate:            256
+[libvpx-vp9 @ 000002aea4d3a380] quantizer settings
+  rc_min_quantizer:             0
+  rc_max_quantizer:             63
+[libvpx-vp9 @ 000002aea4d3a380] bitrate tolerance
+  rc_undershoot_pct:            25
+  rc_overshoot_pct:             25
+[libvpx-vp9 @ 000002aea4d3a380] temporal layering settings
+  ts_number_layers:             1
+[libvpx-vp9 @ 000002aea4d3a380] 
+  layer_target_bitrate:         0 0 0 0 0 
+[libvpx-vp9 @ 000002aea4d3a380] 
+  ts_rate_decimator:            0 0 0 0 0 
+[libvpx-vp9 @ 000002aea4d3a380] 
+  ts_periodicity:               0
+[libvpx-vp9 @ 000002aea4d3a380] 
+  ts_layer_id:                  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[libvpx-vp9 @ 000002aea4d3a380] decoder buffer model
+  rc_buf_sz:                    6000
+  rc_buf_initial_sz:            4000
+  rc_buf_optimal_sz:            5000
+[libvpx-vp9 @ 000002aea4d3a380] 2 pass rate control settings
+  rc_2pass_vbr_bias_pct:        50
+  rc_2pass_vbr_minsection_pct:  0
+  rc_2pass_vbr_maxsection_pct:  2000
+[libvpx-vp9 @ 000002aea4d3a380]   rc_2pass_vbr_corpus_complexity:0
+[libvpx-vp9 @ 000002aea4d3a380] keyframing settings
+  kf_mode:                      1
+  kf_min_dist:                  0
+  kf_max_dist:                  128
+[libvpx-vp9 @ 000002aea4d3a380] 
+[libvpx-vp9 @ 000002aea4d3a380] vpx_codec_enc_cfg
+[libvpx-vp9 @ 000002aea4d3a380] generic settings
+  g_usage:                      0
+  g_threads:                    8
+  g_profile:                    0
+  g_w:                          2000
+  g_h:                          1000
+  g_bit_depth:                  8
+  g_input_bit_depth:            8
+  g_timebase:                   {1/24}
+  g_error_resilient:            0
+  g_pass:                       0
+  g_lag_in_frames:              25
+[libvpx-vp9 @ 000002aea4d3a380] rate control settings
+  rc_dropframe_thresh:          0
+  rc_resize_allowed:            0
+  rc_resize_up_thresh:          60
+  rc_resize_down_thresh:        30
+  rc_end_usage:                 0
+  rc_twopass_stats_in:          0000000000000000(0)
+  rc_target_bitrate:            2000
+[libvpx-vp9 @ 000002aea4d3a380] quantizer settings
+  rc_min_quantizer:             0
+  rc_max_quantizer:             63
+[libvpx-vp9 @ 000002aea4d3a380] bitrate tolerance
+  rc_undershoot_pct:            25
+  rc_overshoot_pct:             25
+[libvpx-vp9 @ 000002aea4d3a380] temporal layering settings
+  ts_number_layers:             1
+[libvpx-vp9 @ 000002aea4d3a380] 
+  layer_target_bitrate:         0 0 0 0 0 
+[libvpx-vp9 @ 000002aea4d3a380] 
+  ts_rate_decimator:            0 0 0 0 0 
+[libvpx-vp9 @ 000002aea4d3a380] 
+  ts_periodicity:               0
+[libvpx-vp9 @ 000002aea4d3a380] 
+  ts_layer_id:                  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[libvpx-vp9 @ 000002aea4d3a380] decoder buffer model
+  rc_buf_sz:                    6000
+  rc_buf_initial_sz:            4000
+  rc_buf_optimal_sz:            5000
+[libvpx-vp9 @ 000002aea4d3a380] 2 pass rate control settings
+  rc_2pass_vbr_bias_pct:        50
+  rc_2pass_vbr_minsection_pct:  0
+  rc_2pass_vbr_maxsection_pct:  2000
+[libvpx-vp9 @ 000002aea4d3a380]   rc_2pass_vbr_corpus_complexity:0
+[libvpx-vp9 @ 000002aea4d3a380] keyframing settings
+  kf_mode:                      1
+  kf_min_dist:                  0
+  kf_max_dist:                  128
+[libvpx-vp9 @ 000002aea4d3a380] 
+[libvpx-vp9 @ 000002aea4d3a380] vpx_codec_control
+[libvpx-vp9 @ 000002aea4d3a380]   VP8E_SET_CPUUSED:             1
+[libvpx-vp9 @ 000002aea4d3a380]   VP8E_SET_ARNR_MAXFRAMES:      0
+[libvpx-vp9 @ 000002aea4d3a380]   VP8E_SET_ARNR_STRENGTH:       3
+[libvpx-vp9 @ 000002aea4d3a380]   VP8E_SET_ARNR_TYPE:           3
+[libvpx-vp9 @ 000002aea4d3a380]   VP8E_SET_STATIC_THRESHOLD:    0
+[libvpx-vp9 @ 000002aea4d3a380]   VP9E_SET_COLOR_SPACE:         0
+[libvpx-vp9 @ 000002aea4d3a380]   VP9E_SET_COLOR_RANGE:         0
+[libvpx-vp9 @ 000002aea4d3a380]   VP9E_SET_TARGET_LEVEL:        255
+[libvpx-vp9 @ 000002aea4d3a380] Using deadline: 1000000
+[webm @ 000002aea4d38b00] get_metadata_duration returned: 0
+Output #0, webm, to 'C:/Atom HTML Folder/images/WalkingCycle.webm':
+  Metadata:
+    encoder         : Lavf58.45.100
+    Stream #0:0, 0, 1/1000: Video: vp9 (libvpx-vp9), 1 reference frame, yuva420p, 2000x1000 [SAR 1:1 DAR 2:1], 0/1, q=-1--1, 2000 kb/s, 24 fps, 1k tbn, 24 tbc
+    Metadata:
+      encoder         : Lavc58.91.100 libvpx-vp9
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 22 times
+frame=   24 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Automatically inserted bitstream filter 'vp9_superframe'; args=''
+[webm @ 000002aea4d38b00] Starting new cluster with timestamp 0 at offset 504 bytes
+[webm @ 000002aea4d38b00] Writing block of size 255 with pts 0, dts 0, duration 42 at relative offset 3 in cluster at offset 504. TrackNumber 1, keyframe 1
+[webm @ 000002aea4d38b00] Writing block of size 69 with pts 42, dts 42, duration 42 at relative offset 554 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 134 with pts 83, dts 83, duration 42 at relative offset 734 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 138 with pts 125, dts 125, duration 42 at relative offset 970 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 215 with pts 167, dts 167, duration 42 at relative offset 1210 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 62 with pts 208, dts 208, duration 42 at relative offset 1527 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 3538 with pts 250, dts 250, duration 42 at relative offset 1690 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   31 fps= 29 q=0.0 size=       0kB time=00:00:00.25 bitrate=  16.1kbits/s speed=0.231x    [webm @ 000002aea4d38b00] Writing block of size 91 with pts 292, dts 292, duration 42 at relative offset 5330 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 3719 with pts 333, dts 333, duration 42 at relative offset 5522 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 68 with pts 375, dts 375, duration 42 at relative offset 9343 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 5806 with pts 417, dts 417, duration 42 at relative offset 9512 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 67 with pts 458, dts 458, duration 42 at relative offset 15420 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   36 fps= 23 q=0.0 size=       0kB time=00:00:00.45 bitrate=   8.8kbits/s speed=0.289x    [webm @ 000002aea4d38b00] Writing block of size 9063 with pts 500, dts 500, duration 42 at relative offset 15588 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 6693 with pts 542, dts 542, duration 42 at relative offset 24753 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 81 with pts 583, dts 583, duration 42 at relative offset 31548 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 8956 with pts 625, dts 625, duration 42 at relative offset 31730 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   40 fps= 19 q=0.0 size=       0kB time=00:00:00.62 bitrate=   6.4kbits/s speed=0.292x    [webm @ 000002aea4d38b00] Writing block of size 107 with pts 667, dts 667, duration 42 at relative offset 40788 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 12162 with pts 708, dts 708, duration 42 at relative offset 40996 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 74 with pts 750, dts 750, duration 42 at relative offset 53260 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 10618 with pts 792, dts 792, duration 42 at relative offset 53435 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 1963 with pts 833, dts 833, duration 42 at relative offset 64155 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   45 fps= 16 q=0.0 size=       0kB time=00:00:00.83 bitrate=   4.8kbits/s speed=0.302x    [webm @ 000002aea4d38b00] Writing block of size 10318 with pts 875, dts 875, duration 42 at relative offset 66220 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 81 with pts 917, dts 917, duration 42 at relative offset 76640 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 11839 with pts 958, dts 958, duration 42 at relative offset 76822 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 7343 with pts 1000, dts 1000, duration 42 at relative offset 88763 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 77 with pts 1042, dts 1042, duration 42 at relative offset 96208 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   50 fps= 15 q=0.0 size=       0kB time=00:00:01.04 bitrate=   3.9kbits/s speed=0.308x    [webm @ 000002aea4d38b00] Writing block of size 7916 with pts 1083, dts 1083, duration 42 at relative offset 96386 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 127 with pts 1125, dts 1125, duration 42 at relative offset 104404 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 13287 with pts 1167, dts 1167, duration 42 at relative offset 104633 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 68 with pts 1208, dts 1208, duration 42 at relative offset 118022 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   54 fps= 14 q=0.0 size=       0kB time=00:00:01.20 bitrate=   3.3kbits/s speed=0.309x    [webm @ 000002aea4d38b00] Writing block of size 14741 with pts 1250, dts 1250, duration 42 at relative offset 118191 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 67 with pts 1292, dts 1292, duration 42 at relative offset 133034 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 13858 with pts 1333, dts 1333, duration 42 at relative offset 133202 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 82 with pts 1375, dts 1375, duration 42 at relative offset 147162 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 12309 with pts 1417, dts 1417, duration 42 at relative offset 147345 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   59 fps= 13 q=0.0 size=       0kB time=00:00:01.41 bitrate=   2.8kbits/s speed=0.314x    [webm @ 000002aea4d38b00] Writing block of size 7090 with pts 1458, dts 1458, duration 42 at relative offset 159756 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 99 with pts 1500, dts 1500, duration 42 at relative offset 166948 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 9625 with pts 1542, dts 1542, duration 42 at relative offset 167148 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 80 with pts 1583, dts 1583, duration 42 at relative offset 176875 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   63 fps= 13 q=0.0 size=       0kB time=00:00:01.58 bitrate=   2.5kbits/s speed=0.315x    [image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0075.png' for reading
+[file @ 000002aea4d87040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 68918 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 14026 with pts 1625, dts 1625, duration 42 at relative offset 177056 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0076.png' for reading
+[file @ 000002aea4d86e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318a80] Statistics: 68918 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 5597 with pts 1667, dts 1667, duration 42 at relative offset 191184 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0077.png' for reading
+[file @ 000002aea4d86f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318a80] Statistics: 77555 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 9434 with pts 1708, dts 1708, duration 42 at relative offset 196882 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0078.png' for reading
+[file @ 000002aea4d86f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318c00] Statistics: 77555 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 76 with pts 1750, dts 1750, duration 42 at relative offset 206418 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   67 fps= 12 q=0.0 size=       0kB time=00:00:01.75 bitrate=   2.3kbits/s speed=0.315x    [image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0079.png' for reading
+[file @ 000002aea4d86a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 74342 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 12195 with pts 1792, dts 1792, duration 42 at relative offset 206595 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0080.png' for reading
+[file @ 000002aea4d86a00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 74342 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 88 with pts 1833, dts 1833, duration 42 at relative offset 218892 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0081.png' for reading
+[file @ 000002aea4d87480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8319140] Statistics: 85613 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 11788 with pts 1875, dts 1875, duration 42 at relative offset 219081 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0082.png' for reading
+[file @ 000002aea4d87800] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318c00] Statistics: 85613 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 7213 with pts 1917, dts 1917, duration 42 at relative offset 230971 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0083.png' for reading
+[file @ 000002aea4d87800] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318d40] Statistics: 74326 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 71 with pts 1958, dts 1958, duration 42 at relative offset 238286 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   72 fps= 12 q=0.0 size=       0kB time=00:00:01.95 bitrate=   2.1kbits/s speed=0.317x    [image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0084.png' for reading
+[file @ 000002aea4d87100] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318a80] Statistics: 68855 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 8462 with pts 2000, dts 2000, duration 42 at relative offset 238458 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0085.png' for reading
+[file @ 000002aea4d87640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318940] Statistics: 68855 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 92 with pts 2042, dts 2042, duration 42 at relative offset 247022 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0086.png' for reading
+[file @ 000002aea4d87100] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318d40] Statistics: 69077 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 14874 with pts 2083, dts 2083, duration 42 at relative offset 247215 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0087.png' for reading
+[file @ 000002aea4d87580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 69077 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 67 with pts 2125, dts 2125, duration 42 at relative offset 262190 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   76 fps= 11 q=0.0 size=       0kB time=00:00:02.12 bitrate=   1.9kbits/s speed=0.314x    [image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0088.png' for reading
+[file @ 000002aea4d87580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318a80] Statistics: 78102 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 11476 with pts 2167, dts 2167, duration 42 at relative offset 262358 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0089.png' for reading
+[file @ 000002aea4d87100] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8319140] Statistics: 78102 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 72 with pts 2208, dts 2208, duration 42 at relative offset 273936 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0090.png' for reading
+[file @ 000002aea4d86cc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318d40] Statistics: 74231 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 12486 with pts 2250, dts 2250, duration 42 at relative offset 274109 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0091.png' for reading
+[file @ 000002aea4d873c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318800] Statistics: 74231 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 67 with pts 2292, dts 2292, duration 42 at relative offset 286697 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0092.png' for reading
+[file @ 000002aea4d86b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318800] Statistics: 87681 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 12544 with pts 2333, dts 2333, duration 42 at relative offset 286865 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   81 fps= 11 q=0.0 size=       0kB time=00:00:02.33 bitrate=   1.7kbits/s speed=0.318x    [image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0093.png' for reading
+[file @ 000002aea4d86e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 87681 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 7751 with pts 2375, dts 2375, duration 42 at relative offset 299511 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0094.png' for reading
+[file @ 000002aea4d87480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 73375 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 99 with pts 2417, dts 2417, duration 42 at relative offset 307364 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0095.png' for reading
+[file @ 000002aea4d86f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318c00] Statistics: 69820 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 9118 with pts 2458, dts 2458, duration 42 at relative offset 307564 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0096.png' for reading
+[file @ 000002aea4d87640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8319140] Statistics: 69820 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 4559 with pts 2500, dts 2500, duration 42 at relative offset 316784 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   85 fps= 11 q=0.0 size=       0kB time=00:00:02.50 bitrate=   1.6kbits/s speed=0.315x    [image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0097.png' for reading
+[file @ 000002aea4d86d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8319140] Statistics: 64028 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 11319 with pts 2542, dts 2542, duration 42 at relative offset 321444 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0098.png' for reading
+[file @ 000002aea4d87040] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 64028 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 77 with pts 2583, dts 2583, duration 42 at relative offset 332865 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0099.png' for reading
+[file @ 000002aea4d87100] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb83186c0] Statistics: 59724 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 10752 with pts 2625, dts 2625, duration 42 at relative offset 333043 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0100.png' for reading
+[file @ 000002aea4d86e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318d40] Statistics: 59724 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 78 with pts 2667, dts 2667, duration 42 at relative offset 343897 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   89 fps= 10 q=0.0 size=       0kB time=00:00:02.66 bitrate=   1.5kbits/s speed=0.313x    [image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0101.png' for reading
+[file @ 000002aea4d86e80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8319140] Statistics: 52758 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 12735 with pts 2708, dts 2708, duration 42 at relative offset 344076 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0102.png' for reading
+[file @ 000002aea4d86d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8319140] Statistics: 52758 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 72 with pts 2750, dts 2750, duration 42 at relative offset 356913 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0103.png' for reading
+[file @ 000002aea4d86f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8319140] Statistics: 55231 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 128 with pts 2792, dts 2792, duration 42 at relative offset 357086 in cluster at offset 504. TrackNumber 1, keyframe 0
+[image2 @ 000002aea4d0e600] Opening 'C:/Atom HTML Folder/images/frame0104.png' for reading
+[file @ 000002aea4d86f40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002aeb8318940] Statistics: 55231 bytes read, 0 seeks
+[webm @ 000002aea4d38b00] Writing block of size 12404 with pts 2833, dts 2833, duration 42 at relative offset 357316 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   93 fps= 10 q=0.0 size=       0kB time=00:00:02.83 bitrate=   1.4kbits/s speed=0.312x    [webm @ 000002aea4d38b00] Writing block of size 7428 with pts 2875, dts 2875, duration 42 at relative offset 369822 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 5762 with pts 2917, dts 2917, duration 42 at relative offset 377352 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 5952 with pts 2958, dts 2958, duration 42 at relative offset 383215 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 109 with pts 3000, dts 3000, duration 42 at relative offset 389269 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=   97 fps= 10 q=0.0 size=       0kB time=00:00:03.00 bitrate=   1.3kbits/s speed=0.31x    [webm @ 000002aea4d38b00] Writing block of size 11268 with pts 3042, dts 3042, duration 42 at relative offset 389479 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 79 with pts 3083, dts 3083, duration 42 at relative offset 400849 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 10433 with pts 3125, dts 3125, duration 42 at relative offset 401029 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 79 with pts 3167, dts 3167, duration 42 at relative offset 411564 in cluster at offset 504. TrackNumber 1, keyframe 0
+frame=  101 fps=9.9 q=0.0 size=       0kB time=00:00:03.16 bitrate=   1.3kbits/s speed=0.31x    [out_0_0 @ 000002aea4d4efc0] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[webm @ 000002aea4d38b00] Writing block of size 10883 with pts 3208, dts 3208, duration 42 at relative offset 411744 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 79 with pts 3250, dts 3250, duration 42 at relative offset 422729 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 11690 with pts 3292, dts 3292, duration 42 at relative offset 422909 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 13320 with pts 3333, dts 3333, duration 42 at relative offset 434701 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 73 with pts 3375, dts 3375, duration 42 at relative offset 448122 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 8907 with pts 3417, dts 3417, duration 42 at relative offset 448296 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 76 with pts 3458, dts 3458, duration 42 at relative offset 457305 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 12645 with pts 3500, dts 3500, duration 42 at relative offset 457482 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 76 with pts 3542, dts 3542, duration 42 at relative offset 470229 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 10714 with pts 3583, dts 3583, duration 42 at relative offset 470406 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 75 with pts 3625, dts 3625, duration 42 at relative offset 481222 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 12157 with pts 3667, dts 3667, duration 42 at relative offset 481398 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 78 with pts 3708, dts 3708, duration 42 at relative offset 493657 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 14840 with pts 3750, dts 3750, duration 42 at relative offset 493836 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 9029 with pts 3792, dts 3792, duration 42 at relative offset 508777 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 80 with pts 3833, dts 3833, duration 42 at relative offset 517908 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 7326 with pts 3875, dts 3875, duration 42 at relative offset 518089 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 86 with pts 3917, dts 3917, duration 42 at relative offset 525517 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 7001 with pts 3958, dts 3958, duration 42 at relative offset 525704 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 89 with pts 4000, dts 4000, duration 42 at relative offset 532807 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 5292 with pts 4042, dts 4042, duration 42 at relative offset 532997 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 112 with pts 4083, dts 4083, duration 42 at relative offset 538391 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 5114 with pts 4125, dts 4125, duration 42 at relative offset 538604 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] Writing block of size 2257 with pts 4167, dts 4167, duration 42 at relative offset 543820 in cluster at offset 504. TrackNumber 1, keyframe 0
+[webm @ 000002aea4d38b00] end duration = 4209
+[webm @ 000002aea4d38b00] stream 0 end duration = 4209
+frame=  101 fps=7.7 q=0.0 Lsize=     534kB time=00:00:04.16 bitrate=1049.3kbits/s speed=0.316x    
+[AVIOContext @ 000002aea4d0e4c0] Statistics: 0 seeks, 19 writeouts
+video:523kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.052584%
+Input file #0 (C:/Atom HTML Folder/images/frame%04d.png):
+  Input stream #0:0 (video): 101 packets read (7128933 bytes); 101 frames decoded; 
+  Total: 101 packets (7128933 bytes) demuxed
+Output file #0 (C:/Atom HTML Folder/images/WalkingCycle.webm):
+  Output stream #0:0 (video): 101 frames encoded; 101 packets muxed (535715 bytes); 
+  Total: 101 packets (535715 bytes) muxed
+101 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000002aea4d8b980] Statistics: 2 seeks, 4 writeouts

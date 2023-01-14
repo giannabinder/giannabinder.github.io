@@ -1,0 +1,370 @@
+body, html {
+  height: 100%;
+}
+
+div.full-width {
+  border: none;
+  background-color: #263317;
+  width: 100%;
+  margin: none;
+  padding: 300px 0px 300px;
+}
+
+div.two{
+  border: none;
+  background-color: rgb(254, 250, 224);
+  width: 100%;
+  margin: none;
+  padding: 100px 0 100px;
+}
+
+hr {
+  width: 70%;
+  color: white;
+  border-style: solid;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+/************************************** CUSTOM ***********************************/
+
+.custom-h1 {
+  text-transform: uppercase;
+  font-family: sans-serif; 
+  color: white; 
+  font-stretch: extra-condensed; 
+  font-size: 300%; 
+  font-weight: 100;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+  .custom-h2 {
+  font-family: sans-serif; 
+  color: white; 
+  font-stretch: extra-condensed; 
+  font-size: 100%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.custom2-h1 {
+  text-transform: uppercase;
+  font-family: sans-serif; 
+  color: black; 
+  font-stretch: extra-condensed; 
+  font-size: 200%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.custom2-h2 {
+  text-transform: lowercase;
+  font-family: sans-serif; 
+  color: black; 
+  font-stretch: extra-condensed; 
+  font-size: 100%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/************************************** CUSTOM TEXT ***********************************/
+
+div.customTEXT{
+  border: none;
+  background-color: rgb(96, 108, 56);
+  width: 75%;
+  margin: none;
+  padding: 100px 0 100px;
+  display: flex;
+  justify-content: center; 
+}
+
+.customTEXT h1 {
+  text-transform: uppercase;
+  font-family: sans-serif; 
+  color: white;
+  font-stretch: extra-condensed; 
+  font-size: 200%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.customTEXT h2 {
+  text-transform: uppercase;
+  font-family: sans-serif; 
+  color: white;
+  font-stretch: extra-condensed; 
+  font-size: 200%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.customTEXT h3 {
+  text-transform: uppercase;
+  font-family: sans-serif; 
+  color: white;
+  font-stretch: extra-condensed; 
+  font-size: 120%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.customTEXT h4 {
+  text-transform: uppercase;
+  font-family: sans-serif; 
+  color: white;
+  font-stretch: extra-condensed; 
+  font-size: 120%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.customTEXT h5 {
+  text-transform: lowercase;
+  font-family: sans-serif; 
+  color: white; 
+  font-stretch: extra-condensed; 
+  font-size: 100%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.customTEXT p {
+  font-family: sans-serif; 
+  color: white;
+  font-stretch: auto; 
+  font-size: 100%; 
+  font-weight: 70;
+  letter-spacing: auto;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.customTEXT li{
+  display: block;
+  list-style: auto; 
+  text-transform: inherit;
+  font-family: sans-serif; 
+  color: white; 
+  font-stretch: extra-condensed; 
+  font-size: 100%; 
+  font-weight: 200;
+  letter-spacing: inherit;
+  text-align: left;
+  border: none;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.customTEXT ul li{
+  font-family: sans-serif; 
+  color: white; 
+  font-stretch: extra-condensed; 
+  font-size: 100%; 
+  font-weight: 200;
+  letter-spacing: inherit;
+  text-align: left;
+  border: none;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 0px;
+}
+
+.customTEXT a{
+  text-decoration: none;
+  color: rgb(252, 163, 17);
+  font-family: sans-serif;
+  font-stretch: extra-condensed; 
+  letter-spacing: 3px;
+}
+
+
+.customTEXT a:hover{
+  font-weight: 700;
+  color: rgb(252, 163, 17);
+  content: '';
+  display: inline-block;
+  transition: all ease-in-out 200ms;
+}
+
+.customTEXT hr {
+  width: 80%;
+  color: white;
+  border-style: solid;
+}
+
+/************************************** NAVIGATION BAR ***********************************/
+.nav{
+  overflow: hidden;
+  background-color: white;
+  padding: 5px 0px 5px;
+}
+
+.nav a {
+  float: right;
+  font-size: 100%;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 100%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-transform: lowercase;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.dropdown .dropbtn {
+  font-size: 100%;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.nav a:hover, .dropdown:hover .dropbtn{
+  background-color: #263317;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #263317;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/************************************** END NAVIGATION BAR ***********************************/
+
+.nav-end {
+  overflow: hidden;
+  background-color: white;
+  padding: 5px 0px 5px;
+  text-align: center;
+}
+
+.nav-end a{
+  float: center;
+  font-size: 100%;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 100%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-transform: lowercase;
+}
+
+.nav-end a:hover {
+  color: #263317;
+  font-weight: 550;
+}
+
+/************************************** SCROLL TO TOP BUTTON ***********************************/
+#btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background: #263317;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  #btnScrollToTop:active{
+    background: #121c09;
+  }
+
+/************************************** RAINBOW ***********************************/
+/*adapted from: https://codepen.io/nohoid/pen/eYXpNL*/
+.rick { 
+  height: 90%;
+  width: 100%;
+  margin: none;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  overflow: hidden;
+  padding-top: 70px;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+
