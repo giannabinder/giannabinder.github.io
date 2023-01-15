@@ -24,7 +24,7 @@ p_button.addEventListener("click", function() {
 
 //make the button return back to dark green after it has been clicked and is hovered on
 n_button.addEventListener("mouseover", function() {
-  n_button.style.backgroundColor = "#263317";
+  n_button.style.backgroundColor = "transparent";
 });
 
 //make the button return back to white when it is not hovered on
