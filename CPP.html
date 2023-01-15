@@ -67,7 +67,6 @@
           <div class="dropdown-content">
               <a href=digital.html>Animations and Illustrations</a>
               <a href=principles.html>Animation Principles</a>
-              <a href=studios.html>Animation Studios</a>
               <a href=techniques.html>Animation Techniques</a>
               <a href=drawings.html>Cartoon Characters</a>
               <a href=finalproject.html>DOGUE</a>
@@ -98,10 +97,20 @@
                     <p><li><b>About: </b> A twist on MindSweeper. This program implements memory management, pointer manipulation, bitwise operations, and multi-dimensional arrays.
                       Included functions for creating and cleaning a game board, computing the number of neighboring mines, and printing the board to the console. 
                       Utilized features such as function overloading, enumerations, and size_t datatype and other c++ standard libraries like iostream for input/output operations and 'cout' for printing. </p></li>
-                    <iframe  height = 500px width=800px src="https://replit.com/@GiannaBinder/BrainSweeper?v=1&outputonly=1&lite=1?embed=true" 
+                    <!-- put password on element-->
+                    <div id="password-container">
+                        <label for="password-input" id="password-label" style="display:none; border: none">Enter password:</label>
+                        <input type="password" id="password-input" placeholder="Enter password">
+                        <button id="password-button" class="password-button">Submit</button>
+                    </div>
+                    
+                    <!-- display element-->
+                    <div id="embed-container" style="display: none;">
+                        <iframe  height = 500px width=800px src="https://replit.com/@GiannaBinder/BrainSweeper?v=1&outputonly=1&lite=1?embed=true" 
                         scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" 
                         sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
-                    </iframe>
+                        </iframe>
+                    </div>
                 </center>
             </customTEXT>
         </div>
@@ -175,11 +184,5 @@
 
   <!-- Scroll to top buttom action -->
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $("#btnScrollToTop").click(function(){
-        $("html,body").animate({scrollTop:0},1000);
-     });
-    });
-  </script>
+  <script src="script.js"></script>
 </body>

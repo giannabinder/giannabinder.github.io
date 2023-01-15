@@ -109,7 +109,7 @@ div.customTEXT{
   text-align: center;
 }
 
-.customTEXT h3 {
+.customTEXT h3, .customTEXT figcaption {
   text-transform: uppercase;
   font-family: sans-serif; 
   color: white;
@@ -159,7 +159,6 @@ div.customTEXT{
 
 .customTEXT li{
   display: block;
-  list-style: auto; 
   text-transform: inherit;
   font-family: sans-serif; 
   color: white; 
@@ -185,6 +184,8 @@ div.customTEXT{
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 0px;
+  list-style-type: disc;
+  display: block; 
 }
 
 .customTEXT a{
@@ -367,4 +368,29 @@ div.customTEXT{
   100%{background-position:0% 82%}
 }
 
+/************************************** PASSWORD BUTTON ***********************************/
+.password-container .label{
+  float: center;
+  color: grey;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  text-transform: lowercase;
+}
+
+.password-button {
+  content: center;
+  color: #263317;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  border: none;
+}
+
+.password-button:hover {
+  content: center;
+  color: white;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  border: none;
+  background-color: #263317;
+}
 
