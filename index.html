@@ -81,15 +81,48 @@
 </header>
 
   <!-- Introduction Band -->
-  <div class="full-width">
 
-    
+  <!-- when button is clicked, party mode activates-->
+
+    <!--<a href="#" class="btn-slide" id="click-button">
+      <span class="circle"></span>
+      <span class="title">Download</span>
+      <span class="title-hover">Click here</span>
+    </a>-->
+
+
+  <!-- Party Mode (if button is pressed) -->
+  <div class="rick" id="party-container" style="display: none;">
+    <p align = "center"> 
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1 class = "custom-h1"> hello! <br>
+          i'm gianna </h1>
+        <hr><hr>
+        <h2 class = "custom-h2"> I invite you to explore some of the cool projects I've done </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
+          <span class="circle"></span>
+          <span class="title">Classic Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+    </p>
+  </div>
+
+  <div class="full-width" id="normal-container">
     <p align = "center"> 
         <h1 class = "custom-h1"> hello! <br>
           i'm gianna </h1>
         <hr><hr>
         <h2 class = "custom-h2"> I invite you to explore some of the cool projects I've done </h2>
-    </p>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="party-button">
+          <span class="circle"></span>
+          <span class="title">Party Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+  </p>
   </div>
 
   <!-- Main Body -->
@@ -103,9 +136,10 @@
     </div>
   </header>
 
-  <!-- Scroll to top buttom action -->
+  <!--  Link JS file -->
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="script.js"></script>
+  <script src = "party_script.js"> </script>
+  <script src = "script.js"> </script>
 
 </body>
 </html>

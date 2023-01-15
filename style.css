@@ -394,3 +394,82 @@ div.customTEXT{
   background-color: #263317;
 }
 
+/************************************** DOWNLOAD AND PARTY BUTTON ***********************************/
+
+#wrap {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btn-slide, .p-btn-slide{
+  position: absolute;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  padding: 0;
+  border-radius: 50px;
+  background: #fdfdfd;
+  margin: 10px;
+  transition: .5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  left: 42.5%;
+}
+
+.btn-slide span.circle, .p-btn-slide span.circle {
+  display: block;
+  background-color: #263317;
+  position: absolute;
+  float: left;
+  margin: 5px;
+  line-height: 42px;
+  height: 40px;
+  width: 40px;
+  left: 0;
+  transition: .5s;
+  border-radius: 50%;
+}
+
+.btn-slide:hover, .p-btn-slide:hover{
+  background-color: #263317;
+  border: 2px solid white;
+}
+
+
+.btn-slide:hover span.circle, .p-btn-slide:hover span.circle {
+  left: 75%;
+  background-color: white;
+}
+
+.btn-slide:hover span.title, .p-btn-slide:hover span.title {
+  opacity: 0;
+}
+
+.btn-slide:hover span.title-hover, .p-btn-slide:hover span.title-hover {
+  opacity: 1;
+  left: 40px;
+}
+
+.btn-slide span.title,
+.btn-slide span.title-hover, .p-btn-slide span.title,
+.p-btn-slide span.title-hover {
+  position: absolute;
+  left: 90px;
+  text-align: center;
+  font-weight: bold;
+  color: #263317;
+  transition: .5s;
+  font-family: sans-serif;
+  text-transform: lowercase;
+}
+
+.btn-slide span.title-hover, .p-btn-slide span.title-hover{
+  left: 80px;
+  opacity: 0;
+}
+
+.btn-slide span.title-hover, .p-btn-slide span.title-hover {
+  color: white;
+}
+

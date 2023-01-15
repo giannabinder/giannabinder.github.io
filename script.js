@@ -1,12 +1,12 @@
 
-//scroll to top button action//////////////////////////////////////////////////////////////
+/////////////////////////////////scroll to top button action//////////////////////////////////////////////////////////////
 $(document).ready(function(){
   $("#btnScrollToTop").click(function(){
     $("html,body").animate({scrollTop:0},1000);
   });
 });
 
-//elements for password//////////////////////////////////////////////////////////////
+/////////////////////////////////elements for password//////////////////////////////////////////////////////////////
 const password = 'reveil456';
 const passwordButton = document.getElementById('password-button');
 const passwordInput = document.getElementById('password-input');
@@ -17,6 +17,7 @@ passwordInput.addEventListener('focus', function() {
   passwordInput.placeholder = "";
 });
 
+//if the user is not typing in box, place "enter password" in it
 passwordInput.addEventListener('blur', function() {
   if (!passwordInput.value) {
       passwordInput.placeholder = "Enter password";
@@ -33,5 +34,3 @@ passwordButton.addEventListener('click', function() {
     alert('Incorrect password, please try again.');
   }
 });
-
-
