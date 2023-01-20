@@ -74,7 +74,7 @@ iframe {
   text-align: center;
 }
 
-/************************************** CUSTOM TEXT ***********************************/
+/************************************** CUSTOM TEXT and YELLOW***********************************/
 
 div.customTEXT{
   border: none;
@@ -86,7 +86,17 @@ div.customTEXT{
   justify-content: center; 
 }
 
-.customTEXT h1 {
+div.yellow{
+  border: none;
+  background-color: rgb(207, 163, 50);
+  width: 75%;
+  margin: none;
+  padding: 100px 0 100px;
+  display: flex;
+  justify-content: center; 
+}
+
+.customTEXT h1, .yellow h1 {
   text-transform: uppercase;
   font-family: sans-serif; 
   color: white;
@@ -98,7 +108,7 @@ div.customTEXT{
   margin-left: 10%;
 }
 
-.customTEXT h2 {
+.customTEXT h2, .yellow h2 {
   text-transform: uppercase;
   font-family: sans-serif; 
   color: white;
@@ -145,7 +155,7 @@ div.customTEXT{
   margin-top: 5px;
 }
 
-.customTEXT p {
+.customTEXT p, .yellow p {
   font-family: sans-serif; 
   color: white;
   font-stretch: auto; 
