@@ -59,7 +59,7 @@
         
         <div class="dropdown">
         <button class="dropbtn">
-            <a href="animation.html">Animations	
+            <a href="animation.html">Media
                 <i class="fa fa-caret-down"></i>
             </a>
         </button>
@@ -69,7 +69,6 @@
             <a href=techniques.html>Animation Techniques</a>
             <a href=drawings.html>Cartoon Characters</a>
             <a href=finalproject.html>DOGUE</a>
-            <a href=ECOCouncilMedia.html>ECO Council Media</a>
             <a href=OPDesign.html>Ontario Parks Sweater Designs</a>
             <a href=storyboard.html>Storyboard</a>
             <a href=history.html>The History of Animation</a>
@@ -79,11 +78,36 @@
     </div>
 </header>
 
-  <div class="full-width">
+  <!-- Party Mode (if button is pressed) -->
+  <div class="rick" id="party-container" style="display: none;">
     <p align = "center"> 
-        <h1 class = "custom-h1"> media: <br> cartoon characters </h1>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1 class = "custom-h1"> media: <br> cartoon characters </h1>
         <hr><hr>
         <h2 class = "custom-h2"> journey on an adventure through a teensy bit of my portfolio and learn about animation along the way </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
+          <span class="circle"></span>
+          <span class="title">Classic Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+    </p>
+  </div>
+
+  <!-- Classic Mode -->
+  <div class="full-width" id="normal-container">
+    <p align = "center"> 
+      <h1 class = "custom-h1"> media: <br> cartoon characters </h1>
+      <hr><hr>
+      <h2 class = "custom-h2"> journey on an adventure through a teensy bit of my portfolio and learn about animation along the way </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="party-button">
+          <span class="circle"></span>
+          <span class="title">Party Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
     </p>
   </div>
 
@@ -119,9 +143,10 @@
     <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
   </header>
 
-  <!-- Scroll to top buttom action -->
+  <!--  Link JS file -->
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="script.js"></script>
+  <script src = "party_script.js"> </script>
+  <script src = "script.js"> </script> 
 
 </body>
 </html>

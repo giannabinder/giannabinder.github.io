@@ -74,6 +74,17 @@ iframe {
   text-align: center;
 }
 
+.custom2-h3 {
+  text-transform: lowercase;
+  font-family: sans-serif; 
+  color: black; 
+  font-stretch: extra-condensed; 
+  font-size: 70%; 
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
 /************************************** CUSTOM TEXT and YELLOW***********************************/
 
 div.customTEXT{
