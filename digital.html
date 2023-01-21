@@ -7,14 +7,14 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Animations and Illustarions</title>
+    <title>Animations and Illustrations</title>
   </head>
   
   <body>
   
     <!-- Scroll to top buttom image -->
     <button id = "btnScrollToTop">
-      <img width = 100% src = "images/arrow.PNG">
+      <img width = 100% src = "images/arrow.png">
     </button>
   
 <!-- Navigation Bar -->
@@ -50,7 +50,7 @@
         </button>
         <div class="dropdown-content">
             <a href=blogs.html>Blogs</a>
-            <a href=shortStories.html>Short Stories</a>
+            <!--<a href=shortStories.html>Short Stories</a>-->
             <a href=technical.html>Technical Pieces</a>
         </div>
         </div> 
@@ -59,18 +59,16 @@
         
         <div class="dropdown">
         <button class="dropbtn">
-            <a href="animation.html">Animations	
+            <a href="animation.html">Media	
                 <i class="fa fa-caret-down"></i>
             </a>
         </button>
         <div class="dropdown-content">
             <a href=digital.html>Animations and Illustrations</a>
             <a href=principles.html>Animation Principles</a>
-            <a href=studios.html>Animation Studios</a>
             <a href=techniques.html>Animation Techniques</a>
             <a href=drawings.html>Cartoon Characters</a>
             <a href=finalproject.html>DOGUE</a>
-            <a href=ECOCouncilMedia.html>ECO Council Media</a>
             <a href=OPDesign.html>Ontario Parks Sweater Designs</a>
             <a href=storyboard.html>Storyboard</a>
             <a href=history.html>The History of Animation</a>
@@ -80,86 +78,116 @@
     </div>
 </header>
 
-  <div class="full-width">
+  <!-- Party Mode (if button is pressed) -->
+  <div class="rick" id="party-container" style="display: none;">
     <p align = "center"> 
-        <h1 class = "custom-h1"> animation: <br> animations + illustrations </h1>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1 class = "custom-h1"> animation: <br> animations + illustrations </h1>
         <hr><hr>
         <h2 class = "custom-h2"> please enjoy these simple digital art pieces </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
+          <span class="circle"></span>
+          <span class="title">Classic Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+    </p>
+  </div>
+
+  <!-- Classic Mode -->
+  <div class="full-width" id="normal-container">
+    <p align = "center"> 
+      <h1 class = "custom-h1"> animation: <br> animations + illustrations </h1>
+        <hr><hr>
+        <h2 class = "custom-h2"> please enjoy these simple digital art pieces </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="party-button">
+          <span class="circle"></span>
+          <span class="title">Party Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
     </p>
   </div>
   
 
   <div class="two">
     <center>
+
+      <p>
+        <video src="images/Boating2.webm" controls style = "width: 80vw; height: 80vh; display: block; margin: 0 auto" loop autoplay> </video>
+        <h2 class = "custom2-h2"> go fish!, animated on Krita </h2>
+        <br><br><br>
+      </p>
+
+      <p>
+        <video src="images/DogRunning.webm" controls style = "width: 80vw; height: 80vh; display: block; margin: 0 auto" loop autoplay> </video>
+        <h2 class = "custom2-h2"> tag! animated on Krita </h2>
+        <br><br><br>
+      </p>
+
+      <p>
+        <video src="images/bouncyball.webm" controls height = "300" loop autoplay> </video>
+        <video src="images/Basketball.webm" controls height = "300" loop autoplay> </video>
+        <video src="images/bowlingball.webm" controls height = "300" loop autoplay> </video>
+        <h2 class = "custom2-h2"> Bouncy Ball, Basketball, and Bowling Ball - Squash and Stretch, animated on Krita </h2>
+        <br><br><br>
+      </p>
+
+      <p>
+        <img width = "1100" src = "images/Burger.jpg">
+        <h2 class = "custom2-h2"> too cute to eat - drawn on Krita </h2>
+        <h3 class = "custom2-h3"> Insired by the following images: </h3>
+        <img width = 10% src = "https://www.nicepng.com/png/detail/902-9026734_starbucks-coffee-tumblr-kawaii-catpuccino.png">
+        <img width = 10% src = "https://cdn140.picsart.com/301760611027211.png?to=crop&type=webp&r=1008x776&q=85">
+        <img width = 10% src = "https://i.pinimg.com/564x/36/7e/e5/367ee572fa90d3cb907682582dba2956.jpg">
+        <img width = 10% src = "https://pm1.narvii.com/7899/771b9ae7e4e37a78b3341accb36120da78f8a245r1-803-803v2_hq.jpg">
+        <br><br><br>
+      </p>
+
+      <p>
+        <img width = "1100" src = "images/paigeCarrot.png">
+        <h2 class = "custom2-h2"> slow down!, drawn on Krita </h2>
+        <br><br><br>
+      </p>
+
+      <p>
+        <img width = "1100" src = "images/pizza.jpg">
+        <h2 class = "custom2-h2"> yummm, drawn on Krita </h2>
+        <br>
+  
+        <video src="images/pizzavid.mp4" controls width = "1100"> </video>
+        <h2 class = "custom2-h2"> Creating Pizzas With Krita - Instructional Video, edited with openshot </h2>
+        <br><br><br>
+      </p>
+
+      <p>
+        <video src="images/NineDotsSolution.webm" controls width = "300" loop autoplay> </video>
+        <video src="images/Triangle.webm" controls width = "300" loop autoplay> </video>
+        <h2 class = "custom2-h2"> Nine Dots and Triangle Puzzles, animated on Krita </h2>
+        <br><br><br>
+      </p>
+
+      <p>
+        <img height = "500" src = "images/keana.png">
+        <img height = "500" src = "images/Creed.PNG">
+        <h2 class = "custom2-h2"> Cory and Keana, drawn on Krita </h2>
+        <br><br><br>
+      </p>
+
       <p>
         <img width = "700" src = "images/DinosDontBark.png">
         <h2 class = "custom2-h2"> Dinos don't bark, drawn on Krita </h2>
         <br><br><br>
       </p>
 
-      <p>
-        <img height = "500" src = "images/keana.png">
 
-        <img height = "500" src = "images/Creed.png">
-        <h2 class = "custom2-h2"> cory and Keana, drawn on Krita </h2>
+      <p>
+        <video src="images/WalkingCycle.webm" controls style = "width: 80vw; height: 80vh; display: block; margin: 0 auto" loop autoplay> </video>
+        <h2 class = "custom2-h2"> strut, animated on Krita </h2>
         <br><br><br>
       </p>
-
-    <p>
-      <img width = "1100" src = "images/pizza.jpg">
-      <h2 class = "custom2-h2"> yummm, drawn on Krita </h2>
-      <br>
-
-      <video src="images/pizzavid.mp4" controls width = "1100"> </video>
-      <h2 class = "custom2-h2"> Creating Pizzas With Krita - Instructional Video, edited with openshot </h2>
-      <br><br><br>
-    </p>
-
-    <p>
-      <img width = "1100" src = "images/burger.jpg">
-      <h2 class = "custom2-h2"> too cute to eat - inspired from images online, drawn on Krita </h2>
-      <br><br><br>
-    </p>
-
-    <p>
-      <img width = "1100" src = "images/paigeCarrot.png">
-      <h2 class = "custom2-h2"> slow down!, drawn on Krita </h2>
-      <br><br><br>
-
-    <p>
-      <video src="images/bouncyball.webm" controls height = "300" loop autoplay> </video>
-      <video src="images/Basketball.webm" controls height = "300" loop autoplay> </video>
-      <video src="images/bowlingball.webm" controls height = "300" loop autoplay> </video>
-      <h2 class = "custom2-h2"> Bouncy Ball, Basketball, and Bowling Ball - Squash and Stretch, animated on Krita </h2>
-      <br><br><br>
-    </p>
-
-    <p>
-      <video src="images/NineDotsSolution.webm" controls width = "300" loop autoplay> </video>
-      <video src="images/Triangle.webm" controls width = "300" loop autoplay> </video>
-      <h2 class = "custom2-h2"> Nine Dots and Triangle Puzzles, animated on Krita </h2>
-      <br><br><br>
-    </p>
-
-    <p>
-      <video src="images/DogRunning.webm" controls style = "width: 80vw; height: 80vh; display: block; margin: 0 auto" autoplay> </video>
-      <h2 class = "custom2-h2"> tag! animated on Krita </h2>
-      <br><br><br>
-    </p>
-
-
-    <p>
-      <video src="images/WalkingCycle.webm" controls style = "width: 80vw; height: 80vh; display: block; margin: 0 auto" autoplay> </video>
-      <h2 class = "custom2-h2"> strut, animated on Krita </h2>
-      <br><br><br>
-    </p>
-
-    <p>
-      <video src="images/Boating2.webm" controls style = "width: 80vw; height: 80vh; display: block; margin: 0 auto" autoplay> </video>
-      <h2 class = "custom2-h2"> go fish!, animated on Krita </h2>
-      <br><br><br>
-    </p>
-
 
     </center>
   </div>
@@ -171,17 +199,14 @@
           <a href = "rick.html">Gianna</a>
         </span>
     </div>
+
+    <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
   </header>
 
-  <!-- Scroll to top buttom action -->
+  <!--  Link JS file -->
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $("#btnScrollToTop").click(function(){
-        $("html,body").animate({scrollTop:0},1000);
-     });
-    });
-  </script>
+  <script src = "party_script.js"> </script>
+  <script src = "script.js"> </script> 
 </body>
 
 

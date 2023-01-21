@@ -50,7 +50,7 @@
         </button>
         <div class="dropdown-content">
             <a href=blogs.html>Blogs</a>
-            <a href=shortStories.html>Short Stories</a>
+            <!--<a href=shortStories.html>Short Stories</a>-->
             <a href=technical.html>Technical Pieces</a>
         </div>
         </div> 
@@ -59,18 +59,16 @@
         
         <div class="dropdown">
         <button class="dropbtn">
-            <a href="animation.html">Animations	
+            <a href="animation.html">Media	
                 <i class="fa fa-caret-down"></i>
             </a>
         </button>
         <div class="dropdown-content">
             <a href=digital.html>Animations and Illustrations</a>
             <a href=principles.html>Animation Principles</a>
-            <a href=studios.html>Animation Studios</a>
             <a href=techniques.html>Animation Techniques</a>
             <a href=drawings.html>Cartoon Characters</a>
             <a href=finalproject.html>DOGUE</a>
-            <a href=ECOCouncilMedia.html>ECO Council Media</a>
             <a href=OPDesign.html>Ontario Parks Sweater Designs</a>
             <a href=storyboard.html>Storyboard</a>
             <a href=history.html>The History of Animation</a>
@@ -80,11 +78,36 @@
     </div>
 </header>
 
-  <div class="full-width">
+  <!-- Party Mode (if button is pressed) -->
+  <div class="rick" id="party-container" style="display: none;">
     <p align = "center"> 
-        <h1 class = "custom-h1"> media: <br> 12 Principles of Animation </h1>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1 class = "custom-h1"> media: <br> 12 Principles of Animation </h1>
         <hr><hr>
         <h2 class = "custom-h2"> enhance your animations with these 12 principles </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
+          <span class="circle"></span>
+          <span class="title">Classic Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+    </p>
+  </div>
+
+  <!-- Classic Mode -->
+  <div class="full-width" id="normal-container">
+    <p align = "center"> 
+      <h1 class = "custom-h1"> media: <br> 12 Principles of Animation </h1>
+        <hr><hr>
+        <h2 class = "custom-h2"> enhance your animations with these 12 principles </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="party-button">
+          <span class="circle"></span>
+          <span class="title">Party Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
     </p>
   </div>
 
@@ -95,84 +118,99 @@
       <customTEXT>
         <h2>1. Squash and Stretch</h2>
 
-              <center> <img width = "500" src = "images/squashandstretchmine.PNG"> </center>
-            <p>The squash and stretch principle is considered the most fundamental of the 12 principles of animation.
-            Squash and stretch is defined as the changing shapes of an object or character to emphasize their speed, momentum, weight, elasticity, and mass.
-            This principle helps to illustrate the properties of the object and give it a more life-like appearance through imitating and
-            exaggerating the outside forces acting on it, such as gravity.</p>
+        <center> <img width = "500" src = "images/squashandstretchmine.PNG"> </center>
+        <p>The squash and stretch principle is considered the most fundamental of the 12 principles of animation.
+        Squash and stretch is defined as the changing shapes of an object or character to emphasize their speed, momentum, weight, elasticity, and mass.
+        This principle helps to illustrate the properties of the object and give it a more life-like appearance through imitating and
+        exaggerating the outside forces acting on it, such as gravity.</p>
 
-            <p>For example, when a rubber ball bounces, it stretches horizontally on impact with the ground and vertically when it is travelling.
-            The changing shape of the ball illustrates its mass and elasticity to make it more life-like.
-            On the other hand, a bowling ball will not squash and stretch because it is made of a stiffer material. </p>
+        <p>For example, when a rubber ball bounces, it stretches horizontally on impact with the ground and vertically when it is travelling.
+        The changing shape of the ball illustrates its mass and elasticity to make it more life-like.
+        On the other hand, a bowling ball will not squash and stretch because it is made of a stiffer material. </p>
 
-            <center><img width = "485" src = "images/sandsfacemine.PNG"></center>
-            <p>This principle can also be applied to facial expressions.</p>
+        <center><img width = "485" src = "images/sandsfacemine.PNG"></center>
+        <p>This principle can also be applied to facial expressions.</p>
 
-            <p>Note: be careful when using this technique and keep the object's volume constant.
-            When an object squashes, it gets wider. When an object stretches, it gets longer.
-            Otherwise, the object size will appear to be changing and it will lose its realism.</p>
+        <p>Note: be careful when using this technique and keep the object's volume constant.
+        When an object squashes, it gets wider. When an object stretches, it gets longer.
+        Otherwise, the object size will appear to be changing and it will lose its realism.</p>
+      </customTEXT>
+    </div>
 
+    <br><br><br><br>
+  
+    <div class = "customTEXT">
+      <customTEXT>     
 
-          <br><br><hr><hr><br><br><h2>2. Anticipation</h2>
-
-
-            <p>An action happens in three steps; the preparation, the execution, and the follow-through.
-            Anticipation is the illustration of a character’s posing and movement in preparation for the execution.
-            This principle helps the audience to predict what will happen and makes the action more believable.</p>
-
-              <center><img width = "500" src = "images/anticipation.png"></center>
-            <p>Anticipation can be applied to any action. Before someone jumps they crouch down to build energy then they spring up.
-              If the crouch of the animation was not illustrated, the jump would look unrealistic as no momentum was built up.
-              Consequently, the motion becomes awkward, bland, and lifeless.</p>
-
-              <center><img width = "300" src = "images/anticipationsurprise.png"></center>
-            <p>Anticipation can also be used to manipulate the audience’s attention.
-              If a character looks to the right, the viewers’ eyes will follow.
-              By controlling where the audience is looking, you can surprise them by manipulating their focus in the opposite direction.</p>
+        <h2>2. Anticipation</h2>
 
 
+        <p>An action happens in three steps; the preparation, the execution, and the follow-through.
+        Anticipation is the illustration of a character’s posing and movement in preparation for the execution.
+        This principle helps the audience to predict what will happen and makes the action more believable.</p>
 
+          <center><img width = "500" src = "images/anticipation.PNG"></center>
+        <p>Anticipation can be applied to any action. Before someone jumps they crouch down to build energy then they spring up.
+          If the crouch of the animation was not illustrated, the jump would look unrealistic as no momentum was built up.
+          Consequently, the motion becomes awkward, bland, and lifeless.</p>
 
-              <br><br><hr><hr><br><br><h2>3. Staging</h2>
+          <center><img width = "300" src = "images/anticipationsurprise.PNG"></center>
+        <p>Anticipation can also be used to manipulate the audience’s attention.
+          If a character looks to the right, the viewers’ eyes will follow.
+          By controlling where the audience is looking, you can surprise them by manipulating their focus in the opposite direction.</p>
+      </customTEXT>
+    </div>
 
-            <p>Staging involves presenting a scene through movement, composition, timing, acting, the setting, and the camera’s angles and positions to achieve full control of where the audience looks.
-              Staging makes the purpose of the animation completely and unmistakably clear by drawing the viewers’ focus away from the non-important elements thus, avoiding confusion.</p>
+    <br><br><br><br>
+  
+    <div class = "customTEXT">
+      <customTEXT> 
+        <h2>3. Staging</h2>
 
-              <center><img width = "500" src = "images/stagingboat.png"></center>
-            <p>To effectively apply this technique:<br>
-              <ul>
-        <li>Have a limited amount of actions happening at once to avoid confusing the audience.</li>
-        <li>Utilize camera angles and positions to frame the primary action effectively.</li>
-        <li>Simplify the setting as much as possible to not compete with the main focus.</li>
-        <li>Have the main action be in the center of the screen or in one of the thirds.</li>
-        <li>Let one action finish before starting another to allow the audience to fully comprehend what is happening and not have their eyes travel across the screen too much.</li>
-        <li>Insert pauses if there is something on the screen that viewers need time to process, such as text.</li>
-              </ul>
-        </p>
+        <p>Staging involves presenting a scene through movement, composition, timing, acting, the setting, and the camera’s angles and positions to achieve full control of where the audience looks.
+          Staging makes the purpose of the animation completely and unmistakably clear by drawing the viewers’ focus away from the non-important elements thus, avoiding confusion.</p>
+        
+          <center><img width = "500" src = "images/stagingboat.PNG"></center>
+          <p>To effectively apply this technique:<br></p>
+          <ul>
+            <li>1. Have a limited amount of actions happening at once to avoid confusing the audience.</li>
+            <li>2. Utilize camera angles and positions to frame the primary action effectively.</li>
+            <li>3. Simplify the setting as much as possible to not compete with the main focus.</li>
+            <li>4. Have the main action be in the center of the screen or in one of the thirds.</li>
+            <li>5. Let one action finish before starting another to allow the audience to fully comprehend what is happening and not have their eyes travel across the screen too much.</li>
+            <li>6. Insert pauses if there is something on the screen that viewers need time to process, such as text.</li>
+          </ul>
+        
+      </customTEXT>
+    </div>
 
+    <br><br><br><br>
+  
+    <div class = "customTEXT">
+      <customTEXT>
+        <h2>4. Straight Ahead and Pose to Pose Animation</h2>
 
+        <p>Straight ahead and pose to pose are the two techniques used to draw animations.</p>
 
+        <center><img width = "500" src = "images/straightaheadmine.png"></center>
+        <p>In straight ahead animation, each frame is drawn in consecutive order from the first to the last drawing of the scene.
+          This creates fluid, fresh and zany-looking animations as the process is more creative.
+          This process is typically used for more unpredictable, wild, scrambling actions to illustrate its spontaneity.</p>
 
-        <br><br><hr><hr><br><br><h2>4. Straight Ahead and Pose to Pose Animation</h2>
-
-          <p>Straight ahead and pose to pose are the two techniques used to draw animations.</p>
-
-          <center><img width = "500" src = "images/straightaheadmine.png"></center>
-          <p>In straight ahead animation, each frame is drawn in consecutive order from the first to the last drawing of the scene.
-            This creates fluid, fresh and zany-looking animations as the process is more creative.
-            This process is typically used for more unpredictable, wild, scrambling actions to illustrate its spontaneity.</p>
-
-          <center>  <img width = "500" src = "images/posetoposemine.PNG"></center>
-          <p>Pose-to-pose animation involves planning the action and determining which poses and placements are needed to convey the movement.
-            This is done by drawing the beginning, end, and key frames first.
-            Afterwards, the other frames are drawn in. Pose- to-pose animating gives animators more control of the scene by allowing them to control the timing, poses,
-            and placement, as well as the proportions, size, and volume of the objects.
-            These benefits can increase the dramatic effect of the motion. </p>
-
-
-
-
-            <br><br><hr><hr><br><br><h2>5. Follow Through and Overlapping Action</h2>
+        <center>  <img width = "500" src = "images/posetoposemine.PNG"></center>
+        <p>Pose-to-pose animation involves planning the action and determining which poses and placements are needed to convey the movement.
+          This is done by drawing the beginning, end, and key frames first.
+          Afterwards, the other frames are drawn in. Pose- to-pose animating gives animators more control of the scene by allowing them to control the timing, poses,
+          and placement, as well as the proportions, size, and volume of the objects.
+          These benefits can increase the dramatic effect of the motion. </p>
+        </customTEXT>
+      </div>
+  
+      <br><br><br><br>
+    
+      <div class = "customTEXT">
+        <customTEXT>
+          <h2>5. Follow Through and Overlapping Action</h2>
 
             <center><img width = "500" src = "images/overlappingmine.png"></center>
           <p>When an object is moving, its main body will move at different speeds compared to its separate parts;
@@ -187,11 +225,14 @@
 
           <p>Overlapping and follow-through apply to any moving object and work together to make the movement appear more graceful and realistic.
             In real life, this is called inertia. </p>
-
-
-
-
-            <br><br><hr><hr><br><br><h2>6. Slow-out and Slow-in </h2>
+          </customTEXT>
+        </div>
+    
+        <br><br><br><br>
+      
+        <div class = "customTEXT">
+          <customTEXT>
+            <h2>6. Slow-out and Slow-in </h2>
 
             <p>Objects and characters do not move at a constant speed.
               When an action begins, the speed of the object or character speeds up as it gains momentum and when it stops, it slows down.
@@ -205,115 +246,139 @@
               This is called slow-out and slow-in.</p>
 
             <p>Slow-out and slow-in help the action appear more smooth, soft, and life-like.</p>
+          </customTEXT>
+        </div>
+    
+        <br><br><br><br>
+      
+        <div class = "customTEXT">
+          <customTEXT>
+            <h2>7. Arcs </h2>
 
+            <p>Most objects, especially living creatures, move in an arc or a slightly circular path.
+              An exemption to this movement are mechanical devices, they move in straight, stiff lines.
+              Thus, to make movements in animations appear more smooth, expressive, and natural, arcs are used. </p>
 
+              <center><img width = "500" src = "images/arcsmine.PNG"></center>
+              <p>For example, when someone walks, their heads bobs up and down in an arc motion and their limbs move in an arc as well.</p>
 
-            <br><br><hr><hr><br><br><h2>7. Arcs </h2>
-
-          <p>Most objects, especially living creatures, move in an arc or a slightly circular path.
-            An exemption to this movement are mechanical devices, they move in straight, stiff lines.
-            Thus, to make movements in animations appear more smooth, expressive, and natural, arcs are used. </p>
-
-            <center><img width = "500" src = "images/arcsmine.PNG"></center>
-          <p>For example, when someone walks, their heads bobs up and down in an arc motion and their limbs move in an arc as well.</p>
-
-        <center>  <img width = "500" src = "images/ballarcmine.PNG"></center>
-          <p>When a ball is thrown in the air, it follows an arc as gravity acts on it. </p>
-        <center>  <img width = "500" src = "images/heavyarcmine.PNG"></center>
-            <p>Arcs can be used to illustrate weight.</p>
-
-
-
-            <br><br><hr><hr><br><br><h2>8. Secondary Action</h2>
+              <center>  <img width = "500" src = "images/ballarcmine.PNG"></center>
+              <p>When a ball is thrown in the air, it follows an arc as gravity acts on it. </p>
+              <center>  <img width = "500" src = "images/heavyarcmine.PNG"></center>
+              <p>Arcs can be used to illustrate weight.</p>
+            </customTEXT>
+          </div>
+      
+          <br><br><br><br>
+        
+          <div class = "customTEXT">
+            <customTEXT>
+              <h2>8. Secondary Action</h2>
 
               <center><img width = "300" src = "images/tonguemine.PNG"></center>
-            <p>A secondary action is a gesture that supports or emphasizes the main action.
-              This can include adding small mannerisms to a character like licking their lips before eating cake to show their excitement, chewing the end of a pencil when writing a
-              test to portray their stress, or whistling while walking down the street to show their ease.
-              These actions add realism, complexity, and interest to the animation as well as add more dimension to the character.</p>
+              <p>A secondary action is a gesture that supports or emphasizes the main action.
+                This can include adding small mannerisms to a character like licking their lips before eating cake to show their excitement, chewing the end of a pencil when writing a
+                test to portray their stress, or whistling while walking down the street to show their ease.
+                These actions add realism, complexity, and interest to the animation as well as add more dimension to the character.</p>
 
               <center><img width = "300" src = "images/crymine.PNG"></center>
-            <p>However, it is crucial to keep the secondary action subtle and not distract from or cover the primary action.
-              For this reason, staging is very important for secondary action. Above, the character’s hands and tissue is covering the primary action; their sad facial expression.</p>
+              <p>However, it is crucial to keep the secondary action subtle and not distract from or cover the primary action.
+                For this reason, staging is very important for secondary action. Above, the character’s hands and tissue is covering the primary action; their sad facial expression.</p>
+              </customTEXT>
+            </div>
+        
+            <br><br><br><br>
+          
+            <div class = "customTEXT">
+              <customTEXT>
+                <h2>9. Timing</h2>
 
+                <center><img width = "1000" src = "images/timingmine.PNG"></center>
+                <p>Timing refers to the speed of an action and is a very important aspect of animation.
+                The speed of an action is controlled by the number of frames inserted between each main action:
+                less drawings between them will give the illusion of a fast-moving object and less will make the speed appear slow.
+                Different speeds of a movement can alter how the audience understands the action and how realistic the movements are.
+                For example, if a character walks slowly, the audience may think they are relaxed but if a character is walking quickly, they will think the character is in a rush. </p>
 
+                <p>Additionally, the speed of an object helps to illustrate its weight. If an object falls from a table quickly, the viewers will perceive it is heavy.
+                If it falls slowly, the viewers will think the object is light. However, the speed of the object must correspond with the object.
+                If a brick falls too slowly or a feather falls too quickly it will not be realistic. </p>
 
-              <br><br><hr><hr><br><br><h2>9. Timing</h2>
+                <p>Timing can also make a piece more entertaining by syncing movements to music or by adding suspense by delaying some frames.</p>
+              </customTEXT>
+            </div>
+        
+            <br><br><br><br>
+          
+            <div class = "customTEXT">
+              <customTEXT>
+                <h2>10. Exaggeration</h2>
 
-              <center><img width = "1000" src = "images/timingmine.PNG"></center>
-            <p>Timing refers to the speed of an action and is a very important aspect of animation.
-              The speed of an action is controlled by the number of frames inserted between each main action:
-              less drawings between them will give the illusion of a fast-moving object and less will make the speed appear slow.
-              Different speeds of a movement can alter how the audience understands the action and how realistic the movements are.
-              For example, if a character walks slowly, the audience may think they are relaxed but if a character is walking quickly, they will think the character is in a rush. </p>
+                <center><img width = "500" src = "images/scared.PNG"></center>
+                <p>Sometimes, too much realism in an animation can make it static and boring.
+                Thus, to make it more dynamic, a character’s movements or facial expressions can be pushed further, exaggerated.
+                Exaggeration can also help to illustrate the story more clearly, give more depth to a character, or have the piece appear more cartoony. </p>
 
-            <p>Additionally, the speed of an object helps to illustrate its weight. If an object falls from a table quickly, the viewers will perceive it is heavy.
-              If it falls slowly, the viewers will think the object is light. However, the speed of the object must correspond with the object.
-              If a brick falls too slowly or a feather falls too quickly it will not be realistic. </p>
+                <p>However, too much exaggeration can make the animation become too aggressive and theatrical at the cost of realism.
+                Thus, use the principle of exaggeration with restraint. </p>
+              </customTEXT>
+            </div>
+        
+            <br><br><br><br>
+          
+            <div class = "customTEXT">
+              <customTEXT>
+                <h2>11. Solid drawing</h2>
 
-            <p>Timing can also make a piece more entertaining by syncing movements to music or by adding suspense by delaying some frames.</p>
+                  <center><img width = "500" src = "images/3Dmine.PNG"></center>
+                  <p>The principle of solid drawing utilizes anatomy, volume, balance, weight, perspectives, light, and shadows to create the illusion of a three-dimensional world.</p>
 
+                  <p>While the limits of solid drawing can be pushed in animation, such as having warped perspectives,
+                  it is important to keep that perspective constant throughout to make the imaginary world more believable. </p>
 
+                  <center><img height = "350" src = "images/soliddrawingminesword.PNG"><img height = "350" src = "images/linesmine.PNG"></center>
+                  <p>Additionally, to have the animation appear more natural and dynamic, avoid pairing parallel lines.
+                  Instead, pair a straight line with a curved line.
+                  Moreover, avoid creating mirrored poses in characters, “twinning.” For example, having both arms in their pockets or on their hips.
+                  This creates a boring and unrealistic look as the character no longer appears to have weight and balance in their three-dimensional environment.</p>
+                </customTEXT>
+              </div>
+          
+              <br><br><br><br>
+            
+              <div class = "customTEXT">
+                <customTEXT>
+                  <h2>12. Appeal</h2>
 
-            <br><br><hr><hr><br><br><h2>10. Exaggeration</h2>
+                  <center><img width = "1000" src = "images/appealmine.PNG"></center>
 
-              <center><img width = "500" src = "images/scared.PNG"></center>
-            <p>Sometimes, too much realism in an animation can make it static and boring.
-              Thus, to make it more dynamic, a character’s movements or facial expressions can be pushed further, exaggerated.
-              Exaggeration can also help to illustrate the story more clearly, give more depth to a character, or have the piece appear more cartoony. </p>
+                  <p>Characters in an animation need to have appeal. Otherwise, viewers would not be interested in the animation.
+                    Whether the character’s charisma comes from their good-looks, their friendliness, how interesting they are to look at, or their uniqueness, all characters need to be likable, even villains.
+                    However, there is no set formula for the principle of appeal as there is no standard for what the population finds pleasing.
+                    Despite this, appeal comes from simplicity, charm, personality, strong character development, a pleasing design, and the ability to illustrate a compelling story.
+                    Some factors to consider when applying appeal to characters includes: </p>
 
-            <p>However, too much exaggeration can make the animation become too aggressive and theatrical at the cost of realism.
-              Thus, use the principle of exaggeration with restraint. </p>
+                  <h3>Use a Variety of Shapes</h3>
+                  <p>Instead of using the same basic shapes to create a character, use a variety of shapes to add interest to them and make them more unique.
+                    Different shapes even help to express the character’s personality while making the animation less boring.</p>
 
+                  <h3>Play with Proportions</h3>
+                  <p>To create more unique and appealing designs, artists often exaggerate a character’s physical features.
+                    For example, to make a character seem more innocent and youthful, artists will give them larger eyes.
+                    To make a character appear intimidating, artists will make them taller and more muscular.
+                    Through playing with proportions, one can further define a character’s personality.</p>
 
+                    <h3>Keep it Simple</h3>
+                    <p>A character’s design can also be enhanced through details such as clothing which can aid in expressing their personality.
+                      For example, an elderly character can have a cane and glasses to illustrate their old age and an outdoorsy character can have hiking boots and a compass around their neck.
+                      However, a design that is too complicated can distract from their personality and seem too busy. Also, too many details will make the character difficult to animate.
+                      Whereas a design that is too simple lacks interest and character</p>
 
-              <br><br><hr><hr><br><br><h2>11. Solid drawing</h2>
-
-              <center><img width = "500" src = "images/3Dmine.PNG"></center>
-            <p>The principle of solid drawing utilizes anatomy, volume, balance, weight, perspectives, light, and shadows to create the illusion of a three-dimensional world.</p>
-
-            <p>While the limits of solid drawing can be pushed in animation, such as having warped perspectives,
-              it is important to keep that perspective constant throughout to make the imaginary world more believable. </p>
-
-              <center><img height = "350" src = "images/soliddrawingminesword.PNG"><img height = "350" src = "images/linesmine.PNG"></center>
-            <p>Additionally, to have the animation appear more natural and dynamic, avoid pairing parallel lines.
-              Instead, pair a straight line with a curved line.
-              Moreover, avoid creating mirrored poses in characters, “twinning.” For example, having both arms in their pockets or on their hips.
-              This creates a boring and unrealistic look as the character no longer appears to have weight and balance in their three-dimensional environment.</p>
-
-
-
-              <br><br><hr><hr><br><br><h2>12. Appeal</h2>
-
-            <center><img width = "1000" src = "images/appealmine.PNG"></center>
-
-              <p>Characters in an animation need to have appeal. Otherwise, viewers would not be interested in the animation.
-                Whether the character’s charisma comes from their good-looks, their friendliness, how interesting they are to look at, or their uniqueness, all characters need to be likable, even villains.
-                However, there is no set formula for the principle of appeal as there is no standard for what the population finds pleasing.
-                Despite this, appeal comes from simplicity, charm, personality, strong character development, a pleasing design, and the ability to illustrate a compelling story.
-                Some factors to consider when applying appeal to characters includes: </p>
-
-            <h3>Use a Variety of Shapes</h3>
-              <p>Instead of using the same basic shapes to create a character, use a variety of shapes to add interest to them and make them more unique.
-                Different shapes even help to express the character’s personality while making the animation less boring.</p>
-
-            <h3>Play with Proportions</h3>
-              <p>To create more unique and appealing designs, artists often exaggerate a character’s physical features.
-                For example, to make a character seem more innocent and youthful, artists will give them larger eyes.
-                To make a character appear intimidating, artists will make them taller and more muscular.
-                Through playing with proportions, one can further define a character’s personality.</p>
-
-              <h3>Keep it Simple</h3>
-                <p>A character’s design can also be enhanced through details such as clothing which can aid in expressing their personality.
-                  For example, an elderly character can have a cane and glasses to illustrate their old age and an outdoorsy character can have hiking boots and a compass around their neck.
-                  However, a design that is too complicated can distract from their personality and seem too busy. Also, too many details will make the character difficult to animate.
-                  Whereas a design that is too simple lacks interest and character</p>
-
-              <h3>Posing</h3>
-              <center><img width = "300" src = "images/posingmine.PNG"></center>
-                <p>A character’s poses can also strengthen their design and portray their personality.
-                  In the example above, to make Santa look more imposing, he is considerably larger than the elf and has his hands on his hips. </p>                            
-            </center>
+                    <h3>Posing</h3>
+                    <center><img width = "300" src = "images/posingmine.PNG"></center>
+                      <p>A character’s poses can also strengthen their design and portray their personality.
+                        In the example above, to make Santa look more imposing, he is considerably larger than the elf and has his hands on his hips. </p>                            
+                  </center>
         </customTEXT>
       </div>
     </div>
@@ -326,16 +391,13 @@
           <a href = "rick.html">Gianna</a>
         </span>
     </div>
+
+    <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
   </header>
 
-  <!-- Scroll to top buttom action -->
+  <!--  Link JS file -->
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $("#btnScrollToTop").click(function(){
-        $("html,body").animate({scrollTop:0},1000);
-     });
-    });
-  </script>
+  <script src = "party_script.js"> </script>
+  <script src = "script.js"> </script> 
 </body>
 </html>

@@ -15,7 +15,7 @@
   
     <!-- Scroll to top buttom image -->
     <button id = "btnScrollToTop">
-      <img width = 100% src = "images/arrow.PNG">
+      <img width = 100% src = "images/arrow.png">
     </button>
   
 <!-- Navigation Bar -->
@@ -51,7 +51,7 @@
         </button>
         <div class="dropdown-content">
             <a href=blogs.html>Blogs</a>
-            <a href=shortStories.html>Short Stories</a>
+            <!--<a href=shortStories.html>Short Stories</a>-->
             <a href=technical.html>Technical Pieces</a>
         </div>
         </div> 
@@ -60,18 +60,16 @@
         
         <div class="dropdown">
         <button class="dropbtn">
-            <a href="animation.html">Animations	
+            <a href="animation.html">Media	
                 <i class="fa fa-caret-down"></i>
             </a>
         </button>
         <div class="dropdown-content">
             <a href=digital.html>Animations and Illustrations</a>
             <a href=principles.html>Animation Principles</a>
-            <a href=studios.html>Animation Studios</a>
             <a href=techniques.html>Animation Techniques</a>
             <a href=drawings.html>Cartoon Characters</a>
             <a href=finalproject.html>DOGUE</a>
-            <a href=ECOCouncilMedia.html>ECO Council Media</a>
             <a href=OPDesign.html>Ontario Parks Sweater Designs</a>
             <a href=storyboard.html>Storyboard</a>
             <a href=history.html>The History of Animation</a>
@@ -81,13 +79,107 @@
     </div>
 </header>
 
-  <div class="full-width">
+  <!-- Party Mode (if button is pressed) -->
+  <div class="rick" id="party-container" style="display: none;">
     <p align = "center"> 
-        <h1 class = "custom-h1"> welcome to... <br> autocad </h1>
-        <hr><hr>
-        <h2 class = "custom-h2"> just a bit of fooling around, but tonnes of fun </h2>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1 class = "custom-h1"> welcome to... <br> autocad </h1>
+      <hr><hr>
+      <h2 class = "custom-h2"> just a bit of fooling around, but tonnes of fun </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
+          <span class="circle"></span>
+          <span class="title">Classic Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
     </p>
   </div>
+
+  <!-- Classic Mode -->
+  <div class="full-width" id="normal-container">
+    <p align = "center"> 
+      <h1 class = "custom-h1"> welcome to... <br> autocad </h1>
+      <hr><hr>
+      <h2 class = "custom-h2"> just a bit of fooling around, but tonnes of fun </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="party-button">
+          <span class="circle"></span>
+          <span class="title">Party Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+    </p>
+  </div>
+
+  <!-- Main Body -->
+  <div class = "two">
+
+    <center>
+      <div class = "yellow">
+          <yellow>
+              <center>
+                  <p><b>About: </b> Since I was a kid, I have always wanted to learn AutoCAD as my father works heavily with the program. 
+                    Thus, during the 2022/2023 winter break, I decided to start. Below are some of the drawings I've created.</p>
+              </center>
+          </yellow>
+      </div>
+    </center>
+
+    <br><br><br><br>
+
+    <center>
+      <div class = "customTEXT">
+          <customTEXT>
+              <center>
+                  <h1>Dog House</h1>
+                  <video src="images/ADDogHouse.mp4" controls style = "width: 80%; display: block; margin: 0 auto" autoplay> </video>
+              </center>
+          </customTEXT>
+      </div>
+
+      <br><br><br><br>
+
+      <div class = "customTEXT">
+        <customTEXT>
+            <center>
+                <h1>Donut</h1>
+                <image src="images/ACDonut.png" controls style = "width: 80%;"> </image>
+            </center>
+        </customTEXT>
+    </div>
+
+    <br><br><br><br>
+
+    <div class = "customTEXT">
+      <customTEXT>
+          <center>
+              <h1>Gingerbread Cookie</h1>
+              <image src="images/ACGBMan.png" controls style = "width: 80%;"> </image>
+          </center>
+      </customTEXT>
+    </div>
+
+    <br><br><br><br>
+
+    <div class = "customTEXT">
+      <customTEXT>
+          <center>
+            <h1>The Double Trouble Cup</h1>
+            <p><li><b>About: </b> Have you ever put water in your cup after drinking juice and tasted the slight tang of fruit?
+            Introducing the double sided cup to preserve the taste of your drinks without the hassle of washing it every time. Cheers!</li></p>
+          </center>
+          <!-- use div element to have photos side by side -->
+          <div>
+            <img src="images/ACCup1.png" style="width:40%;">     
+            <img src="images/ACCUP2.png" style="width:33.5%;">
+          </div>
+      </customTEXT>
+    </div>
+    
+    </center>
+  </div>
+      
 
 <!-- Header at bottom -->
 <header>
@@ -96,16 +188,13 @@
         <a href = "rick.html">Gianna</a>
       </span>
   </div>
+
+  <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
 </header>
 
-<!-- Scroll to top buttom action -->
+<!--  Link JS file -->
 <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-    $("#btnScrollToTop").click(function(){
-      $("html,body").animate({scrollTop:0},1000);
-   });
-  });
-</script>
+<script src = "party_script.js"> </script>
+<script src = "script.js"> </script> 
 
 </body>
