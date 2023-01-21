@@ -15,7 +15,7 @@
 
   <!-- Scroll to top buttom image -->
   <button id = "btnScrollToTop">
-    <img width = 100% src = "images/arrow.png">
+    <img width = 100% src = "images/arrow.PNG">
   </button>
 
 <!-- Navigation Bar -->
@@ -60,16 +60,18 @@
           
           <div class="dropdown">
           <button class="dropbtn">
-              <a href="animation.html">Media	
+              <a href="animation.html">Animations	
                   <i class="fa fa-caret-down"></i>
               </a>
           </button>
           <div class="dropdown-content">
               <a href=digital.html>Animations and Illustrations</a>
               <a href=principles.html>Animation Principles</a>
+              <a href=studios.html>Animation Studios</a>
               <a href=techniques.html>Animation Techniques</a>
               <a href=drawings.html>Cartoon Characters</a>
               <a href=finalproject.html>DOGUE</a>
+              <a href=ECOCouncilMedia.html>ECO Council Media</a>
               <a href=OPDesign.html>Ontario Parks Sweater Designs</a>
               <a href=storyboard.html>Storyboard</a>
               <a href=history.html>The History of Animation</a>
@@ -79,53 +81,15 @@
       </div>
   </header>
 
-  <!-- Party Mode (if button is pressed) -->
-  <div class="rick" id="party-container" style="display: none;">
-    <p align = "center"> 
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-      <h1 class = "custom-h1"> hello! <br>C++ </h1>
-        <hr><hr>
-        <h2 class = "custom-h2"> sorry, C++ will update after the execution</h2>
-      <div id="wrap"></div>
-        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
-          <span class="circle"></span>
-          <span class="title">Classic Mode</span>
-          <span class="title-hover">Activate</span>
-        </a>
-      </div>
-    </p>
-  </div>
-
-  <!-- Classic Mode -->
-  <div class="full-width" id="normal-container">
+  <div class="full-width">
     <p align = "center"> 
         <h1 class = "custom-h1"> hello! <br>C++ </h1>
         <hr><hr>
         <h2 class = "custom-h2"> sorry, C++ will update after the execution</h2>
-      <div id="wrap"></div>
-        <a class="p-btn-slide button" id="party-button">
-          <span class="circle"></span>
-          <span class="title">Party Mode</span>
-          <span class="title-hover">Activate</span>
-        </a>
-      </div>
     </p>
   </div>
 
   <div class = "two">
-
-    <center>
-        <div class = "yellow">
-            <yellow>
-                <center>
-                    <p><b>About: </b> I first learned C++ in February 2022 by completing Cisco's <b><a href=certificationCPP.html>CPA: Programming Essentials in C++</a></b> 
-                    I continued to learn C++ later in the year for my first term of University where I solidified my understnading of basic concepts such as OOP and pointer and learned recursion techniques.</p>
-                    </div>
-                </center>
-            </yellow>
-        </div>
-    </center>
-
     <center>
         <div class = "customTEXT">
             <customTEXT>
@@ -134,22 +98,10 @@
                     <p><li><b>About: </b> A twist on MindSweeper. This program implements memory management, pointer manipulation, bitwise operations, and multi-dimensional arrays.
                       Included functions for creating and cleaning a game board, computing the number of neighboring mines, and printing the board to the console. 
                       Utilized features such as function overloading, enumerations, and size_t datatype and other c++ standard libraries like iostream for input/output operations and 'cout' for printing. </p></li>
-
-                      <p> Please email me at gbinder@uwaterloo.ca for the access code.</p>
-                    <!-- put password on element-->
-                    <div id="password-container">
-                        <label for="password-input" id="password-label" style="display:none; border: none">Enter password:</label>
-                        <input type="password" id="password-input" placeholder="Enter password">
-                        <button id="password-button" class="password-button">Submit</button>
-                    </div>
-                    
-                    <!-- display element-->
-                    <div id="embed-container" style="display: none;">
-                        <iframe  height = 500px width=800px src="https://replit.com/@GiannaBinder/BrainSweeper?v=1&outputonly=1&lite=1?embed=true" 
+                    <iframe  height = 500px width=800px src="https://replit.com/@GiannaBinder/BrainSweeper?v=1&outputonly=1&lite=1?embed=true" 
                         scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" 
                         sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
-                        </iframe>
-                    </div>
+                    </iframe>
                 </center>
             </customTEXT>
         </div>
@@ -219,12 +171,15 @@
           <a href = "rick.html">Gianna</a>
         </span>
     </div>
-
-    <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
   </header>
 
-  <!--  Link JS file -->
+  <!-- Scroll to top buttom action -->
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src = "party_script.js"> </script>
-  <script src = "script.js"> </script> 
+  <script>
+    $(document).ready(function(){
+      $("#btnScrollToTop").click(function(){
+        $("html,body").animate({scrollTop:0},1000);
+     });
+    });
+  </script>
 </body>

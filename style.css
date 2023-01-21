@@ -74,18 +74,7 @@ iframe {
   text-align: center;
 }
 
-.custom2-h3 {
-  text-transform: lowercase;
-  font-family: sans-serif; 
-  color: black; 
-  font-stretch: extra-condensed; 
-  font-size: 70%; 
-  font-weight: 200;
-  letter-spacing: 3px;
-  text-align: center;
-}
-
-/************************************** CUSTOM TEXT and YELLOW***********************************/
+/************************************** CUSTOM TEXT ***********************************/
 
 div.customTEXT{
   border: none;
@@ -97,17 +86,7 @@ div.customTEXT{
   justify-content: center; 
 }
 
-div.yellow{
-  border: none;
-  background-color: rgb(207, 163, 50);
-  width: 75%;
-  margin: none;
-  padding: 100px 0 100px;
-  display: flex;
-  justify-content: center; 
-}
-
-.customTEXT h1, .yellow h1 {
+.customTEXT h1 {
   text-transform: uppercase;
   font-family: sans-serif; 
   color: white;
@@ -119,7 +98,7 @@ div.yellow{
   margin-left: 10%;
 }
 
-.customTEXT h2, .yellow h2 {
+.customTEXT h2 {
   text-transform: uppercase;
   font-family: sans-serif; 
   color: white;
@@ -130,7 +109,7 @@ div.yellow{
   text-align: center;
 }
 
-.customTEXT h3, .customTEXT figcaption {
+.customTEXT h3 {
   text-transform: uppercase;
   font-family: sans-serif; 
   color: white;
@@ -166,7 +145,7 @@ div.yellow{
   margin-top: 5px;
 }
 
-.customTEXT p, .yellow p {
+.customTEXT p {
   font-family: sans-serif; 
   color: white;
   font-stretch: auto; 
@@ -180,6 +159,7 @@ div.yellow{
 
 .customTEXT li{
   display: block;
+  list-style: auto; 
   text-transform: inherit;
   font-family: sans-serif; 
   color: white; 
@@ -205,8 +185,6 @@ div.yellow{
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 0px;
-  list-style-type: disc;
-  display: block; 
 }
 
 .customTEXT a{
@@ -215,26 +193,6 @@ div.yellow{
   font-family: sans-serif;
   font-stretch: extra-condensed; 
   letter-spacing: 3px;
-}
-
-.yellow a{
-  text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-  font-stretch: extra-condensed; 
-  letter-spacing: 3px;
-  font-weight: 200%;
-  text-decoration: underline;
-}
-
-.yellow a:hover {
-  text-decoration: none;
-  color: #263317;
-  font-family: sans-serif;
-  font-stretch: extra-condensed; 
-  letter-spacing: 3px;
-  text-decoration: underline;
-  font-weight: 400%;
 }
 
 
@@ -409,108 +367,4 @@ div.yellow{
   100%{background-position:0% 82%}
 }
 
-/************************************** PASSWORD BUTTON ***********************************/
-.password-container .label{
-  float: center;
-  color: grey;
-  font-family: sans-serif;
-  letter-spacing: 3px;
-  text-transform: lowercase;
-}
-
-.password-button {
-  content: center;
-  color: #263317;
-  font-family: sans-serif;
-  text-transform: lowercase;
-  border: none;
-}
-
-.password-button:hover {
-  content: center;
-  color: white;
-  font-family: sans-serif;
-  text-transform: lowercase;
-  border: none;
-  background-color: #263317;
-}
-
-/************************************** DOWNLOAD AND PARTY BUTTON ***********************************/
-
-#wrap {
-  margin: 20px auto;
-  text-align: center;
-}
-
-.btn-slide, .p-btn-slide{
-  position: absolute;
-  display: inline-block;
-  height: 50px;
-  width: 200px;
-  line-height: 50px;
-  padding: 0;
-  border-radius: 50px;
-  background: #fdfdfd;
-  margin: 10px;
-  transition: .5s;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  left: 42.5%;
-}
-
-.btn-slide span.circle, .p-btn-slide span.circle {
-  display: block;
-  background-color: #263317;
-  position: absolute;
-  float: left;
-  margin: 5px;
-  line-height: 42px;
-  height: 40px;
-  width: 40px;
-  left: 0;
-  transition: .5s;
-  border-radius: 50%;
-}
-
-.btn-slide:hover, .p-btn-slide:hover{
-  background-color: #263317;
-  border: 2px solid white;
-}
-
-
-.btn-slide:hover span.circle, .p-btn-slide:hover span.circle {
-  left: 75%;
-  background-color: white;
-}
-
-.btn-slide:hover span.title, .p-btn-slide:hover span.title {
-  opacity: 0;
-}
-
-.btn-slide:hover span.title-hover, .p-btn-slide:hover span.title-hover {
-  opacity: 1;
-  left: 40px;
-}
-
-.btn-slide span.title,
-.btn-slide span.title-hover, .p-btn-slide span.title,
-.p-btn-slide span.title-hover {
-  position: absolute;
-  left: 90px;
-  text-align: center;
-  font-weight: bold;
-  color: #263317;
-  transition: .5s;
-  font-family: sans-serif;
-  text-transform: lowercase;
-}
-
-.btn-slide span.title-hover, .p-btn-slide span.title-hover{
-  left: 80px;
-  opacity: 0;
-}
-
-.btn-slide span.title-hover, .p-btn-slide span.title-hover {
-  color: white;
-}
 

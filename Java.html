@@ -15,7 +15,7 @@
 
   <!-- Scroll to top buttom image -->
   <button id = "btnScrollToTop">
-    <img width = 100% src = "images/arrow.png">
+    <img width = 100% src = "images/arrow.PNG">
   </button>
 
 <!-- Navigation Bar -->
@@ -60,16 +60,18 @@
         
         <div class="dropdown">
         <button class="dropbtn">
-            <a href="animation.html">Media
+            <a href="animation.html">Animations	
                 <i class="fa fa-caret-down"></i>
             </a>
         </button>
         <div class="dropdown-content">
             <a href=digital.html>Animations and Illustrations</a>
             <a href=principles.html>Animation Principles</a>
+            <a href=studios.html>Animation Studios</a>
             <a href=techniques.html>Animation Techniques</a>
             <a href=drawings.html>Cartoon Characters</a>
             <a href=finalproject.html>DOGUE</a>
+            <a href=ECOCouncilMedia.html>ECO Council Media</a>
             <a href=OPDesign.html>Ontario Parks Sweater Designs</a>
             <a href=storyboard.html>Storyboard</a>
             <a href=history.html>The History of Animation</a>
@@ -79,38 +81,12 @@
     </div>
 </header>
 
-  <!-- Party Mode (if button is pressed) -->
-  <div class="rick" id="party-container" style="display: none;">
+  <div class="full-width">
     <p align = "center"> 
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-      <h1 class = "custom-h1"> Code: <br>
-        Java </h1>
-      <hr><hr>
-      <h2 class = "custom-h2"> this webpage is still being updated </h2>
-      <div id="wrap"></div>
-        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
-          <span class="circle"></span>
-          <span class="title">Classic Mode</span>
-          <span class="title-hover">Activate</span>
-        </a>
-      </div>
-    </p>
-  </div>
-
-  <!-- Classic Mode -->
-  <div class="full-width" id="normal-container">
-    <p align = "center"> 
-      <h1 class = "custom-h1"> Code: <br>
-        Java </h1>
-      <hr><hr>
-      <h2 class = "custom-h2"> this webpage is still being updated </h2>
-      <div id="wrap"></div>
-        <a class="p-btn-slide button" id="party-button">
-          <span class="circle"></span>
-          <span class="title">Party Mode</span>
-          <span class="title-hover">Activate</span>
-        </a>
-      </div>
+        <h1 class = "custom-h1"> Code: <br>
+          Java </h1>
+        <hr><hr>
+        <h2 class = "custom-h2"> this webpage is still being updated </h2>
     </p>
   </div>
 
@@ -120,14 +96,11 @@
             <customTEXT>
                 <center>
                     <h1>Calendar</h1>
-                    <p><li><b>About: </b> Prints out a calendar in relation to user input. Please be patient as I work on uploading this to Replit.</p></li>
-                    <!--<iframe  height = 800px width=640px src="https://replit.com/@GiannaBinder/Calendar?v=1&outputonly=1&lite=1?embed=true" 
+                    <p><li><b>About: </b> Print out a calendar in relation to user input</p></li>
+                    <iframe  height = 800px width=640px src="https://replit.com/@GiannaBinder/Calendar?v=1&outputonly=1&lite=1?embed=true" 
                         scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" 
                         sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals">
-                    </iframe>-->
-                    <div style="overflow:auto; width:80%; height: 600px;">
-                      <script src="https://gist.github.com/giannabinder/91a526ba091b87e237ce5fbf50b8deb4.js"></script>
-                  </div>                  
+                    </iframe>
                 </center>
             </customTEXT>
         </div>
@@ -141,12 +114,15 @@
           <a href = "rick.html">Gianna</a>
         </span>
     </div>
-
-    <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
   </header>
 
-  <!--  Link JS file -->
+  <!-- Scroll to top buttom action -->
   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src = "party_script.js"> </script>
-  <script src = "script.js"> </script> 
+  <script>
+    $(document).ready(function(){
+      $("#btnScrollToTop").click(function(){
+        $("html,body").animate({scrollTop:0},1000);
+     });
+    });
+  </script>
 </body>
