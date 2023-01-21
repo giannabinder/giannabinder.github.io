@@ -217,6 +217,26 @@ div.yellow{
   letter-spacing: 3px;
 }
 
+.yellow a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-stretch: extra-condensed; 
+  letter-spacing: 3px;
+  font-weight: 200%;
+  text-decoration: underline;
+}
+
+.yellow a:hover {
+  text-decoration: none;
+  color: #263317;
+  font-family: sans-serif;
+  font-stretch: extra-condensed; 
+  letter-spacing: 3px;
+  text-decoration: underline;
+  font-weight: 400%;
+}
+
 
 .customTEXT a:hover{
   font-weight: 700;
