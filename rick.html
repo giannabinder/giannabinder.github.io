@@ -6,10 +6,17 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Rick</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Home</title>
 </head>
 
 <body>
+
+  <!-- Scroll to top buttom image -->
+  <button id = "btnScrollToTop">
+    <img width = 100% src = "images/arrow.png">
+  </button>
 
 <!-- Navigation Bar -->
 <header>
@@ -72,14 +79,74 @@
     </div>
 </header>
 
-<!-- Rick Rolled Body -->
-<div class="rick">
-    <!-- EMBED YT VIDEO -->
-    <iframe width = 800px height = 550px style="border: none;" src = "https://streamable.com/e/soji4" loop autoplay muted></iframe>
-</div>
+  <!-- Introduction Band -->
 
-<!-- Header at bottom -->
-<header>
+  <!-- when button is clicked, party mode activates-->
+
+    <!--<a href="#" class="btn-slide" id="click-button">
+      <span class="circle"></span>
+      <span class="title">Download</span>
+      <span class="title-hover">Click here</span>
+    </a>-->
+
+
+  <!-- Party Mode (if button is pressed) -->
+  <div class="rick" id="party-container" style="display: none;">
+    <p align = "center"> 
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1 class = "custom-h1"> hello! <br>
+          i'm gianna </h1>
+        <hr><hr>
+        <h2 class = "custom-h2"> I invite you to explore some of the cool projects I've done </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
+          <span class="circle"></span>
+          <span class="title">Classic Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+    </p>
+  </div>
+
+  <!-- Classic Mode -->
+  <div class="full-width" id="normal-container">
+    <p align = "center"> 
+        <h1 class = "custom-h1"> hello! <br>
+          i'm gianna </h1>
+        <hr><hr>
+        <h2 class = "custom-h2"> I invite you to explore some of the cool projects I've done </h2>
+      <div id="wrap"></div>
+        <a class="p-btn-slide button" id="party-button">
+          <span class="circle"></span>
+          <span class="title">Party Mode</span>
+          <span class="title-hover">Activate</span>
+        </a>
+      </div>
+    </p>
+  </div>
+
+  <!-- Main Body -->
+  <div class = "two">
+
+    <center>
+      <div class = "yellow">
+          <yellow>
+                  <p><b>Hello! </b>
+                    <br><br>
+                    I am Gianna, an Electrical Engineering student at the University of Waterloo, passionate about using technology to promote sustainability and animal welfare in agriculture. 
+                    As the global population grows, the need for increased food production becomes more urgent. 
+                    I believe smart farming techniques, such as automation and precision agriculture, can optimize food production while preserving resources and reducing environmental impact. 
+                    I have experience in customer service, maintenance and using power tools, working with children, media promotion, and event planning. 
+                    Currently, I am expanding my skillset by learning AutoCad and microcontrollers and honing my programming abilities to become a leading innovator in green technology.</p>
+
+                  <p><b>Note: This website is not formatted for all screen sizes. Not all elements show up on phones and tablets. I am actively working on this.</b></p>
+          </yellow>
+      </div>
+    </center>
+  </div>
+
+  <!-- Header at bottom -->
+  <header>
     <div class="nav-end">
         <span style="color: black; font-family: sans-serif; text-transform: lowercase; font-size: 20px; text-align: center;">
           <a href = "rick.html">Gianna</a>
@@ -88,5 +155,11 @@
 
     <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
   </header>
+
+  <!--  Link JS file -->
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src = "party_script.js"> </script>
+  <script src = "script.js"> </script> 
+
 </body>
 </html>
