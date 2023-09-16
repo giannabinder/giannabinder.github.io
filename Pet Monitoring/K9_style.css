@@ -1,0 +1,48 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #87CBA3;
+  font-family: Lato, Tahoma, sans-serif;
+  color: #f9584c;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Global Variables */
+:root {
+
+  /* color */
+  --color-white: rgb(255, 255, 255);
+  --link-original: #afcfaf;
+  --link-hover: #98cdc0;
+
+  /* font-family */
+  --main-font: 'My Font', sans-serif;
+
+  /* text-transform */
+  --uppercase: uppercase;
+
+  /* text-align */
+  --center: center;
+
+  /* font-size */
+  --title-size: 10vw;
+}
+
+/* Title Formatting */
+.title-one {
+  color: var(--title-font-color);
+  font-family: var(--main-font);
+  text-transform: var(--uppercase);
+  text-align: var(--center);
+  font-size: var(--title-size);
+}
