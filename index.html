@@ -1,146 +1,106 @@
 <!DOCTYPE html>
-
-<!--  Gianna Binder -->
-
-<html lang = 'eng'>
-
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gianna Binder | Digital Design Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
-  <!-- Scroll to top buttom image -->
-  <button id = "btnScrollToTop">
-    <img width = 100% src = "images/arrow.png">
-  </button>
+    <header>
+        <div class="nav-container">
+            <div class="logo">GIANNA BINDER // <span class="dim">DIGITAL DESIGN PORTFOLIO</span></div>
+            <nav>
+                <a href="pdf/Gianna Binder_Resume_DD.pdf" target="_blank">
+                    <i class="far fa-file-pdf"></i> Resume (PDF)
+                </a>
+                <a href="https://www.linkedin.com/in/giannabinder/">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:gbinder@uwaterloo.ca">
+                    <i class="far fa-envelope"></i> Email
+                </a>
+                <a href="https://github.com/giannabinder">
+                    <i class="fab fa-github"></i> GitHub (Links)
+                </a>
+            </nav>
+        </div>
+    </header>
 
-<!-- Navigation Bar -->
-<header>
-  <div class="nav">
+    <main class="container">
+        <section class="hero">
+            <h1>Architecting the Future of Silicon</h1>
+            <p>Electrical Engineering Student, University of Waterloo. Specialized in RTL Design, Computer Architecture, and AI Hardware Acceleration.</p>
+        </section>
 
-    <div style="float: left;">
-      <span style="color: black; font-family: sans-serif; text-transform: lowercase; font-size: 20px; display: inline-block; text-align: left; margin-left: 5px; text-align: center;">
-        <a href = "rick.html">Gianna</a>
-      </span>
-    </div>
-        <div class="dropdown">
-        <button class="dropbtn">
-            <a href="programs.html">Programs
-                <i class="fa fa-caret-down"></i>
-            </a>
-        </button>
-        <div class="dropdown-content">
-            <a href=CPP.html>C++</a>
-            <a href=HTML_CSS_JS.html>HTML + CSS + JS</a>
-            <a href=Java.html>Java</a>
-            <a href=Python.html>Python</a>
+        <div class="project-card vertical">
+            <div class="card-visual">
+                <figure>
+                    <div class="image-row">
+                        <img src="images/RISCV_pipeline_diagram.png" alt="5-Stage RISC-V Pipeline" style="width: 100%; border-radius: 4px;">
+                    </div>
+                    <figcaption>High-level block diagram of the 5-stage pipeline.</figcaption>
+                </figure>
+            </div>
+            <div class="card-content">
+                <h2>5-STAGE Pipelined RISC-V CPU (RV32I)</h2>
+                <ul>
+                    <li>Architected a 5-stage scalar pipeline with custom decode logic, a unified register file, and an integer ALU; optimized RTL for BRAM resource mapping onto a Xilinx FPGA to minimize logic utilization.</li>
+                    <li>Eliminated pipeline stalls via MX/WX/WM forwarding paths and implemented branch-taken prediction with single-cycle flushing to maintain high IPC.</li>
+                    <li>Performed Static Timing Analysis to achieve timing closure for bitstream generation and deployment.</li>
+                    <li>Validated ISA compliance with a provided test environment, utilizing GTKWave/Verilator for deep-trace debugging of pipeline control and data flow</li>
+                </ul>
+                <!-- <a href="IBERT_Technical_Report.pdf" class="btn-outline" target="_blank">
+                    VIEW PROJECT DETAILS <i class="fas fa-external-link-alt"></i>
+                </a> -->
             </div>
         </div>
-        
-        <a href="french.html">French Worksheets</a>
-        
-        <div class="dropdown">
-        <button class="dropbtn">
-            <a href="english.html">English Pieces
-                <i class="fa fa-caret-down"></i>
-            </a>
-        </button>
-        <div class="dropdown-content">
-            <a href=blogs.html>Blogs</a>
-            <a href=shortStories.html>Short Stories</a>
-            <a href=technical.html>Technical Pieces</a>
+
+        <div class="project-card vertical">
+            <div class="card-visual">
+                <figure>
+                    <div class="image-row">
+                        <img src="images/IBERT_systolic_array.png" alt="High-Level Systolic Array">
+                        <img src="images/IBERT_pe.png" alt="Processing Element">
+                    </div>
+                    <figcaption>
+                        High-Level Systolic Array (left) & Processing Element (right) Architecture
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <div class="card-content">
+                <h2>IBERT TRANSFORMER AI ACCELERATOR</h2>
+                <ul>
+                    <li>Implemented a parallelized systolic array architecture with custom Processing Elements to optimize matrix multiplication for integer-only transformer inference.</li>
+                    <li>Developed hardware-optimized SystemVerilog modules for activation functions, including GELU, Softmax, and Multiply-Accumulate units.</li>
+                    <li>Executed memory read/write interfaces using AXI-Stream, FIFO buffers, and shift registers to orchestrate cycle-accurate data movement and maximize throughput.</li>
+                    <li>Achieved 100MHz timing closure on a PYNQ-Z1 target by balancing arithmetic pipeline depth and DSP slice utilization for bit-accurate inference.</li>
+                </ul>
+                <a href="https://drive.google.com/drive/folders/19Wf3RllXCnN3877NQ2ORAJpMmE7iv2P0" class="btn-outline" target="_blank">
+                    VIEW PROJECT DETAILS <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
         </div>
-        </div> 
-        
-        <a href="autocad.html">AutoCad</a>
-        
-        <div class="dropdown">
-        <button class="dropbtn">
-            <a href="animation.html">Media
-                <i class="fa fa-caret-down"></i>
-            </a>
-        </button>
-        <div class="dropdown-content">
-            <a href=digital.html>Animations and Illustrations</a>
-            <a href=principles.html>Animation Principles</a>
-            <a href=techniques.html>Animation Techniques</a>
-            <a href=drawings.html>Cartoon Characters</a>
-            <a href=finalproject.html>DOGUE</a>
-            <a href=OPDesign.html>Ontario Parks Sweater Designs</a>
-            <a href=storyboard.html>Storyboard</a>
-            <a href=history.html>The History of Animation</a>
-        </div>
-        </div> 
-        <a href="index.html">Home</a>
-    </div>
-</header>
 
-  <!-- Introduction Band -->
-
-  <!-- when button is clicked, party mode activates-->
-
-    <!--<a href="#" class="btn-slide" id="click-button">
-      <span class="circle"></span>
-      <span class="title">Download</span>
-      <span class="title-hover">Click here</span>
-    </a>-->
-
-
-  <!-- Party Mode (if button is pressed) -->
-  <div class="rick" id="party-container" style="display: none;">
-    <p align = "center"> 
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-        <h1 class = "custom-h1"> hello! <br>
-          i'm gianna </h1>
-        <hr><hr>
-        <h2 class = "custom-h2"> I invite you to explore some of the cool projects I've done </h2>
-      <div id="wrap"></div>
-        <a class="p-btn-slide button" id="normal-button" style= "display: none;">
-          <span class="circle"></span>
-          <span class="title">Classic Mode</span>
-          <span class="title-hover">Activate</span>
-        </a>
-      </div>
-    </p>
-  </div>
-
-  <div class="full-width" id="normal-container">
-    <p align = "center"> 
-        <h1 class = "custom-h1"> hello! <br>
-          i'm gianna </h1>
-        <hr><hr>
-        <h2 class = "custom-h2"> I invite you to explore some of the cool projects I've done </h2>
-      <div id="wrap"></div>
-        <a class="p-btn-slide button" id="party-button">
-          <span class="circle"></span>
-          <span class="title">Party Mode</span>
-          <span class="title-hover">Activate</span>
-        </a>
-      </div>
-  </p>
-  </div>
-
-  <!-- Main Body -->
-
-  <!-- Header at bottom -->
-  <header>
-    <div class="nav-end">
-        <span style="color: black; font-family: sans-serif; text-transform: lowercase; font-size: 20px; text-align: center;">
-          <a href = "rick.html">Gianna</a>
-        </span>
-    </div>
-
-    <p style = "text-align: center; font-family: sans-serif; font-size: 70%; padding: 10px 0 10px">&copy; Gianna Binder</p>
-  </header>
-
-  <!--  Link JS file -->
-  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src = "party_script.js"> </script>
-  <script src = "script.js"> </script> 
+        <section class="skills-section">
+            <h3>TECHNICAL SKILLS</h3>
+            <div class="skill-item">
+                <strong>HDLs/Tools:</strong> SystemVerilog/Verilog, Cadence Virtuoso, Intel Quartus, Vivado, Lint, Synopsys Verdi/VC Formal, Verilator
+            </div>
+            <div class="skill-item">
+                <strong>Methods:</strong> UVM, STA, Lint, P&R
+            </div>
+            <div class="skill-item">
+                <strong>Systems & Scripting:</strong> Git, Linux, Python, C++, Tcl, Bash, MATLAB
+            </div>
+            <div class="skill-item">
+                <strong>Protocols & Standards:</strong> RISC-V, PCIe Gen3/4, AXI4/APB, Ethernet (TSN), ARM Assembly
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
