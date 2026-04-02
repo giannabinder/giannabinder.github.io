@@ -12,7 +12,7 @@ document.querySelectorAll('.carbon-link').forEach(link => {
         const imgPath = link.getAttribute('data-img');
         const fileName = link.innerText;
         
-        fileNameDisplay.innerText = fileName + " (Source Visualization)";
+        fileNameDisplay.innerText = fileName;
         codeImage.src = imgPath;
         codeImage.style.display = 'block';
         
