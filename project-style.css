@@ -203,3 +203,31 @@ ul li a:hover { color: var(--accent-blue); }
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* Container for the collection of chips */
+.skills-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; /* Centers chips in the intro blurb */
+    margin-bottom: 30px;
+}
+
+/* Individual chip styling */
+.chip {
+    background: rgba(88, 166, 255, 0.1); /* Subtle blue background */
+    color: var(--accent-blue);
+    border: 1px solid rgba(88, 166, 255, 0.3);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-family: monospace;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.chip:hover {
+    background: var(--accent-blue);
+    color: var(--bg-color);
+    border-color: var(--accent-blue);
+}

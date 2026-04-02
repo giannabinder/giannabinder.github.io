@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IBERT AI Accelerator | Gianna Binder</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="project-style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration:none; color:inherit;">GIANNA BINDER // </a> 
+                <span class="dim">PROJECT ARCHIVE - IBERT ACCELERATOR</span>
+            </div>
+            <nav>
+                <a href="index.html">← Back to Portfolio</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="project-layout">
+        <aside class="file-explorer">
+            <div class="integrity-notice">
+                <i class="fas fa-shield-alt"></i>
+                <p>
+                    <strong>Note:</strong> To comply with University of Waterloo Policy 71, this archive contains 
+                    <strong>sanitized snippets</strong> only. Core logic and proprietary lab solutions have 
+                    been redacted to demonstrate architectural proficiency without compromising academic integrity.
+                </p>
+            </div>
+
+            <h2>Project Files</h2>
+            
+            <div class="sidebar-top-links">
+                <a href="#" id="overview-link" class="special-link">
+                    <i class="fas fa-info-circle"></i> Project Overview
+                </a>
+            </div>
+
+            <!-- <details open>
+                <summary><i class="fas fa-microchip"></i> Systolic Array Architecture</summary>
+                <ul>
+                    <li><a href="#" class="carbon-link" data-img="images/ibert/systolic.png">systolic.sv</a></li>
+                    <li><a href="#" class="carbon-link" data-img="images/ibert/pe.png">pe.sv</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary><i class="fas fa-calculator"></i> Activation & Math</summary>
+                <ul>
+                    <li><a href="#" class="carbon-link" data-img="images/ibert/softmax.png">softmax.sv</a></li>
+                    <li><a href="#" class="carbon-link" data-img="images/ibert/gelu.png">gelu.sv</a></li>
+                    <li><a href="#" class="carbon-link" data-img="images/ibert/mac.png">mac.sv</a></li>
+                </ul>
+            </details>
+
+            <details>
+                <summary><i class="fas fa-sitemap"></i> High-Level Blocks</summary>
+                <ul>
+                    <li><a href="#" class="carbon-link" data-img="images/ibert/attn_head.png">attn_head.sv</a></li>
+                    <li><a href="#" class="carbon-link" data-img="images/ibert/layernorm.png">layernorm.sv</a></li>
+                </ul>
+            </details> -->
+
+            <div class="credits-section">
+                <h3>Credits</h3>
+                <p>ECE 327 course and lab materials courtesy of <strong>Nachiket Kapre</strong> and <strong>Maran Ma</strong>.</p>
+            </div>
+        </aside>
+
+        <section class="viewer-container">
+            <div class="viewer-header">
+                <span id="file-name-display">Project Overview</span>
+            </div>
+            
+            <div class="image-viewport">
+                <div id="default-view" class="project-intro">
+                    <h1>IBERT AI Accelerator</h1>
+                    <p>
+                        A simplified RTL implementation of the IBERT Transformer. This project 
+                        optimizes AI workloads through quantization and integer-only arithmetic, 
+                        deployed via a high-throughput systolic array architecture.
+                    </p>
+
+                    <!-- <img src="images/ibert/high_level_diag.png" alt="IBERT Architecture Diagram" class="pipeline-img"> -->
+                    
+                    <div class="skills-chips">
+                        <span class="chip">SystemVerilog</span>
+                        <span class="chip">Systolic Arrays</span>
+                        <span class="chip">Quantized AI</span>
+                        <span class="chip">Fixed-Point Math</span>
+                    </div>
+
+                    <!-- <div class="hint-text">
+                        <i class="fas fa-arrow-left"></i> Select a module to explore implementation details.
+                    </div> -->
+                </div>
+
+                <img id="code-image" src="" alt="" style="display:none;">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
