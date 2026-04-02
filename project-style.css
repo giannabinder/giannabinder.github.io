@@ -1,0 +1,163 @@
+:root {
+    /* Ensure the same variables are present, matching Carbon's typical dark bg */
+    --bg-color: #0d1117;
+    --card-bg: #161b22;
+    --text-main: #e6edf3;
+    --text-dim: #8b949e;
+    --accent-blue: #58a6ff;
+    --border-color: #30363d;
+    --carbon-bg: #1d1f21; /* Match Carbon's Tomorrow Night background */
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--text-main);
+    overflow: hidden; /* Main window doesn't scroll, the viewport does */
+}
+
+.project-layout {
+    display: flex;
+    height: calc(100vh - 70px); /* Fill screen minus header */
+}
+
+/* Sidebar Styling (Remains same) */
+.file-explorer {
+    width: 300px;
+    background: var(--card-bg);
+    border-right: 1px solid var(--border-color);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.file-explorer h2 {
+    font-size: 0.9rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+details { margin-bottom: 10px; }
+summary {
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+    color: var(--text-main);
+    display: flex; align-items: center; gap: 10px;
+}
+
+ul { list-style: none; padding-left: 25px; margin-top: 5px; }
+ul li a {
+    text-decoration: none;
+    color: var(--text-dim);
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    display: block; padding: 5px 0;
+}
+ul li a:hover { color: var(--accent-blue); }
+
+/* --- NEW VIEWER STYLING --- */
+
+.viewer-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.viewer-header {
+    padding: 10px 20px;
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    font-family: monospace;
+}
+
+/* The element that handles scrolling and centering the code */
+.image-viewport {
+    flex: 1;
+    overflow: auto; /* Handles native scrolling */
+    background: var(--carbon-bg);
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: flex-start; /* Aligns to top for standard scrolling */
+}
+
+#code-image {
+    max-width: 80%; /* Ensures it doesn't break small screens */
+    height: auto;
+    border-radius: 6px; /* Match Carbon's default window curve */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* Optional high-end shadow */
+    
+    /* Security measures to stop common copying techniques */
+    user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none; /* Stops right-click and selection completely */
+    -webkit-user-drag: none; /* Stops image dragging */
+}
+
+.project-intro {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.project-intro h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: var(--accent-blue);
+}
+
+.project-intro p {
+    color: var(--text-dim);
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+}
+
+.pipeline-img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 30px;
+}
+
+.hint-text {
+    color: var(--accent-blue);
+    font-size: 0.9rem;
+    font-family: monospace;
+    opacity: 0.8;
+}
+
+/* Smooth transition when clicking a file */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.sidebar-top-links {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.special-link {
+    text-decoration: none;
+    color: var(--accent-blue);
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.special-link:hover {
+    background: rgba(88, 166, 255, 0.1);
+}
