@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Design | Gianna Binder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"> <a href="index.html" style="text-decoration:none; color:inherit;">GIANNA BINDER </a> // <span class="dim">DIGITAL DESIGN HUB</span></div>
+            <nav>
+                <a href="pdf/Gianna Binder_Resume_DD.pdf" target="_blank">
+                    <i class="far fa-file-pdf"></i> Digital Design Resume
+                </a>
+                <a href="pdf/Gianna Binder_Resume_EE.pdf" target="_blank">
+                    <i class="far fa-file-pdf"></i> Hardware Resume
+                </a>
+                <a href="https://www.linkedin.com/in/giannabinder/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:gbinder@uwaterloo.ca">
+                    <i class="far fa-envelope"></i> Email
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Digital Design & RTL</h1>
+            <p>Computer Architecture, AI Hardware Acceleration, and FPGA Systems</p>
+        </section>
+
+        <section class="section">
+            <h3 style="text-align: center; letter-spacing: 3px; margin-bottom: 20px;">RTL ARCHIVE</h3>
+
+            <div class="project-card vertical">
+                <h2 style="text-align: center; margin-top: 0px; margin-bottom: 0px;">5-STAGE Pipelined RISC-V CPU (RV32I)</h2>
+                <div class="card-visual">
+                    <figure>
+                        <div class="image-row">
+                            <img src="images/riscv_project/RISCV_pipeline_diagram.png" alt="5-Stage RISC-V Pipeline">
+                        </div>
+                        <figcaption>High-level block diagram of the 5-stage scalar pipeline.</figcaption>
+                    </figure>
+                </div>
+                <div class="card-content">
+                    
+                    <div class="tag-group" style="margin-bottom: 20px; margin-top: 0px;">
+                        <span class="chip">SystemVerilog</span>
+                        <span class="chip">RV32I ISA</span>
+                        <span class="chip">Verilator</span>
+                        <span class="chip">GTKWave</span>
+                        <span class="chip">Xilinx FPGA</span>
+                        <button class="toggle-details-btn" style="margin-top: 0px;" onclick="toggleDetails('details-riscv', this)">
+                            Show Specs <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                    <div class="roadmap-details" id="details-riscv">
+                        <ul>
+                            <li>Architected a 5-stage scalar pipeline with custom decode logic; optimized RTL for BRAM mapping.</li>
+                            <li>Eliminated stalls via MX/WX/WM forwarding paths and implemented branch-taken prediction.</li>
+                            <li>Validated ISA compliance via deep-trace debugging of pipeline control and data flow.</li>
+                        </ul>
+                    </div>
+                    <div style="display: flex; gap: 15px; align-items: center; margin-top: 20px;">
+                        <a href="riscv-project.html" class="btn-outline" style="margin-top:0;">
+                            VIEW ARCHIVE <i class="fas fa-folder-open"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card vertical">
+                <h2 style="text-align: center; letter-spacing: 3px; margin-top: 10px; margin-bottom: 0px;">IBERT TRANSFORMER AI ACCELERATOR</h2>
+                <div class="card-visual">
+                    <figure>
+                        <div class="image-row">
+                            <img src="images/ibert-project/diagrams/systolic_array.png" alt="High-Level Systolic Array">
+                            <img src="images/ibert-project/diagrams/pe.png" alt="Processing Element Microarchitecture">
+                        </div>
+                        <figcaption>
+                            Systolic Array Mesh (Left) & Processing Element MAC Unit (Right)
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="card-content">
+                    
+                    <div class="tag-group" style="margin-bottom: 20px; margin-top: 0px;">
+                        <span class="chip">SystemVerilog</span>
+                        <span class="chip">Systolic Arrays</span>
+                        <span class="chip">AXI-Stream</span>
+                        <span class="chip">Quantized AI</span>
+                        <span class="chip">Fixed-Point Math</span>
+                        <span class="chip">Vivado</span>
+                        <button class="toggle-details-btn" style="margin-top: 0px;" onclick="toggleDetails('details-details', this)">
+                            Show Specs <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+
+                    <div class="roadmap-details" id="details-ibert">
+                        <ul class="dim" style="font-size: 0.9rem;">
+                            <li>Implemented a parallelized systolic array architecture with custom PEs to optimize matrix multiplication for integer-only transformer inference.</li>
+                            <li>Developed hardware-optimized activation functions, including **GELU** and **Softmax**, using piecewise linear approximation and shift-based arithmetic.</li>
+                            <li>Orchestrated cycle-accurate data movement using **AXI-Stream interfaces**, FIFO buffers, and shift registers to maximize PE utilization.</li>
+                            <li>Achieved **100MHz timing closure** on a PYNQ-Z1 target by balancing arithmetic pipeline depth and DSP slice mapping.</li>
+                        </ul>
+                    </div>
+
+                    <div style="display: flex; gap: 15px; align-items: center; margin-top: 20px;">
+                        <a href="ibert-project.html" class="btn-outline" style="margin-top:0;">
+                            VIEW ARCHIVE <i class="fas fa-folder-open"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-bottom: 60px;">
+            <h3 style="text-align: center; letter-spacing: 3px; margin-bottom: 30px;">DOMAIN SKILLSET</h3>
+            <div class="skill-item"><strong>HDLs & Verification:</strong> SystemVerilog/Verilog, VC Formal, Verilator, Static Timing Analysis, Static Analysis, Linting</div>
+            <div class="skill-item"><strong>FPGA & ASIC Tools:</strong> Vivado, Quartus Prime, Innovus, Cadence Virtuoso, Verdi</div>
+            <div class="skill-item"><strong>Architecture:</strong> RISC-V, Systolic Arrays, PCIe Gen3/4, AXI4/APB</div>
+        </section>
+    </main>
+
+    <footer style="padding: 40px 0; border-top: 1px solid var(--border-color); background: var(--card-bg);">
+        <div class="container" style="text-align: center;">
+            <div class="footer-links" style="margin-bottom: 20px;">
+                <a href="mailto:gbinder@uwaterloo.ca" style="color: var(--text-dim); margin: 0 15px; text-decoration: none;"><i class="far fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/giannabinder" style="color: var(--text-dim); margin: 0 15px; text-decoration: none;"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="dim" style="font-size: 0.85rem; margin-bottom: 10px;">© 2026 Gianna Binder // Electrical Engineering, University of Waterloo</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

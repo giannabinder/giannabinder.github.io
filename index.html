@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gianna Binder | Digital Design Portfolio</title>
+    <title>Gianna Binder | Hardware Engineering</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body>
 
+<body>
     <header>
         <div class="nav-container">
-            <div class="logo">GIANNA BINDER // <span class="dim">DIGITAL DESIGN PORTFOLIO</span></div>
+            <div class="logo">GIANNA BINDER // <span class="dim">ENGINEERING PORTFOLIO</span></div>
             <nav>
                 <a href="pdf/Gianna Binder_Resume_DD.pdf" target="_blank">
-                    <i class="far fa-file-pdf"></i> Resume
+                    <i class="far fa-file-pdf"></i> Digital Design Resume
+                </a>
+                <a href="pdf/Gianna Binder_Resume_EE.pdf" target="_blank">
+                    <i class="far fa-file-pdf"></i> Hardware Resume
                 </a>
                 <a href="https://www.linkedin.com/in/giannabinder/" target="_blank">
                     <i class="fab fa-linkedin"></i> LinkedIn
@@ -26,82 +30,208 @@
         </div>
     </header>
 
-    <main class="container">
-        <section class="hero">
+    <main class="container"> 
+        <section class="hero">    
             <h1>Gianna Binder</h1>
             <p>Electrical Engineering Student, University of Waterloo</p>
-            <p>RTL Design, Computer Architecture, and AI Hardware Acceleration</p>
+            <p class="bio">
+                Specializing in **Digital Logic (RTL)**, **RF Signal Chains**, and **AMS IC Design**. 
+                Experienced in high-speed hardware at AMD, Altera, and Microchip.
+            </p>
+            <div class="hero-links">
+                <a href="pdf/Gianna Binder_Resume_DD.pdf" target="_blank" class="btn-primary"><i class="far fa-file-pdf"></i> Digital Design Resume</a>
+                <a href="pdf/Gianna Binder_Resume_EE.pdf" target="_blank" class="btn-primary"><i class="far fa-file-pdf"></i> EE Resume</a>
+                <a href="https://linkedin.com/in/giannabinder" target="_blank" class="btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:gbinder@uwaterloo.ca" class="btn-secondary"><i class="far fa-envelope"></i> Email</a>
+            </div>
+        </section>
+        
+        <section class="section">
+
+            <h3 style="text-align: center; letter-spacing: 3px; margin-top: 60px;">DOMAINS</h3>
+
+            <div class="domain-grid">
+
+                <div class="domain-card">
+                    <div class="card-icon"><i class="fas fa-microchip"></i></div>
+                    <h2>Digital Design & RTL</h2>
+                    <p>5-Stage RISC-V CPU, IBERT AI Accelerators, and Systolic Array architectures implemented in SystemVerilog.</p>
+                    <div class="tag-group">
+                        <span class="chip">SystemVerilog</span>
+                        <span class="chip">ASIC</span>
+                        <span class="chip">FPGA</span>
+                    </div>
+                    <a href="digital_design.html" class="card-link">Explore RTL Archive →</a>
+                </div>
+
+                <div class="domain-card">
+                    <div class="card-icon"><i class="fas fa-wave-square"></i></div>
+                    <h2>RF & Microwave</h2>
+                    <p>High-frequency signal chains, including 8.1 GHz filters and 10 GHz amplifiers designed in Keysight ADS.</p>
+                    <div class="tag-group">
+                        <span class="chip">ADS</span>
+                        <span class="chip">S-Parameters</span>
+                        <span class="chip">Smith Charts</span>
+                    </div>
+                    <a href="rf_microwave.html" class="card-link">Explore RF Archive →</a>
+                </div>
+
+                <div class="domain-card">
+                    <div class="card-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h2>Analog & AMS</h2>
+                    <p>Physical layout for 5nm FinFET nodes and Python-based phase noise/jitter analysis tools.</p>
+                    <div class="tag-group">
+                        <span class="chip">Virtuoso</span>
+                        <span class="chip">FinFET</span>
+                        <span class="chip">Python</span>
+                    </div>
+                    <a href="analog-archive.html" class="card-link">Explore AMS Archive →</a>
+                </div>
+
+            </div>
         </section>
 
         <section class="section">
-            <h3>PROJECTS</h3>
-            <div class="project-card vertical">
-                <div class="card-visual">
-                    <figure>
-                        <div class="image-row">
-                            <img src="images/riscv_project/RISCV_pipeline_diagram.png" alt="5-Stage RISC-V Pipeline" style="width: 100%; border-radius: 4px;">
-                        </div>
-                        <figcaption>High-level block diagram of the 5-stage pipeline.</figcaption>
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <h2>5-STAGE Pipelined RISC-V CPU (RV32I)</h2>
-                    <ul>
-                        <li>Architected a 5-stage scalar pipeline with custom decode logic, a unified register file, and an integer ALU; optimized RTL for BRAM resource mapping onto a Xilinx FPGA to minimize logic utilization.</li>
-                        <li>Eliminated pipeline stalls via MX/WX/WM forwarding paths and implemented branch-taken prediction with single-cycle flushing to maintain high IPC.</li>
-                        <li>Performed Static Timing Analysis to achieve timing closure for bitstream generation and deployment.</li>
-                        <li>Validated ISA compliance with a provided test environment, utilizing GTKWave/Verilator for deep-trace debugging of pipeline control and data flow</li>
-                    </ul>
-                    <a href="riscv-project.html" class="btn-outline">
-                        VIEW TECHNICAL ARCHIVE <i class="fas fa-folder-open"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project-card vertical">
-                <div class="card-visual">
-                    <figure>
-                        <div class="image-row">
-                            <img src="images/ibert-project/diagrams/systolic_array.png" alt="High-Level Systolic Array">
-                            <img src="images/ibert-project/diagrams/pe.png" alt="Processing Element">
-                        </div>
-                        <figcaption>
-                            High-Level Systolic Array (left) & Processing Element (right) Architecture
-                        </figcaption>
-                    </figure>
-                </div>
+            <h3 style="text-align: center; letter-spacing: 3px; margin-top: 60px;">CAREER ROADMAP</h3>
+            
+            <div class="roadmap-container">
                 
-                <div class="card-content">
-                    <h2>IBERT TRANSFORMER AI ACCELERATOR</h2>
-                    <ul>
-                        <li>Implemented a parallelized systolic array architecture with custom Processing Elements to optimize matrix multiplication for integer-only transformer inference.</li>
-                        <li>Developed hardware-optimized SystemVerilog modules for activation functions, including GELU, Softmax, and Multiply-Accumulate units.</li>
-                        <li>Executed memory read/write interfaces using AXI-Stream, FIFO buffers, and shift registers to orchestrate cycle-accurate data movement and maximize throughput.</li>
-                        <li>Achieved 100MHz timing closure on a PYNQ-Z1 target by balancing arithmetic pipeline depth and DSP slice utilization for bit-accurate inference.</li>
-                    </ul>
-                    <a href="ibert-project.html" class="btn-outline">
-                        VIEW TECHNICAL ARCHIVE <i class="fas fa-folder-open"></i>
-                    </a>
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <span class="roadmap-date">Jan. 2026 - PRESENT // Toronto, ON</span>
+                        <h2>Altera | Hardware Engineering Intern</h2>
+                        <div class="tag-group" style="margin-top: 15px;">
+                            <span class="chip">PCIe Gen4</span>
+                            <span class="chip">Quartus Prime</span>
+                            <span class="chip">SystemVerilog</span>
+                            <span class="chip">Ethernet TSN</span>
+                            <span class="chip">Bash/Perl</span>
+                        </div>
+                        <div class="roadmap-details" id="details-altera">
+                            <ul class="dim" style="font-size: 0.9rem;">
+                                <li>Drove <strong class="text-accent">Agilex 5 PCIe Gen4 migration (16 GT/s)</strong> from Gen3; resolved RTL and Quartus tool-flow failures across simulation and build environments to deliver production-ready hardware builds.</li>
+                                <li>Developed and validated a minimal Agilex 5 FPGA Interface Manager, <strong class="text-accent">reducing Adaptive Logic Modules and register utilization by ~80%</strong> while maintaining PCIe Gen3x4 and HSSI hard IP functionality and timing closure.</li>
+                                <li>Expanded and modularized <strong class="text-accent">Ethernet timing-sensitive network</strong> test suites in Bash and Perl to implement dynamic reconfigurability and full port/speed-mode coverage with granular test-selection to accelerate debug cycles.</li>
+                            </ul>
+                        </div>
+                        <button class="toggle-details-btn" onclick="toggleDetails('details-altera', this)">
+                            Show Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </section>
 
-        <section class="section">
-            <h3>TECHNICAL SKILLS</h3>
-            <div class="skill-item">
-                <strong>HDLs/Tools:</strong> SystemVerilog/Verilog, Cadence Virtuoso, Intel Quartus, Vivado, Lint, Synopsys Verdi/VC Formal, Verilator
-            </div>
-            <div class="skill-item">
-                <strong>Methods:</strong> UVM, STA, Lint, P&R
-            </div>
-            <div class="skill-item">
-                <strong>Systems & Scripting:</strong> Git, Linux, Python, C++, Tcl, Bash, MATLAB
-            </div>
-            <div class="skill-item">
-                <strong>Protocols & Standards:</strong> RISC-V, PCIe Gen3/4, AXI4/APB, Ethernet (TSN), ARM Assembly
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <span class="roadmap-date">May 2025 - Aug. 2025 // Toronto, ON</span>
+                        <h2>Untether AI (AMD Acquihire) | Verification Tooling & Physical Design Engineering Intern </h2>
+                        <div class="tag-group" style="margin-top: 15px;">
+                            <span class="chip">Cadence Virtuoso</span>
+                            <span class="chip">Innovus</span>
+                            <span class="chip">FinFET</span>
+                            <span class="chip">PnR</span>
+                            <span class="chip">Python</span>
+                            <span class="chip">Static Analysis</span>
+                        </div>
+                        <div class="roadmap-details" id="details-uai_amd">
+                            <ul class="dim" style="font-size: 0.9rem;">
+                                <li>Designed a <strong class="text-accent">custom FinFET level shifter in Virtuoso, reducing area by 90.7%</strong> vs. foundry-provided library cells; performed Monte Carlo simulations to ensure robust level-shifting across PVT corners. </li>
+                                <li>Owned PnR for CRAM Controller in Innovus; optimized floorplan and integrated GDSII for tape-out.</li>
+                                <li>Developed custom FB9 boundary cells to streamline DRC closure and ensure block-level signal integrity.</li>
+                                <li>Developed a Python <strong class="text-accent">Static Analysis Tool</strong> to audit RDL-to-SystemVerilog coverage by building a recursive parser with scoped symbol tables to evaluate dynamic Ruby constructs and verify 1000+ register fields before tape-out. </li>
+                            </ul>
+                        </div>
+                        <button class="toggle-details-btn" onclick="toggleDetails('details-uai_amd', this)">
+                            Show Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <span class="roadmap-date">Sept. 2024 - Dec. 2024 // Toronto, ON</span>
+                        <h2>Untether AI | SoC Design Engineering Intern </h2>
+                        <div class="tag-group" style="margin-top: 15px;">
+                            <span class="chip">APB4</span>
+                            <span class="chip">VC Formal</span>
+                            <span class="chip">SystemVerilog</span>
+                        </div>
+                        <div class="roadmap-details" id="details-uai">
+                            <ul class="dim" style="font-size: 0.9rem;">
+                                <li>Designed and formally verified an <strong class="text-accent">AMBA APB4 bridge</strong> with custom timeout states and dynamic peripheral support; leveraged Synopsys VIP and VC Formal to ensure protocol compliance and timing closure. </li>
+                                <li>Automated memory map generation and documentation with Python, <strong class="text-accent">reducing integration work by 92%</strong> and ensuring consistency across hardware and software headers.</li>
+                                <li>Implemented <strong class="text-accent">control status registers for dynamic clock gating</strong>, reducing idle state dynamic power consumption. </li>
+                            </ul>
+                        </div>
+                        <button class="toggle-details-btn" onclick="toggleDetails('details-uai', this)">
+                            Show Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <span class="roadmap-date">Feb. 2024 - Apr. 2024 // Kanata, ON</span>
+                        <h2>Microchip Technology Inc. | Signal Integrity & Timing Engineering Co-op </h2>
+                        <div class="tag-group" style="margin-top: 15px;">
+                            <span class="chip">Python (Qt)</span>
+                            <span class="chip">NumPy/Matplotlib</span>
+                            <span class="chip">HSSI</span>
+                            <span class="chip">Signal Integrity</span>
+                        </div>
+                        <div class="roadmap-details" id="microchip-uai">
+                            <ul class="dim" style="font-size: 0.9rem;">
+                                <li>Developed a phase noise calculator (PNC) with Python and Qt for <strong class="text-accent">PLL/HSSI jitter analysis</strong>; ported MATLAB DSP algorithms to a NumPy/Matplotlib stack, providing a standalone GUI that eliminated licensing overhead. </li>
+                                <li>Delivered the PNC 2× faster than projected, driving adoption by a key client (<strong class="text-accent">30% market share</strong>) and earning a <strong class="text-accent">Co-op Student of the Year nomination.</strong></li>
+                                <li>Implemented frequency scaling in a C++ function generator DLL to mitigate timing errors; validated high-speed signal integrity with oscilloscopes and signal generators, helping <strong class="text-accent">save $300K/year in equipment cost.</strong></li>
+                            </ul>
+                        </div>
+                        <button class="toggle-details-btn" onclick="toggleDetails('details-microchip', this)">
+                            Show Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="roadmap-item">
+                    <div class="roadmap-content">
+                        <span class="roadmap-date">May 2023 - Aug. 2023 // Kanata, ON</span>
+                        <h2>AMD | Software Display Solutions Engineering Co-op </h2>
+                        <div class="tag-group" style="margin-top: 15px;">
+                            <span class="chip">C/C++</span>
+                            <span class="chip">Kernel Drivers</span>
+                            <span class="chip">WinDbg</span>
+                            <span class="chip">OOP</span>
+                        </div>
+                        <div class="roadmap-details" id="microchip-amd">
+                            <ul class="dim" style="font-size: 0.9rem;">
+                                <li>Promoted two gaming and power optimization features from Proof-of-Concept to "Committed for Development" after presenting performance data to AMD’s Director and VP.</li>
+                                <li>Optimized Windows/Linux kernel-mode drivers in C/C++ using microprocessor clocking techniques; achieved a <strong class="text-accent">20% average increase in frame rates and improved battery efficiency.</strong></li>
+                                <li>Developed an OOP event-tracing infrastructure and used WinDbg for kernel-level debugging to analyze 400+ datasets, resolving bottlenecks in display driver software.</li>
+                            </ul>
+                        </div>
+                        <button class="toggle-details-btn" onclick="toggleDetails('details-amd', this)">
+                            Show Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </section>
+        
     </main>
 
+    <script src="script.js"></script>
 </body>
+
+<footer style="margin-top: 80px; padding: 40px 0; border-top: 1px solid var(--border-color); background: var(--card-bg);">
+    <div class="container" style="text-align: center;">
+        <div class="footer-links" style="margin-bottom: 20px;">
+            <a href="mailto:gbinder@uwaterloo.ca" style="color: var(--text-dim); margin: 0 15px; text-decoration: none;"><i class="far fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/giannabinder" style="color: var(--text-dim); margin: 0 15px; text-decoration: none;"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="dim" style="font-size: 0.85rem; margin-bottom: 10px;">
+            © 2026 Gianna Binder // Electrical Engineering, University of Waterloo
+        </p>
+    </div>
+</footer>
+
 </html>

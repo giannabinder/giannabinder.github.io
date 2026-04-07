@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RF & Microwave | Gianna Binder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo"><a href="index.html" style="text-decoration:none; color:inherit;">GIANNA BINDER</a> // <span class="dim">RF & MICROWAVE HUB</span></div>
+            <nav>
+                <a href="pdf/Gianna Binder_Resume_DD.pdf" target="_blank"><i class="far fa-file-pdf"></i> Digital Design Resume</a>
+                <a href="pdf/Gianna Binder_Resume_EE.pdf" target="_blank"><i class="far fa-file-pdf"></i> Hardware Resume</a>
+                <a href="mailto:gbinder@uwaterloo.ca"><i class="far fa-envelope"></i> Email</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>RF & Microwave Engineering</h1>
+            <p>High-Frequency Signal Chains, Passive Filter Design, and Impedance Matching</p>
+        </section>
+
+        <section class="section">
+            <h3 style="text-align: center; letter-spacing: 3px; margin-top: 60px; margin-bottom: 40px;">RF ARCHIVE</h3>
+
+            <div class="project-card vertical">
+                <h2 style="text-align: center; margin-top: 0px; margin-bottom: 0px;">RF FRONT-END: 8.1GHz BPF & 10GHz LNA</h2>
+                <div class="card-visual">
+                    <figure>
+                        <div class="image-row">
+                            <img src="images/rf_project/lna_gain_plot.png" alt="10GHz LNA Gain">
+                            <img src="images/rf_project/bpf_response.png" alt="8.1GHz BPF S-Parameters">
+                        </div>
+                        <figcaption>14.7 dB Peak Gain (LNA) & Chebyshev Type II Bandpass Filter Response.</figcaption>
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="tag-group" style="margin-bottom: 20px;">
+                        <span class="chip">Keysight ADS</span>
+                        <span class="chip">LNA Design</span>
+                        <span class="chip">Chebyshev Filters</span>
+                        <span class="chip">S-Parameters</span>
+                        <span class="chip">Impedance Matching</span>
+                    </div>
+                    <div class="roadmap-details">
+                        <ul>
+                            <li>Designed a 10 GHz high-gain amplifier achieving 14.7 dB gain with noise figure optimization.</li>
+                            <li>Synthesized an 8.1 GHz Chebyshev Type II Bandpass Filter for high out-of-band rejection.</li>
+                            <li>Performed Smith Chart matching for input/output networks to minimize return loss (< -15 dB).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card vertical">
+                <h2 style="text-align: center; letter-spacing: 3px; margin-top: 10px;">MICROWAVE PASSIVES: WILKINSON & HYBRID</h2>
+                <div class="card-visual">
+                    <figure>
+                        <div class="image-row">
+                            <img src="images/microwave/wilkinson_layout.png" alt="Wilkinson Divider Layout">
+                            <img src="images/microwave/hybrid_phase_plot.png" alt="90 Degree Phase Quadrature">
+                        </div>
+                        <figcaption>Optimized 2.4 GHz Microstrip Layouts & Phase Quadrature Measurement.</figcaption>
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="tag-group" style="margin-bottom: 20px;">
+                        <span class="chip">Microstrip Design</span>
+                        <span class="chip">Power Dividers</span>
+                        <span class="chip">Phase Quadrature</span>
+                        <span class="chip">Parasitic Tuning</span>
+                        <span class="chip">ADS Momentum</span>
+                    </div>
+                    <div class="roadmap-details">
+                        <ul>
+                            <li>Optimized 2.4 GHz microstrip geometries; tuned physical lengths to compensate for fringe fields.</li>
+                            <li>Verified 90.02° phase quadrature in a branch-line hybrid coupler for I/Q applications.</li>
+                            <li>Achieved >40 dB port-to-port isolation in a Wilkinson power divider through EM co-simulation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="padding-bottom: 60px;">
+            <h3 style="text-align: center; letter-spacing: 3px; margin-bottom: 30px;">RF DOMAIN SKILLSET</h3>
+            <div class="skill-item"><strong>Tools & Simulation:</strong> Keysight ADS (Advanced Design System), Momentum EM, Smith Chart Utility, MATLAB</div>
+            <div class="skill-item"><strong>Design Competencies:</strong> Microstrip Layout, S-Parameter Analysis, Impedance Matching, Active RF Circuitry</div>
+            <div class="skill-item"><strong>Measurement:</strong> VNA/Spectrum Analyzer Calibration, Signal Integrity, Phase Noise Analysis</div>
+        </section>
+    </main>
+
+    <footer style="padding: 40px 0; border-top: 1px solid var(--border-color); background: var(--card-bg);">
+        <div class="container" style="text-align: center;">
+            <div class="footer-links" style="margin-bottom: 20px;">
+                <a href="mailto:gbinder@uwaterloo.ca" style="color: var(--text-dim); margin: 0 15px; text-decoration: none;"><i class="far fa-envelope"></i></a>
+                <a href="https://linkedin.com/in/giannabinder" style="color: var(--text-dim); margin: 0 15px; text-decoration: none;"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="dim" style="font-size: 0.85rem; margin-bottom: 10px;">© 2026 Gianna Binder // Electrical Engineering, University of Waterloo</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

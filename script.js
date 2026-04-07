@@ -40,3 +40,18 @@ overviewLink.addEventListener('click', (e) => {
     // 4. Clear any highlighted sidebar links
     document.querySelectorAll('.carbon-link').forEach(l => l.style.color = "");
 });
+
+function toggleDetails(id, btn) {
+    const details = document.getElementById(id);
+    const isExpanded = details.classList.contains('expanded');
+    
+    // Toggle the class
+    details.classList.toggle('expanded');
+    
+    // Update button text and icon
+    if (isExpanded) {
+        btn.innerHTML = 'Show Details <i class="fas fa-chevron-down"></i>';
+    } else {
+        btn.innerHTML = 'Hide Details <i class="fas fa-chevron-up"></i>';
+    }
+}
