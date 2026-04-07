@@ -29,63 +29,122 @@
         <section class="section">
             <h3 style="text-align: center; letter-spacing: 3px; margin-top: 60px; margin-bottom: 40px;">RF ARCHIVE</h3>
 
-            <div class="project-card vertical">
-                <h2 style="text-align: center; margin-top: 0px; margin-bottom: 0px;">RF FRONT-END: 8.1GHz BPF & 10GHz LNA</h2>
-                <div class="card-visual">
-                    <figure>
-                        <div class="image-row">
-                            <img src="images/rf_project/lna_gain_plot.png" alt="10GHz LNA Gain">
-                            <img src="images/rf_project/bpf_response.png" alt="8.1GHz BPF S-Parameters">
+            <section class="section" style="max-width: 85%; margin-left: auto; margin-right: auto;">
+                <h3 style="text-align: center; letter-spacing: 3px; margin-top: 30px; margin-bottom: 30px;">RF FRONT-END COMPONENTS</h3>
+                
+                <div class="project-card vertical">
+                    <h2 style="text-align: center; margin-top: 0px; margin-bottom: 10px;">8.1 GHz X-Band Microstrip Bandpass Filter</h2>
+                    <div class="card-visual">
+                        <figure>
+                            <div class="image-row">
+                                <img src="images/rf_project/filter/response.png" alt="8.1GHz BPF S-Parameters">
+                            </div>
+                            <figcaption>3rd-Order Chebyshev Bandpass Filter response.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="tag-group" style="margin-bottom: 20px;">
+                            <span class="chip">Keysight ADS</span>
+                            <span class="chip">Chebyshev Type II</span>
+                            <span class="chip">Distributed Elements</span>
+                            <button class="toggle-details-btn" style="margin-top: 0px;" onclick="toggleDetails('details-bpf', this)">
+                                Show Specs <i class="fas fa-chevron-down"></i>
+                            </button>
                         </div>
-                        <figcaption>14.7 dB Peak Gain (LNA) & Chebyshev Type II Bandpass Filter Response.</figcaption>
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="tag-group" style="margin-bottom: 20px;">
-                        <span class="chip">Keysight ADS</span>
-                        <span class="chip">LNA Design</span>
-                        <span class="chip">Chebyshev Filters</span>
-                        <span class="chip">S-Parameters</span>
-                        <span class="chip">Impedance Matching</span>
-                    </div>
-                    <div class="roadmap-details">
-                        <ul>
-                            <li>Designed a 10 GHz high-gain amplifier achieving 14.7 dB gain with noise figure optimization.</li>
-                            <li>Synthesized an 8.1 GHz Chebyshev Type II Bandpass Filter for high out-of-band rejection.</li>
-                            <li>Performed Smith Chart matching for input/output networks to minimize return loss (< -15 dB).</li>
-                        </ul>
+                        <div class="roadmap-details" id="details-bpf">
+                            <ul>
+                                <li>Synthesized an 8.1 GHz bandpass filter for high out-of-band rejection using distributed microstrip elements.</li>
+                                <li>Performed EM/Circuit co-simulation in ADS to account for substrate parasitics and enclosure resonance.</li>
+                            </ul>
+                        </div>
+                        <div style="display: flex; gap: 15px; align-items: center; margin-top: 20px;">
+                            <a class="btn-outline" style="margin-top:0;">
+                                UNDER CONSTRUCTION <i class="fas fa-wrench"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="project-card vertical">
-                <h2 style="text-align: center; letter-spacing: 3px; margin-top: 10px;">MICROWAVE PASSIVES: WILKINSON & HYBRID</h2>
-                <div class="card-visual">
-                    <figure>
-                        <div class="image-row">
-                            <img src="images/microwave/wilkinson_layout.png" alt="Wilkinson Divider Layout">
-                            <img src="images/microwave/hybrid_phase_plot.png" alt="90 Degree Phase Quadrature">
+                <div class="project-card vertical">
+                    <h2 style="text-align: center; margin-top: 10px; margin-bottom: 10px;">10 GHz High-Gain Low Noise Amplifier</h2>
+                    <div class="card-visual">
+                        <figure>
+                            <div class="image-row">
+                                <img src="images/rf_project/amp/max_gain.png" alt="10GHz LNA Gain">
+                                <img src="images/rf_project/amp/stability_plot.png" alt="10GHz LNA Gain">
+                            </div>
+                            <figcaption>14.7 dB Peak Gain & Operating Bandwidth in ADS.</figcaption>
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="tag-group" style="margin-bottom: 20px;">
+                            <span class="chip">LNA Design</span>
+                            <span class="chip">Smith Charts</span>
+                            <span class="chip">Stability Analysis</span>
+                            <button class="toggle-details-btn" style="margin-top: 0px;" onclick="toggleDetails('details-lna', this)">
+                                Show Specs <i class="fas fa-chevron-down"></i>
+                            </button>
                         </div>
-                        <figcaption>Optimized 2.4 GHz Microstrip Layouts & Phase Quadrature Measurement.</figcaption>
-                    </figure>
-                </div>
-                <div class="card-content">
-                    <div class="tag-group" style="margin-bottom: 20px;">
-                        <span class="chip">Microstrip Design</span>
-                        <span class="chip">Power Dividers</span>
-                        <span class="chip">Phase Quadrature</span>
-                        <span class="chip">Parasitic Tuning</span>
-                        <span class="chip">ADS Momentum</span>
-                    </div>
-                    <div class="roadmap-details">
-                        <ul>
-                            <li>Optimized 2.4 GHz microstrip geometries; tuned physical lengths to compensate for fringe fields.</li>
-                            <li>Verified 90.02° phase quadrature in a branch-line hybrid coupler for I/Q applications.</li>
-                            <li>Achieved >40 dB port-to-port isolation in a Wilkinson power divider through EM co-simulation.</li>
-                        </ul>
+                        <div class="roadmap-details" id="details-lna">
+                            <ul>
+                                <li>Designed a 10 GHz GaAs FET amplifier achieving 14.7 dB gain with a focus on Noise Figure (NF) optimization.</li>
+                                <li>Synthesized input/output matching networks using Smith Charts to achieve < -15 dB Return Loss.</li>
+                            </ul>
+                        </div>
+                        <div style="display: flex; gap: 15px; align-items: center; margin-top: 20px;">
+                            <a class="btn-outline" style="margin-top:0;">
+                                UNDER CONSTRUCTION <i class="fas fa-wrench"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+            <section class="section" style="max-width: 85%; margin-left: auto; margin-right: auto;">
+                <h3 style="text-align: center; letter-spacing: 3px; margin-top: 60px; margin-bottom: 40px;">MICROWAVE PASSIVE CIRCUITS</h3>
+                
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px;">
+                    
+                    <div class="project-card vertical" style="margin-bottom: 0;">
+                        <h2 style="font-size: 1.2rem; text-align: center;">Wilkinson Power Divider</h2>
+                        <div class="card-visual">
+                            <img src="images/rf_project/wilkinson/layout.png" alt="Wilkinson Layout" style="width: 100%; border-radius: 4px;">
+                        </div>
+                        <div class="card-content">
+                            <div class="tag-group">
+                                <span class="chip">2.4 GHz</span>
+                                <span class="chip">Isolation Tuning</span>
+                            </div>
+                            <p class="dim" style="font-size: 0.85rem; margin-top: 10px;">Achieved >40 dB port-to-port isolation through optimized microstrip geometries and fringe-field compensation.</p>
+                            <div style="display: flex; gap: 15px; align-items: center; margin-top: 20px;">
+                                <a class="btn-outline" style="margin-top:0;">
+                                    UNDER CONSTRUCTION <i class="fas fa-wrench"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card vertical" style="margin-bottom: 0;">
+                        <h2 style="font-size: 1.2rem; text-align: center;">90° Branch-Line Hybrid</h2>
+                        <div class="card-visual">
+                            <img src="images/rf_project/hybrid_coupler/phase_plot.png" alt="Hybrid Phase" style="width: 100%; border-radius: 4px;">
+                        </div>
+                        <div class="card-content">
+                            <div class="tag-group">
+                                <span class="chip">Phase Quadrature</span>
+                                <span class="chip">I/Q Signals</span>
+                            </div>
+                            <p class="dim" style="font-size: 0.85rem; margin-top: 10px;">Verified 90.02° phase quadrature for I/Q applications using ADS Momentum EM simulation.</p>
+                            <div style="display: flex; gap: 15px; align-items: center; margin-top: 20px;">
+                                <a class="btn-outline" style="margin-top:0;">
+                                    UNDER CONSTRUCTION <i class="fas fa-wrench"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
         </section>
 
         <section class="section" style="padding-bottom: 60px;">
