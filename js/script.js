@@ -55,3 +55,20 @@ function toggleDetails(id, btn) {
         btn.innerHTML = 'Hide Details <i class="fas fa-chevron-up"></i>';
     }
 }
+
+function toggleNav() {
+    const nav = document.getElementById("side-nav");
+    if (nav.style.width === "280px") {
+        nav.style.width = "0";
+    } else {
+        nav.style.width = "280px";
+    }
+}
+
+// Optional: Close menu if user clicks outside of it
+window.onclick = function(event) {
+    const nav = document.getElementById("side-nav");
+    if (event.target == nav) {
+        nav.style.width = "0";
+    }
+}
