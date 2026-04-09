@@ -10,6 +10,7 @@ async function loadContent(key, element) {
     const codeWindow = document.getElementById('code-display'); // The <pre> tag
     const codeContent = document.getElementById('code-content'); // The <code> tag
     const theoryDisplay = document.getElementById('theory-display');
+    const demoDisplay = document.getElementById('demo-display');
     const filenameLabel = document.getElementById('active-filename');
     
     // 1. Sidebar Active State styling
@@ -17,13 +18,25 @@ async function loadContent(key, element) {
     element.classList.add('active');
 
     if (key === 'theory') {
-        // TOGGLE VISIBILITY: Show Theory, Hide Code
+        // TOGGLE VISIBILITY
+        demoDisplay.style.display = 'none';
         theoryDisplay.style.display = 'block';
         codeWindow.style.display = 'none';
-        filenameLabel.textContent = 'theory_overview.md';
-    } else {
-        // TOGGLE VISIBILITY: Hide Theory, Show Code
+        filenameLabel.textContent = 'ReadMe.md';
+    } 
+
+    else if (key === 'demo') {
+        // TOGGLE VISIBILITY
         theoryDisplay.style.display = 'none';
+        demoDisplay.style.display = 'block';
+        filenameLabel.textContent = 'demo_2port.ipynb';
+        codeWindow.style.display = 'none';
+    } 
+    
+    else {
+        // TOGGLE VISIBILITY
+        theoryDisplay.style.display = 'none';
+        demoDisplay.style.display = 'none';
         codeWindow.style.display = 'block';
         
         const path = filePaths[key];
@@ -54,6 +67,10 @@ async function loadContent(key, element) {
 
 async function calculateFilter() {
     if (!pyodide) return;
+
+    // Automatically switch to the demo view when executed
+    const demoLink = Array.from(document.querySelectorAll('.file-link')).find(el => el.textContent.includes('demo'));
+    if (demoLink) loadContent('demo', demoLink);
 
     // Grab the specific "Spot Check" frequency
     const freq_ghz = parseFloat(document.getElementById('p-freq').value);
@@ -113,8 +130,6 @@ async function initPython() {
         }
 
         console.log("Python RF Engine and Matplotlib Ready");
-        // Run initial plot
-        calculateFilter(); 
 
     } catch (err) {
         console.error("Critical Init Error:", err);

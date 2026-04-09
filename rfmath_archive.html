@@ -36,7 +36,7 @@
                 </a>
             </div>
             
-            <a href="rf_design.html"><i class="fas fa-satellite-dish"></i> RF & Microwave Hub</a>
+            <a href="rf_microwave.html"><i class="fas fa-satellite-dish"></i> RF & Microwave Hub</a>
             <div class="sub-links">
                 <a href="rfmath_archive.html">
                     <i class="fas fa-level-up-alt fa-rotate-90"></i> RFMath Library
@@ -50,7 +50,7 @@
             <div class="menu-trigger" onclick="toggleNav()">
                 <i class="fas fa-bars"></i>
             </div>
-            <div class="logo"> <a href="index.html" style="text-decoration:none; color:inherit;">GIANNA BINDER </a> // <span class="dim">DIGITAL DESIGN HUB</span></div>
+            <div class="logo"> <a href="index.html" style="text-decoration:none; color:inherit;">GIANNA BINDER </a> // <span class="dim">RFMATH WORKSTATION</span></div>
             <nav>
                 <a href="pdf/Gianna_Binder_Resume_DD.pdf" target="_blank">
                     <i class="far fa-file-pdf"></i> Digital Design Resume
@@ -73,7 +73,11 @@
             <div class="sidebar-header">REPOSITORY</div>
             <ul class="file-list">
                 <li class="file-link active" onclick="loadContent('theory', this)">
-                    <i class="fas fa-book-open"></i> theory_overview.md
+                    <i class="fas fa-book-open"></i> ReadMe.md
+                </li>
+
+                <li class="file-link" onclick="loadContent('demo', this)">
+                    <i class="fas fa-play-circle" style="color: #58a6ff;"></i> demo_2port.ipynb
                 </li>
                 
                 <hr style="border: 0; border-top: 1px solid #30363d; margin: 10px 0;">
@@ -88,14 +92,9 @@
                     <i class="fab fa-python"></i> solve_filter.py
                 </li>
             </ul>
-            <div class="sidebar-docs">
-                <h4 class="dim" style="font-size: 0.7rem; margin-bottom: 10px;">DOCUMENTATION</h4>
-                <p class="dim" style="font-size: 0.75rem; line-height: 1.4;">
-                    Vectorized ABCD transformation engine for cascading microwave networks.
-                </p>
-            </div>
         </aside>
 
+        <div style="display: flex; flex-direction: column; flex: 2; gap: 15px; min-width: 0;">
         <section class="code-window">
             <div class="window-header">
                 <span id="active-filename">theory_overview.md</span>
@@ -103,76 +102,101 @@
             <div class="code-body">
                 <div id="theory-display" style="display: block;">
                     <div class="theory-content" style="line-height: 1.6; color: #e6edf3; width: 95%; margin-left: 20px; margin-top: 20px;">
-                        <h4 class="text-accent" style="margin-top: 0;">Circuit Theory: The ABCD Model</h4>
-                        <p class="dim" style="font-size: 0.9rem;">
-                            This solver models a <strong>Lossless Transmission Line</strong>. Unlike low-frequency circuits, RF signals behave as waves. We use the <strong>ABCD Matrix</strong> to relate input ($V_1, I_1$) to output ($V_2, I_2$).
+                        <h4 class="text-accent" style="margin-top: 0;">RFMath Library: Computational Electromagnetics</h4>
+        
+                        <p class="dim" style="font-size: 0.9rem; margin-bottom: 15px;">
+                            <strong>RFMath</strong> is a high-performance Python library designed for the rapid analysis of cascaded microwave networks. By leveraging <strong>NumPy-vectorized operations</strong>, the engine computes complex S-parameter responses across wide frequency sweeps without the overhead of traditional EDA GUI environments.
                         </p>
-                        <div style="padding: 5px; border-radius: 4px; margin: 10px 0; text-align: center;">
-                            <div class="circuit-diagram-container" style="background: #161b22; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin: 10px auto; max-width: 65%;">
-                                <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" style="display: block; width: 100%; height: auto;">
-                                    <rect x="120" y="40" width="160" height="100" rx="4" fill="none" stroke="#58a6ff" stroke-width="2"/>
-                                    <text x="200" y="90" text-anchor="middle" fill="#58a6ff" font-family="monospace" font-weight="bold" font-size="24">ABCD</text>
-                                    
-                                    <line x1="40" y1="60" x2="120" y2="60" stroke="#8b949e" stroke-width="2" />
-                                    <line x1="40" y1="120" x2="120" y2="120" stroke="#8b949e" stroke-width="2" />
-                                    <line x1="280" y1="60" x2="360" y2="60" stroke="#8b949e" stroke-width="2" />
-                                    <line x1="280" y1="120" x2="360" y2="120" stroke="#8b949e" stroke-width="2" />
 
-                                    <text x="60" y="50" id="diag-v1" fill="#f0883e" font-size="12" font-family="monospace">V1, I1</text>
-                                    <text x="320" y="50" id="diag-v2" fill="#f0883e" font-size="12" font-family="monospace">V2, I2</text>
-                                    
-                                    <text x="200" y="160" id="diag-params" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">
-                                        Z₀: -- Ω | L: -- m
-                                    </text>
-                                </svg>
+                        <h5 style="color: #58a6ff; font-size: 0.85rem; margin-bottom: 10px;">Core Engine Functionality</h5>
+                        <ul class="dim" style="font-size: 0.85rem; padding-left: 20px; margin-bottom: 20px;">
+                            <li style="margin-bottom: 8px;">
+                                <strong>Vectorized Modeling:</strong> Functions like <code>abcd_TL()</code> generate frequency-dependent transfer matrices for distributed transmission lines, accounting for phase constant ($\beta$) and characteristic impedance ($Z_0$) over $N$ frequency points.
+                            </li>
+                            <li style="margin-bottom: 8px;">
+                                <strong>Network Synthesis:</strong> Implements <code>abcd_Y_inverter()</code> and <code>abcd_series_Z()</code> to model lumped elements and impedance transformers, essential for building complex filters and matching networks.
+                            </li>
+                            <li style="margin-bottom: 8px;">
+                                <strong>ABCD Cascading:</strong> The <code>cascade()</code> function utilizes optimized matrix multiplication to chain an arbitrary number of two-port networks into a single system matrix, effectively solving the entire circuit's behavior.
+                            </li>
+                            <li style="margin-bottom: 8px;">
+                                <strong>Parameter Transformation:</strong> Includes robust <code>abcd_to_s()</code> conversion logic, allowing the engine to translate raw ABCD parameters into measurable <strong>Scattering Parameters</strong> (S11, S21) relative to a system reference impedance.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="demo-display" style="display: none; width: 95%; margin-left: 20px; margin-top: 20px;">
+                    <h5 style="color: #58a6ff; font-size: 0.85rem; margin-bottom: 5px;">Demonstration: 2-Port Transmission Line</h5>
+                    <p class="dim" style="font-size: 0.85rem;">
+                        The interactive solver below utilizes the <code>RFMath</code> core to simulate a lossless line. By adjusting the physical length and impedance, you can observe how the library dynamically re-calculates the network matrix and updates the S-parameter response in real-time.
+                    </p>
+                    <div style="padding: 5px; border-radius: 4px; margin: 10px 0; text-align: center;">
+                        <div class="circuit-diagram-container" style="background: #161b22; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin: 10px auto; display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
+                            <svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" style="display: block; flex: 1; min-width: 250px; width: 100%; height: auto;">
+                                <rect x="120" y="40" width="160" height="100" rx="4" fill="none" stroke="#58a6ff" stroke-width="2"/>
+                                <text x="200" y="90" text-anchor="middle" fill="#58a6ff" font-family="monospace" font-weight="bold" font-size="24">ABCD</text>
+                                
+                                <line x1="40" y1="60" x2="120" y2="60" stroke="#8b949e" stroke-width="2" />
+                                <line x1="40" y1="120" x2="120" y2="120" stroke="#8b949e" stroke-width="2" />
+                                <line x1="280" y1="60" x2="360" y2="60" stroke="#8b949e" stroke-width="2" />
+                                <line x1="280" y1="120" x2="360" y2="120" stroke="#8b949e" stroke-width="2" />
+
+                                <text x="60" y="50" id="diag-v1" fill="#f0883e" font-size="12" font-family="monospace">V1, I1</text>
+                                <text x="320" y="50" id="diag-v2" fill="#f0883e" font-size="12" font-family="monospace">V2, I2</text>
+                                
+                                <text x="200" y="160" id="diag-params" text-anchor="middle" fill="#8b949e" font-size="10" font-family="monospace">
+                                    Z₀: -- Ω | L: -- m
+                                </text>
+                            </svg>
+                            
+                            <div class="results-display" style="flex: 1; min-width: 250px; margin-top: 20px;">
+                                <div class="results-header">
+                                    <label>SYSTEM RESPONSE</label>
+                                </div>
+                                <div class="plot-box">
+                                    <img id="live-plot" src="" alt="Plot will appear here..." style="display: none; width: 100%; border-radius: 4px;">
+                                    <div id="plot-loader" style="text-align: center; color: #8b949e; padding: 40px;">
+                                        <i class="fas fa-chart-line fa-3x" style="color: #30363d; margin-bottom: 20px;"></i>
+                                        <p>Execute solver to generate real-time S-parameter plot.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <p class="dim" style="font-size: 0.9rem;">
-                            The matrix is defined by characteristic impedance ($Z_0$) and electrical length ($\theta = \beta \ell$). Multiplying matrices allows for seamless component cascading.
-                        </p>
                     </div>
+                    <p class="dim" style="font-size: 0.9rem;">
+                        By sweeping the frequency through the <strong>RF Engine</strong>, the library calculates the phase velocity and electrical length ($\theta = \beta \ell$) at each point, ultimately transforming the total system matrix into <strong>Scattering Parameters ($S_{11}, $S_{21})</strong> for real-time visualization of return and insertion loss.
+                    </p>
                 </div>
 
                 <pre id="code-display" style="display: none;" class="language-python"><code id="code-content" class="language-python"></code></pre>
             </div>
         </section>
 
-        <aside class="parameter-console" >
-            <div class="window-header">LIVE SOLVER</div>
-            <div class="console-body" >
-                <div class="input-grid"  style="width: 90%;">
-                    <div class="field">
+        <aside class="parameter-console" style="width: auto;">
+            <div class="window-header">2-PORT DEMONSTRATION</div>
+            <div class="console-body" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; padding: 15px;">
+                <div class="input-grid" style="display: flex; gap: 30px; flex: 1; width: auto;">
+                    <div class="field" style="flex: 1;">
                         <label>Length (m)</label>
                         <input type="number" id="p-len" value="0.015" step="0.001">
                     </div>
-                    <div class="field">
+                    <div class="field" style="flex: 1;">
                         <label>Z₀ (Ω)</label>
                         <input type="number" id="p-zo" value="50">
                     </div>
-                    <div class="field">
+                    <div class="field" style="flex: 1; margin-right: 10px;">
                         <label>Freq (GHz)</label>
                         <input type="number" id="p-freq" value="8.1" step="0.1">
                     </div>
                 </div>
                 
-                <button class="solve-btn" onclick="calculateFilter()"  style="width: 95%; margin-bottom: 20px; margin-top: 20px;">
+                <button class="solve-btn" onclick="calculateFilter()" style="margin: 0; width: auto; padding: 10px 30px;">
                     EXECUTE <i class="fas fa-play" style="font-size: 0.7rem; margin-left: 5px;"></i>
                 </button>
-
-                <div class="results-display">
-                    <div class="results-header">
-                        <label>SYSTEM RESPONSE (LIVE PLOT)</label>
-                    </div>
-                    <div class="plot-box">
-                        <img id="live-plot" src="" alt="Plot will appear here..." style="display: none; width: 100%; border-radius: 4px;">
-                        <div id="plot-loader" style="text-align: center; color: #8b949e; padding: 40px;">
-                            <i class="fas fa-chart-line fa-3x" style="color: #30363d; margin-bottom: 20px;"></i>
-                            <p>Execute solver to generate real-time S-parameter plot.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
         </aside>
+        </div>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
