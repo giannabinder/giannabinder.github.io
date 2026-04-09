@@ -1,0 +1,158 @@
+/* Container for the 3-column Workstation */
+.workstation-interface {
+    display: flex;
+    gap: 15px;
+    height: calc(100vh - 120px); /* Adjust based on your header height */
+    padding: 20px;
+    align-items: stretch;
+    background: #0d1117;
+}
+
+/* 1. Sidebar (File Explorer) */
+.file-explorer {
+    width: 260px;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.sidebar-header {
+    padding: 15px;
+    font-size: 0.7rem;
+    color: #8b949e;
+    border-bottom: 1px solid #30363d;
+    letter-spacing: 1.5px;
+}
+
+.file-list {
+    list-style: none;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.file-link {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #c9d1d9;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+    transition: 0.2s;
+}
+
+.file-link.active {
+    background: rgba(88, 166, 255, 0.15);
+    color: #58a6ff;
+    border-left: 3px solid #58a6ff;
+}
+
+.sidebar-docs {
+    padding: 15px;
+    border-top: 1px solid #30363d;
+}
+
+/* 2. Code Window (Center) */
+.code-window {
+    flex: 2; /* Takes twice the space of the sidebar/console */
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.window-header {
+    background: #161b22;
+    padding: 12px 15px;
+    border-bottom: 1px solid #30363d;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: #8b949e;
+}
+
+/* Ensure the Prism background matches your IDE window */
+pre[class*="language-"] {
+    margin: 0 !important;
+    background: #0d1117 !important; /* Force match to your window */
+    border: none !important;
+    font-size: 13px !important;
+}
+
+.code-body {
+    padding: 0; /* Let Prism handle the internal padding */
+    overflow: auto;
+}
+
+#code-display {
+    color: #e6edf3;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* 3. Parameter Console (Right) */
+.parameter-console {
+    width: 320px; /* Fixed width for the solver */
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.console-body { padding: 20px; }
+.input-grid { display: grid; gap: 12px; }
+.field label { display: block; font-size: 0.65rem; color: #8b949e; margin-bottom: 4px; }
+.field input {
+    width: 100%;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.solve-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #58a6ff;
+    color: #58a6ff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.solve-btn:hover { background: rgba(88, 166, 255, 0.1); }
+
+.matrix-box {
+    margin-top: 10px;
+    padding: 12px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+}
+
+#matrix-output {
+    color: #58a6ff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+.circuit-diagram-container svg {
+    transition: transform 0.3s ease;
+}
+
+.circuit-diagram-container:hover svg {
+    transform: scale(1.02);
+}
