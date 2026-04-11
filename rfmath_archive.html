@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
     <!-- MathJax for rendering LaTeX equations -->
     <script>
@@ -72,25 +73,20 @@
         <aside class="file-explorer">
             <div class="sidebar-header">REPOSITORY</div>
             <ul class="file-list">
-                <li class="file-link active" onclick="loadContent('theory', this)">
-                    <i class="fas fa-book-open"></i> ReadMe.md
-                </li>
-
-                <li class="file-link" onclick="loadContent('demo', this)">
-                    <i class="fas fa-play-circle" style="color: #58a6ff;"></i> demo_2port.ipynb
-                </li>
+                <li class="file-link active" onclick="loadContent('theory', this)"><i class="fas fa-book-open"></i> ReadMe.md</li>
                 
                 <hr style="border: 0; border-top: 1px solid #30363d; margin: 10px 0;">
-
-                <li class="file-link" onclick="loadContent('engine', this)">
-                    <i class="fab fa-python"></i> rf_math.py
-                </li>
-                <li class="file-link" onclick="loadContent('config', this)">
-                    <i class="fab fa-python"></i> plot_config.py
-                </li>
-                <li class="file-link" onclick="loadContent('solve', this)">
-                    <i class="fab fa-python"></i> solve_filter.py
-                </li>
+                <div class="sidebar-header" style="padding-left: 0;">INTERACTIVE DEMOS
+                    <li class="file-link" onclick="loadContent('demo_2port', this)"><i class="fas fa-play-circle" style="color: #58a6ff;"></i> demo_2port.ipynb</li>
+                    <li class="file-link" onclick="loadContent('demo_chebyshev', this)"><i class="fas fa-play-circle" style="color: #58a6ff;"></i> demo_chebyshev.ipynb</li>
+                    <!-- <li class="file-link" onclick="loadContent('demo_lna', this)"><i class="fas fa-play-circle" style="color: #58a6ff;"></i> demo_lna.ipynb</li> -->
+                </div>
+                
+                <div class="sidebar-header" style="padding-left: 0;">SOURCE FILES
+                    <li class="file-link" onclick="loadContent('engine', this)"><i class="fab fa-python"></i> rf_math.py</li>
+                    <li class="file-link" onclick="loadContent('config', this)"><i class="fab fa-python"></i> rf_plotter.py</li>
+                    <li class="file-link" onclick="loadContent('solve', this)"><i class="fab fa-python"></i> rf_sim.py</li>
+                </div>
             </ul>
         </aside>
 
@@ -103,24 +99,24 @@
                 <div id="theory-display" style="display: block;">
                     <div class="theory-content" style="line-height: 1.6; color: #e6edf3; width: 95%; margin-left: 20px; margin-top: 20px;">
                         <h4 class="text-accent" style="margin-top: 0;">RFMath Library: Computational Electromagnetics</h4>
-        
+                        
                         <p class="dim" style="font-size: 0.9rem; margin-bottom: 15px;">
-                            <strong>RFMath</strong> is a high-performance Python library designed for the rapid analysis of cascaded microwave networks. By leveraging <strong>NumPy-vectorized operations</strong>, the engine computes complex S-parameter responses across wide frequency sweeps without the overhead of traditional EDA GUI environments.
+                            <strong>RFMath</strong> is a high-performance, object-oriented Python library designed for the rapid analysis of cascaded microwave networks and active devices. By leveraging <strong>NumPy-vectorized operations</strong>, the engine computes complex S-parameter responses across wide frequency sweeps without the overhead of traditional EDA GUI environments.
                         </p>
 
-                        <h5 style="color: #58a6ff; font-size: 0.85rem; margin-bottom: 10px;">Core Engine Functionality</h5>
+                        <h5 style="color: #58a6ff; font-size: 0.85rem; margin-bottom: 10px;">Modular Class Architecture</h5>
                         <ul class="dim" style="font-size: 0.85rem; padding-left: 20px; margin-bottom: 20px;">
                             <li style="margin-bottom: 8px;">
-                                <strong>Vectorized Modeling:</strong> Functions like <code>abcd_TL()</code> generate frequency-dependent transfer matrices for distributed transmission lines, accounting for phase constant ($\beta$) and characteristic impedance ($Z_0$) over $N$ frequency points.
+                                <strong><code>RFNetworks</code> (Core Analysis):</strong> The backbone of the engine. It generates frequency-dependent transfer matrices for lumped/distributed elements, performs vectorized ABCD-to-S-parameter transformations, and utilizes optimized matrix multiplication to cascade arbitrary $N$-port networks.
                             </li>
                             <li style="margin-bottom: 8px;">
-                                <strong>Network Synthesis:</strong> Implements <code>abcd_Y_inverter()</code> and <code>abcd_series_Z()</code> to model lumped elements and impedance transformers, essential for building complex filters and matching networks.
+                                <strong><code>RFFilters</code> (Filter Synthesis):</strong> Automates the mathematical synthesis of $N$-order Chebyshev bandpass filters. It calculates exact low-pass prototype values mathematically (bypassing lookup tables) and dynamically scales them into physical LC and distributed Admittance Inverter ($J$) topologies.
                             </li>
                             <li style="margin-bottom: 8px;">
-                                <strong>ABCD Cascading:</strong> The <code>cascade()</code> function utilizes optimized matrix multiplication to chain an arbitrary number of two-port networks into a single system matrix, effectively solving the entire circuit's behavior.
+                                <strong><code>RFStability</code> (Active Device Analysis):</strong> Evaluates transistor parameters for high-frequency amplifier design. It calculates Rollett’s stability factor ($K$), $\Delta$, and generates the exact geometric centers and radii for source and load stability circles.
                             </li>
                             <li style="margin-bottom: 8px;">
-                                <strong>Parameter Transformation:</strong> Includes robust <code>abcd_to_s()</code> conversion logic, allowing the engine to translate raw ABCD parameters into measurable <strong>Scattering Parameters</strong> (S11, S21) relative to a system reference impedance.
+                                <strong><code>RFMatching</code> (Impedance & Gain):</strong> Computes simultaneous conjugate match conditions and maximum theoretical transducer gains ($G_{Tmax}$). It also features an analytical geometry solver to calculate exact wavelength measurements for single-stub transmission line matching networks.
                             </li>
                         </ul>
                     </div>
@@ -129,7 +125,7 @@
                 <div id="demo-display" style="display: none; width: 95%; margin-left: 20px; margin-top: 20px;">
                     <h5 style="color: #58a6ff; font-size: 0.85rem; margin-bottom: 5px;">Demonstration: 2-Port Transmission Line</h5>
                     <p class="dim" style="font-size: 0.85rem;">
-                        The interactive solver below utilizes the <code>RFMath</code> core to simulate a lossless line. By adjusting the physical length and impedance, you can observe how the library dynamically re-calculates the network matrix and updates the S-parameter response in real-time.
+                        The interactive solver below utilizes the <code>RFNetworks</code> core to simulate a lossless line. By adjusting the physical length and impedance, you can observe how the library dynamically re-calculates the network matrix and updates the S-parameter response in real-time.
                     </p>
                     <div style="padding: 5px; border-radius: 4px; margin: 10px 0; text-align: center;">
                         <div class="circuit-diagram-container" style="background: #161b22; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin: 10px auto; display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
@@ -151,12 +147,8 @@
                             </svg>
                             
                             <div class="results-display" style="flex: 1; min-width: 250px; margin-top: 20px;">
-                                <div class="results-header">
-                                    <label>SYSTEM RESPONSE</label>
-                                </div>
-                                <div class="plot-box">
-                                    <img id="live-plot" src="" alt="Plot will appear here..." style="display: none; width: 100%; border-radius: 4px;">
-                                    <div id="plot-loader" style="text-align: center; color: #8b949e; padding: 40px;">
+                                <div id="plot-container-2port" class="plot-box" style="width: 100%; min-height: 300px;">
+                                    <div id="plot-placeholder-2port" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 300px; text-align: center; color: #8b949e;">
                                         <i class="fas fa-chart-line fa-3x" style="color: #30363d; margin-bottom: 20px;"></i>
                                         <p>Execute solver to generate real-time S-parameter plot.</p>
                                     </div>
@@ -169,39 +161,98 @@
                     </p>
                 </div>
 
+                <div id="chebyshev-display" style="display: none; width: 95%; margin-left: 20px; margin-top: 20px;">
+                    <h5 style="color: #58a6ff; font-size: 0.85rem; margin-bottom: 5px;">Demonstration: N-Order Chebyshev Bandpass Filter</h5>
+                    <p class="dim" style="font-size: 0.85rem;">
+                        This solver synthesizes a <strong>Distributed Element Filter</strong> using Admittance Inverters ($J_{k, k+1}$) to transform a low-pass prototype into a bandpass response. The library solves for the coupling coefficients required to maintain the equiripple passband.
+                    </p>
+                    
+                    <div style="padding: 5px; border-radius: 4px; margin: 10px 0;">
+                        <div class="circuit-diagram-container" style="background: #161b22; padding: 15px; border-radius: 8px; border: 1px solid #30363d; margin: 10px auto; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px;">
+                            
+                            <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; align-items: center;">
+                                
+                                <svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg" style="width: 100%; max-width: 400px; height: auto;">
+                                    <rect x="20" y="60" width="40" height="60" rx="2" fill="none" stroke="#f0883e" stroke-width="2"/>
+                                    <text x="40" y="95" text-anchor="middle" fill="#f0883e" font-family="monospace" font-size="14" font-weight="bold">J₀₁</text>
+                                    <line x1="60" y1="90" x2="100" y2="90" stroke="#8b949e" stroke-width="2" />
+                                    
+                                    <rect x="100" y="70" width="60" height="40" rx="2" fill="none" stroke="#58a6ff" stroke-width="2"/>
+                                    <text x="130" y="95" text-anchor="middle" fill="#58a6ff" font-family="monospace" font-size="12">λ/4</text>
+                                    <line x1="160" y1="90" x2="200" y2="90" stroke="#8b949e" stroke-width="2" />
+                                    
+                                    <rect x="200" y="60" width="40" height="60" rx="2" fill="none" stroke="#f0883e" stroke-width="2"/>
+                                    <text x="220" y="95" text-anchor="middle" fill="#f0883e" font-family="monospace" font-size="14" font-weight="bold">J₁₂</text>
+                                    
+                                    <text x="270" y="95" text-anchor="middle" fill="#30363d" font-family="monospace" font-size="24">...</text>
+                                    <line x1="300" y1="90" x2="340" y2="90" stroke="#8b949e" stroke-width="2" />
+                                    
+                                    <rect x="340" y="60" width="40" height="60" rx="2" fill="none" stroke="#f0883e" stroke-width="2"/>
+                                    <text x="360" y="95" text-anchor="middle" fill="#f0883e" font-family="monospace" font-size="14" font-weight="bold">Jₙ,ₙ₊₁</text>
+                                    
+                                    <text x="250" y="160" id="cheb-diag-params" text-anchor="middle" fill="#8b949e" font-size="12" font-family="monospace">Awaiting Parameters...</text>
+                                </svg>
+                                
+                                <div id="j-values-container" style="width: 100%; max-width: 400px; margin-top: 15px; padding: 10px; background: rgba(13, 17, 23, 0.7); border: 1px solid #30363d; border-radius: 4px; color: #e6edf3; font-family: monospace; font-size: 0.85rem; text-align: left; min-height: 50px;">
+                                    <span style="color: #8b949e;">Admittance Inverters (J) will appear here after execution...</span>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="results-display" style="flex: 1.5; min-width: 300px; border-radius: 4px;">
+                                <div id="plot-container-cheb" class="plot-box" style="width: 100%; min-height: 300px; background: #0d1117; border-radius: 4px;">
+                                    <div id="plot-placeholder-cheb" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 300px; text-align: center; color: #8b949e;">
+                                        <i class="fas fa-microchip fa-3x" style="color: #30363d; margin-bottom: 20px;"></i>
+                                        <p style="font-size: 0.7rem;">Execute to generate synthesis data.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
                 <pre id="code-display" style="display: none;" class="language-python"><code id="code-content" class="language-python"></code></pre>
             </div>
         </section>
 
-        <aside class="parameter-console" style="width: auto;">
-            <div class="window-header">2-PORT DEMONSTRATION</div>
-            <div class="console-body" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; padding: 15px;">
-                <div class="input-grid" style="display: flex; gap: 30px; flex: 1; width: auto;">
-                    <div class="field" style="flex: 1;">
-                        <label>Length (m)</label>
-                        <input type="number" id="p-len" value="0.015" step="0.001">
-                    </div>
-                    <div class="field" style="flex: 1;">
-                        <label>Z₀ (Ω)</label>
-                        <input type="number" id="p-zo" value="50">
-                    </div>
-                    <div class="field" style="flex: 1; margin-right: 10px;">
-                        <label>Freq (GHz)</label>
-                        <input type="number" id="p-freq" value="8.1" step="0.1">
-                    </div>
-                </div>
-                
-                <button class="solve-btn" onclick="calculateFilter()" style="margin: 0; width: auto; padding: 10px 30px;">
-                    EXECUTE <i class="fas fa-play" style="font-size: 0.7rem; margin-left: 5px;"></i>
-                </button>
-            </div>
-        </aside>
+        <aside class="parameter-console" style="width: auto; overflow: hidden;">
+    <div class="window-header" style="display: flex; padding: 0; background: #161b22; border-bottom: 1px solid #30363d;">
+        <button class="console-tab active" id="tab-2port" onclick="switchConsole('2port')">2-PORT MODEL</button>
+        <button class="console-tab" id="tab-chebyshev" onclick="switchConsole('chebyshev')">CHEBYSHEV BPF</button>
+        <!-- <button class="console-tab" id="tab-lna" onclick="switchConsole('lna')">LNA ANALYSIS</button> -->
+    </div>
+
+    <div class="console-body" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; padding: 20px;">
+        
+        <div id="inputs-2port" class="input-grid-container" style="display: flex; gap: 25px; flex: 1;">
+            <div class="field"><label>Length (m)</label><input type="number" id="p-len" value="0.015" step="0.001"></div>
+            <div class="field"><label>Z₀ (Ω)</label><input type="number" id="p-zo" value="50"></div>
+            <div class="field"><label>Freq (GHz)</label><input type="number" id="p-freq" value="8.1" step="0.1"></div>
+        </div>
+
+        <div id="inputs-chebyshev" class="input-grid-container" style="display: none; gap: 25px; flex: 1;">
+            <div class="field"><label>Order (N)</label><input type="number" id="c-order" value="3" min="1" max="9"></div>
+            <div class="field"><label>Ripple (dB)</label><input type="number" id="c-ripple" value="0.0138" step="0.05"></div>
+            <div class="field"><label>f₀ (Center GHz)</label><input type="number" id="c-f0" value="5"></div>
+            <div class="field"><label>BW (%)</label><input type="number" id="c-bw" value="2" step="1"></div>
+        </div>
+
+        <div id="inputs-lna" class="input-grid-container" style="display: none; gap: 25px; flex: 1;">
+            <p class="dim" style="font-size: 0.75rem;">Vectorized Stability Circle Analysis ($k$-$\Delta$ test) in development.</p>
+        </div>
+
+        <button class="solve-btn" onclick="calculateFilter()" style="margin: 0; width: auto; padding: 10px 30px;">
+            EXECUTE <i class="fas fa-play" style="font-size: 0.7rem; margin-left: 5px;"></i>
+        </button>
+    </div>
+</aside>
         </div>
     </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/python_viewer.js"></script>
+    <script src="js/python_viewer.js?v=3.0"></script>
 </body>
 </html>
